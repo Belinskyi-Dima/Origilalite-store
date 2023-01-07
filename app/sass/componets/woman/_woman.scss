@@ -1,0 +1,180 @@
+@import '../../utils/style';
+
+.woman-page {
+	background:var(--white-color);
+	color: #000;
+}
+.cards {
+	&__list {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		display: grid;
+		justify-content: center;
+		grid-template-columns: 138px 138px;
+		grid-gap: 30px;
+		// overflow: hidden;
+		// color: red;
+	}
+	&__img-wrapper {
+		margin-bottom: 5px;
+	}
+	&__name {
+		@include titleMixin ($fw: 400, $fz: 12px, $lh: 1.3);
+		color: #000;
+
+	}
+	&__price {
+		@include titleMixin ($fw: 400, $fz: 12px, $lh: 1.3);
+		color: var(--card-first-color);
+	}
+}
+.filter {
+	display: none;
+	position: absolute;
+	padding: 20px 15px;
+	top: 0;
+	right: 0;
+	left: 0;
+	background:#fff;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	color: #000;
+	&__label {
+	display: flex;
+	position: relative;
+	}
+	&__input-name {
+		position: absolute;
+		@include titleMixin ($fw: 400, $fz: 12px, $lh: 1.3);
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: 5px ;
+		// transform: translateY(-50%);
+	}
+	&__input {
+		// max-width: 300px;
+		width: 100%;
+		border-top: transparent;
+		border-left: transparent;
+		border-right: transparent;
+		border-bottom: 1px solid #000;
+		padding: 5px 10px;
+		@include titleMixin ($fw: 400, $fz: 12px, $lh: 1.3);
+	
+	}
+	&__input:focus + .filter__input-name,
+	&__input:not(:placeholder-shown) + .filter__input-name {
+		transform: translate( -50%, -150%);
+		
+	}
+	&__input-cross {
+		position: absolute;
+		right: 5px;
+		bottom: 5px;
+	}
+}
+.filter.filter-open {
+	display: block;
+	
+	
+}
+.popup {
+	&__box {
+		position: relative;
+		overflow: hidden;
+		.dropdawn__btn {
+			background: transparent;
+			color: #000;
+		}
+		.btn__icon {
+			fill: #000;
+		}
+		.dropdawn__btn {
+		@include titleMixin ($fw: 400, $fz: 16px, $lh: 1.3);
+
+			background-color: var(--white-color);
+		}
+
+	}
+	
+	&__list {
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		opacity: 0;
+		transition: opacity 100ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+		
+		transform: translateY(-120%);
+		padding: 20px;
+	}
+
+	&__list.footer__list--open {
+		transform: translateY(0);
+		// display: block;
+		position: relative;
+	
+		opacity: 1;
+		transition: opacity 350ms cubic-bezier(0.4, 0, 0.2, 1);
+	}
+	&__list.footer__list--open .btn__svg {
+		transform: rotate(90deg);
+	}
+	&__item {
+		display: inline-flex;
+	
+
+	}
+	&__link {
+		@include titleMixin ($fw: 400, $fz: 14px, $lh: 1.3);
+		color: #000;
+	}
+	
+	
+}
+.categories__item:not(:last-child) {
+	margin-bottom: 10px;
+}
+.color-filter {
+	&__list{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 20px;
+		// padding: 20px;
+	}
+	&__item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	&__color	 {
+		width: 21px;
+		height: 21px;
+		border-radius: 50%;
+		margin-bottom: 5px;
+
+	}
+	&__name {
+		@include titleMixin ($fw: 400, $fz: 16px, $lh: 1.2);
+	}
+
+}
+$colors: black, brown, red, blue, white #c4c4c4;
+@each $color, $border in $colors {
+	.#{$color} {
+		background-color: $color;
+		@if $border {
+			border: 1px solid $border;
+		}
+		
+	}
+}
+.filter-size {
+	&__list {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	
+
+	}
+
+}

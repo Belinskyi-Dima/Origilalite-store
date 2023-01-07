@@ -1,0 +1,26 @@
+.novenlties {
+	padding-top: 40px ;
+	padding-bottom: 40px;
+	
+	
+	&__wrapper {
+		display: flex;
+		justify-content: center;
+		flex-basis: calc((100% - 10px) /2 );
+	}
+	&__new-in {
+		margin-right: 20px;
+		flex-basis: calc((100% - 10px) /2 );
+		
+	}
+	&__item {
+		position: relative;
+	}
+	&__new-colection {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		flex-basis: calc((100% - 10px) /2 );
+	}
+
+}

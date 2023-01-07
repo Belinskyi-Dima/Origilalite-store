@@ -1,0 +1,81 @@
+@import '../utils/style';
+.page-header {
+	&__wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		
+
+	}
+	.menu {
+		
+		&__list {
+			display: flex;
+			justify-content: space-between;
+			// 
+			
+		}
+		&__link {
+			display: block;
+			padding: 21px 0;
+			@include categoriesMixin($fw:400, $fz:12px, $lh: 1);
+			color: var(--white-color);
+			text-transform: uppercase;
+			position: relative;
+		}
+		&__btn {
+			display: flex;
+			padding: 5px;
+			background-color: transparent;
+			border: 0;
+			cursor: pointer;
+
+		}
+		&__btn-cross {
+			fill: var(--white-color);
+			display: none;
+			
+		}
+	}
+	.menu-wrapper {
+		display: flex;
+		align-items: center;
+		width: 100%;
+		// justify-content: space-between;
+		// border-bottom: 1px solid #585757;
+	}
+	.logo {
+		font-family: 'Sofia', cursive;
+		font-weight: 400;
+		font-size: 30px;
+		line-height: 1.56;
+		color: var(--white-color);
+	}
+	.border {
+		height: 1px;
+		width: 100%;
+		background: #585757;
+	}
+
+	.authorization {
+		&__list {
+		display: flex;
+		// align-items: center;
+		// justify-content: space-between;
+		margin-left: auto;
+		}
+		&__item {
+			margin-right: 30px;
+		}
+		&__link {
+			display: inline-block;
+			padding: 20px 0;
+		}
+	}
+	.menu__btn.is-open .menu__icon-burger{
+		display: none;
+	}
+	.menu__btn.is-open .menu__btn-cross {
+		display: block;
+	}
+}

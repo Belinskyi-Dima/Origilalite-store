@@ -1,0 +1,35 @@
+.categories {
+	padding-bottom: 30px;
+	&__list {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: auto;
+	
+		grid-gap:20px;
+		grid-template-areas:"bag dress belt"
+		"sunglasses sunglasses sunglasses";
+	}
+	&__item {
+		position: relative;
+	}
+	&__img {
+		height: 100%;
+		width: 100%;
+	}
+
+	&__item:nth-child(1) {
+		grid-area: bag;
+	}
+	&__item:nth-child(2) {
+		grid-area: dress;
+	}
+	&__item:nth-child(3) {
+		grid-area: belt;
+	}
+	&__item:nth-child(4) {
+		grid-area: sunglasses;
+	}
+	&__item-box-- {
+		width: 40%;
+	}
+}

@@ -1,0 +1,341 @@
+
+[	
+	{
+	
+		"id": "111111",
+		"class": "woman",
+		"name": "BROWN LAZER JAKET",
+		"img": "../../images/card/woman-desk1.jpg",
+		"price": "640",
+		"statu": false,
+		"colors": [
+					{"black": "#0C0C0C",
+					"idcolor": "0C0C0C"
+					},
+					{"brown": "#8E521B",
+					"idcolor": "8E521B"
+					},
+					{"red": "#F22121",
+					"idcolor": "F22121"
+					},
+					{"blue": "#201A61",
+					"idcolor": "201A61"
+					},
+					{
+					"white": "#FFFFFF",
+					"idcolor": "FFFFFF"
+					}
+				],
+				"size": [6, 8, 10, 12, 14, 16]
+	},
+	{
+	
+		"id": "222222",
+		"class": "woman",
+		"name": "WHITE JAKET",
+		"img": "../../images/card/woman-desk2.jpg",
+		"price": "360",
+		"statu": false,
+		"colors": [
+					{"black": "#0C0C0C",
+					"idcolor": "0C0C0C"
+					},
+					{"brown": "#8E521B",
+					"idcolor": "8E521B"
+					},
+					{"red": "#F22121",
+					"idcolor": "F22121"
+					},
+					{"blue": "#201A61",
+					"idcolor": "201A61"
+					},
+					{
+					"white": "#FFFFFF",
+					"idcolor": "FFFFFF"
+					}
+				],
+				"size": [6, 8, 10, 12, 14, 16]
+	},
+	{
+	
+		"id": "333333",
+		"class": "woman",
+		"name": "BLACK JAKET",
+		"img": "../../images/card/woman-desk3.jpg",
+		"price": "640",
+		"statu": false,
+		"colors": [
+					{"black": "#0C0C0C",
+					"idcolor": "0C0C0C"
+					},
+					{"brown": "#8E521B",
+					"idcolor": "8E521B"
+					},
+					{"red": "#F22121",
+					"idcolor": "F22121"
+					},
+					{"blue": "#201A61",
+					"idcolor": "201A61"
+					},
+					{
+					"white": "#FFFFFF",
+					"idcolor": "FFFFFF"
+					}
+				],
+				"size": [6, 8, 10, 12, 14, 16]
+	},
+	{
+	
+		"id": "444444",
+		"class": "woman",
+		"name": "jeans",
+		"img": "../../images/card/woman-desk4.jpg",
+		"price": "40",
+		"statu": false,
+		"colors": [
+					{"black": "#0C0C0C",
+					"idcolor": "0C0C0C"
+					},
+					{"brown": "#8E521B",
+					"idcolor": "8E521B"
+					},
+					{"red": "#F22121",
+					"idcolor": "F22121"
+					},
+					{"blue": "#201A61",
+					"idcolor": "201A61"
+					},
+					{
+					"white": "#FFFFFF",
+					"idcolor": "FFFFFF"
+					}
+				],
+				"size": [6, 8, 10, 12, 14, 16]
+	},
+	{
+	
+		"id": "444444",
+		"class": "woman",
+		"name": "black lazer jaket",
+		"img": "../../images/card/woman-desk5.jpg",
+		"price": "640",
+		"statu": false,
+		"colors": [
+					{"black": "#0C0C0C",
+					"idcolor": "0C0C0C"
+					},
+					{"brown": "#8E521B",
+					"idcolor": "8E521B"
+					},
+					{"red": "#F22121",
+					"idcolor": "F22121"
+					},
+					{"blue": "#201A61",
+					"idcolor": "201A61"
+					},
+					{
+					"white": "#FFFFFF",
+					"idcolor": "FFFFFF"
+					}
+				],
+				"size": [6, 8, 10, 12, 14, 16]
+	},
+	{
+	
+		"id": "666666",
+		"class": "woman",
+		"name": "grey coat",
+		"img": "../../images/card/woman6.jpg",
+		"price": "460",
+		"statu": false,
+		"colors": [
+					{"black": "#0C0C0C",
+					"idcolor": "0C0C0C"
+					},
+					{"brown": "#8E521B",
+					"idcolor": "8E521B"
+					},
+					{"red": "#F22121",
+					"idcolor": "F22121"
+					},
+					{"blue": "#201A61",
+					"idcolor": "201A61"
+					},
+					{
+					"white": "#FFFFFF",
+					"idcolor": "FFFFFF"
+					}
+				],
+				"size": [6, 8, 10, 12, 14, 16]
+	},
+	{
+	
+		"id": "77777",
+		"class": "man",
+		"name": "jacket",
+		"img": "../../images/card/man/man1.webp",
+		"price": "330",
+		"statu": false,
+		"colors": [
+					{"black": "#0C0C0C",
+					"idcolor": "0C0C0C"
+					},
+					{"brown": "#8E521B",
+					"idcolor": "8E521B"
+					},
+					{"red": "#F22121",
+					"idcolor": "F22121"
+					},
+					{"blue": "#201A61",
+					"idcolor": "201A61"
+					},
+					{
+					"white": "#FFFFFF",
+					"idcolor": "FFFFFF"
+					}
+				],
+				"size": [6, 8, 10, 12, 14, 16]
+	},
+	{
+	
+		"id": "88888",
+		"class": "man",
+		"name": "men's vest",
+		"img": "../../images/card/man/man2.webp",
+		"price": "220",
+		"statu": false,
+		"colors": [
+					{"black": "#0C0C0C",
+					"idcolor": "0C0C0C"
+					},
+					{"brown": "#8E521B",
+					"idcolor": "8E521B"
+					},
+					{"red": "#F22121",
+					"idcolor": "F22121"
+					},
+					{"blue": "#201A61",
+					"idcolor": "201A61"
+					},
+					{
+					"white": "#FFFFFF",
+					"idcolor": "FFFFFF"
+					}
+				],
+				"size": [6, 8, 10, 12, 14, 16]
+	},
+	{
+	
+		"id": "99999",
+		"class": "man",
+		"name": "men's costume",
+		"img": "../../images/card/man/man3.webp",
+		"price": "350",
+		"statu": false,
+		"colors": [
+					{"black": "#0C0C0C",
+					"idcolor": "0C0C0C"
+					},
+					{"brown": "#8E521B",
+					"idcolor": "8E521B"
+					},
+					{"red": "#F22121",
+					"idcolor": "F22121"
+					},
+					{"blue": "#201A61",
+					"idcolor": "201A61"
+					},
+					{
+					"white": "#FFFFFF",
+					"idcolor": "FFFFFF"
+					}
+				],
+				"size": [6, 8, 10, 12, 14, 16]
+	},
+	{
+	
+		"id": "101111",
+		"class": "man",
+		"name": "men's rousers",
+		"img": "../../images/card/man/man4.webp",
+		"price": "40",
+		"statu": false,
+		"colors": [
+					{"black": "#0C0C0C",
+					"idcolor": "0C0C0C"
+					},
+					{"brown": "#8E521B",
+					"idcolor": "8E521B"
+					},
+					{"red": "#F22121",
+					"idcolor": "F22121"
+					},
+					{"blue": "#201A61",
+					"idcolor": "201A61"
+					},
+					{
+					"white": "#FFFFFF",
+					"idcolor": "FFFFFF"
+					}
+				],
+				"size": [6, 8, 10, 12, 14, 16]
+	},
+	{
+	
+		"id": "110111",
+		"class": "man",
+		"name": "autumn jacket",
+		"img": "../../images/card/man/man5.webp",
+		"price": "330",
+		"statu": false,
+		"colors": [
+					{"black": "#0C0C0C",
+					"idcolor": "0C0C0C"
+					},
+					{"brown": "#8E521B",
+					"idcolor": "8E521B"
+					},
+					{"red": "#F22121",
+					"idcolor": "F22121"
+					},
+					{"blue": "#201A61",
+					"idcolor": "201A61"
+					},
+					{
+					"white": "#FFFFFF",
+					"idcolor": "FFFFFF"
+					}
+				],
+				"size": [6, 8, 10, 12, 14, 16]
+	},
+	{
+	
+		"id": "120111",
+		"class": "man",
+		"name": "men's pants",
+		"img": "../../images/card/man/man6.webp",
+		"price": "50",
+		"statu": false,
+		"colors": [
+					{"black": "#0C0C0C",
+					"idcolor": "0C0C0C"
+					},
+					{"brown": "#8E521B",
+					"idcolor": "8E521B"
+					},
+					{"red": "#F22121",
+					"idcolor": "F22121"
+					},
+					{"blue": "#201A61",
+					"idcolor": "201A61"
+					},
+					{
+					"white": "#FFFFFF",
+					"idcolor": "FFFFFF"
+					}
+				],
+				"size": [6, 8, 10, 12, 14, 16]
+	}
+	
+]
+

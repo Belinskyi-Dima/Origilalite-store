@@ -1,0 +1,164 @@
+.card {
+	&__wrapper {
+		display: flex;
+		position: relative;
+		padding: 30px 0;
+	}
+	&__btn-prew {
+		left: 0;
+	}
+	&__btn-next {
+		right: 0;
+	}
+	&__content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	&__box {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: 0 auto;
+		max-width: 180px;
+	}
+	&__img-wrapper {
+		display: block;
+		margin-bottom: 5px;
+	}
+	&__img {
+		width: 100%;
+		display: block;
+	}
+	&__info {
+		
+	}
+	&__name-wrapper {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__info-name {
+		@include titleMixin ($fw: 700, $fz: 14px, $lh: 1.2);
+		
+		display: inline-block;
+	}
+	&__info-peice {
+		@include titleMixin ($fw: 700, $fz: 14px, $lh: 1.1);
+		right: 0;
+	}
+	&__info-article {
+		@include titleMixin ($fw: 400, $fz: 10px, $lh: 1.2);
+		color: var(--card-first-color);
+	}
+	// --------color
+
+	&__color-wrapper {
+		margin-bottom: 30px;
+
+	}
+	&__color {
+		@include titleMixin ($fw: 700, $fz: 14px, $lh: 1.2);
+		margin-bottom: 18px;
+	}
+	&__color-list {
+		display: flex;
+	}
+	&__color-item {
+		position: relative;
+		
+	}
+	&__color-item:not(:last-child) {
+		margin-right: 20px;
+
+	}
+	&__color-link {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	&__color-circle {
+		width: 23px;
+		height: 23px;
+		background: red;
+		border-radius: 50%;
+	}
+	&__color-link.current::after {
+		bottom: -2px;
+		background: #000;
+	}
+	&__color-name {
+		@include titleMixin ($fw: 400, $fz: 13px, $lh: 1.3);
+	}
+//-------------size
+&__size-wrapper {
+	margin-bottom: 30px;
+}
+&__size {
+	@include titleMixin ($fw: 700, $fz: 14px, $lh: 1.2);
+	margin-bottom: 18px;
+}
+&__size-list {
+	display: flex;
+	@include titleMixin ($fw: 400, $fz: 14px, $lh: 1.2);
+}
+&__size-item:not(:last-child) {
+	margin-right: 30px;
+}
+&__detail-btn {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+&__btn-add {
+	background: #000;
+	padding-top: 15px ;
+	padding-bottom: 15px;
+	display: inline-flex;
+	border: none;
+	cursor: pointer;
+}
+.bascked-btn {
+	color: var(--white-color);
+	@include titleMixin ($fw: 400, $fz: 18px, $lh: 1.2);
+	max-width: 270px;
+	width: 100%;
+	justify-content: center;
+	margin-right: 6px;
+	
+}
+.favorite__btn {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+&__detail-title {
+	@include titleMixin ($fw: 700, $fz: 14px, $lh: 1.2);
+	margin-bottom: 15px;
+}
+&__detail-text {
+	@include titleMixin ($fw: 400, $fz: 12px, $lh: 1.3);
+	color: var(--card-second-color);
+}
+}
+
+.blue {
+	background: #201A61;
+}
+.black {
+	background: #000;
+}
+.brown {
+	background:#8E521B;
+}
+.red {
+	background: #F22121;
+}
+.white {
+	background: #FFFFFF;
+}
+.card-btn {
+	position: absolute;
+	top: 10px;
+	@include titleMixin ($fw: 400, $fz: 10px, $lh: 1.1);
+	background: transparent;
+	border: transparent;
+}

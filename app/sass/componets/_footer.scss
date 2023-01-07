@@ -1,0 +1,53 @@
+.footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	&__dropdawn-list {
+		
+		display: flex;
+		justify-content: space-around;
+		overflow: hidden;
+
+	}
+	&__dropdawn-item {
+		flex-basis: calc((100% - 100px ) / 3);
+	} 
+	&__list {
+		// overflow: hidden;
+		transform: translateY(-100%);
+		position: absolute;
+		opacity: 0;
+		pointer-events: none;
+		transition: transform 350ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	}
+	&__list.footer__list--open{
+		transform: translateY(0);
+		position: relative;
+		opacity: 1;
+		transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) opacity 2000ms cubic-bezier(0.4, 0, 0.2, 1);
+		
+		pointer-events: painted;
+	}
+	.dropdawn__btn {
+		margin-top: -11px;
+		// overflow: hidden;
+		display: inline-block;
+		background: #000;
+		border: #000;
+		position: relative;
+		color: var(--white-color);
+		// align-items: center;
+		padding: 10px 10px 10px 0px;
+		cursor: pointer;
+		z-index: 1;
+		
+		@include categoriesMixin($fw:400, $fz: 10px);
+	}
+	.btn__icon {
+		margin-left: 5px;
+	}
+	&__link {
+		@include titleMixin ($fw: 400, $fz: 10px, $lh: 1.37);
+		color: var(--white-color);
+	}
+}
