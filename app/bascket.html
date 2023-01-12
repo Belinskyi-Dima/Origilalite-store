@@ -12,7 +12,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Open+Sans:wght@400;700&family=Sofia&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./css/style.min.css">
-	<title>Document</title>
+	<title>bascked</title>
 </head>
 
 <body>
@@ -48,7 +48,7 @@
 						</a>
 					</li>
 					<li class="authorization__item">
-						<a class="authorization__link bascket-link" href="./bascket.html">
+						<a class="authorization__link" href="">
 							<svg class="authorization__icon" width="17" height="17">
 								<use href="./images/symbol.svg#icon-cart"></use>
 							</svg>
@@ -69,12 +69,147 @@
 		</div>
 		<!-- </div> -->
 	</header>
-	<div class="modal">
-		<div class="modal__img-box">
-			<img class="modal__img" src="./images/card/man/man1.webp" alt="">
-		</div>
-	</div>
 	<main>
+		<div class="filter ">
+			<label class="filter__label">
+				
+				<input class="filter__input" placeholder=" " type="text">
+				<span class="filter__input-name">Filters</span>
+				<svg class="filter__input-cross"  width="14" height="14">
+					<use   href="./images/symbol.svg#icon-cross"></use>
+				</svg>
+			</label>
+			<div class="popup__box">
+				<button class="dropdawn__btn">CATEGORIES
+					<svg class="btn__icon"  width="10" height="8">
+						<use class="btn__svg" href="./images/symbol.svg#icon-Vector"></use>
+					</svg>
+				</button>
+				<!-- <div class="box-"> -->
+					<ul class="popup__list">
+						<li class="popup__item categories__item">
+							<a class="popup__link" href="">Shirts</a>
+						</li>
+						<li class="popup__item categories__item">
+							<a class="popup__link" href="">Coats</a>
+						</li>
+						<li class="popup__item categories__item">
+							<a class="popup__link categories__item" href="">Jackets</a>
+						</li>
+						<li class="popup__item categories__item">
+							<a class="popup__link" href="">Sweaters</a>
+						</li>
+						<li class="popup__item categories__item">
+							<a class="popup__link" href="">Polos&Tees</a>
+						</li>
+						<li class="popup__item categories__item">
+							<a class="popup__link" href="">Jeans &Pants</a>
+						</li>
+						<li class="popup__item categories__item">
+							<a class="popup__link" href="">Outerwear</a>
+						</li>
+					</ul>
+			<!-- </div> -->
+			</div>
+			
+			<div class="popup__box">
+				<button class="dropdawn__btn">COLOUR
+					<svg class="btn__icon"  width="10" height="8">
+						<use class="btn__svg" href="./images/symbol.svg#icon-Vector"></use>
+					</svg>
+				</button>
+				<!-- <div class="box-"> -->
+	
+				<ul class="popup__list color-filter__list">
+					<li class="popup__item color-filter__item">
+						<div  class="color-filter__color black"></div>
+						<span class="color-filter__name">black</span>
+					</li>
+					<li class="popup__item color-filter__item">
+						<div class="color-filter__color brown"></div>
+						<span class="color-filter__name">black</span>
+					</li>
+					<li class="popup__item color-filter__item">
+						<div class="color-filter__color red"></div>
+						<span class="color-filter__name">red</span>
+					</li>
+					<li class="popup__item color-filter__item">
+					
+						<div class="color-filter__color blue"></div>
+						<span class="color-filter__name">blue</span>
+					</li>
+					<li class="popup__item color-filter__item">
+						
+						<div class="color-filter__color white"></div>
+						<span class="color-filter__name">white</span>
+					</li>
+			
+			
+				</ul>
+			<!-- </div> -->
+			</div>
+			<div class="popup__box">
+				<button class="dropdawn__btn">SIZE
+					<svg class="btn__icon"  width="10" height="8">
+						<use class="btn__svg" href="./images/symbol.svg#icon-Vector"></use>
+					</svg>
+				</button>
+				<!-- <div class="box-"> -->
+				<ul class="popup__list filter-size__list">
+					<li class="popup__item filter-size__item">
+						<a class="popup__link filter-size__name" href="">6</a>
+					</li>
+					<li class="popup__item filter-size__item">
+						<a class="popup__link filter-size__name" href="">8</a>
+					</li>
+					<li class="popup__item filter-size__item">
+						<a class="popup__link filter-size__name" href="">10</a>
+					</li>
+					<li class="popup__item filter-size__item">
+						<a class="popup__link filter-size__name" href="">12</a>
+					</li>
+					<li class="popup__item filter-size__item">
+						<a class="popup__link filter-size__name" href="">14</a>
+					</li>
+					<li class="popup__item filter-size__item">
+						<a class="popup__link filter-size__name" href="">16</a>
+					</li>
+				</ul>
+			<!-- </div> -->
+			</div>
+			<div class="popup__box">
+				<button class="dropdawn__btn">ORDER
+					<svg class="btn__icon"  width="10" height="8">
+						<use class="btn__svg" href="./images/symbol.svg#icon-Vector"></use>
+					</svg>
+				</button>
+				<!-- <div class="box-"> -->
+				<ul class="popup__list">
+					<li class="popup__item">
+						<a class="popup__link" href="">Shirts</a>
+					</li>
+					<li class="popup__item">
+						<a class="popup__link" href="">Coats</a>
+					</li>
+					<li class="popup__item">
+						<a class="popup__link" href="">Jackets</a>
+					</li>
+					<li class="popup__item">
+						<a class="popup__link" href="">Sweaters</a>
+					</li>
+					<li class="popup__item">
+						<a class="popup__link" href="">Polos&Tees</a>
+					</li>
+					<li class="popup__item">
+						<a class="popup__link" href="">Jeans &Pants</a>
+					</li>
+					<li class="popup__item">
+						<a class="popup__link" href="">Outerwear</a>
+					</li>
+				</ul>
+			<!-- </div> -->
+			</div>
+		</div>
 		<div class="mobile-menu container">
 			<div class="mobile-menu__authorization">
 				<form >
@@ -264,234 +399,67 @@
 				
 			</div>
 		</div>
-		<section class="woman-page container" data-page="woman">
-			<div class="filter ">
-				<label class="filter__label">
+		<section class="container bascket">
+			<h3 class="bascket__name">Shopping bag </h3>
+			<div class="bascket__wrapper">
+				<ul class="shopping__list">
+					<li class="shopping__item">
+						
+							<div class="shopping__item-wrapper">
+								<div class="shopping__item-img">
+									<img class="item-img" src="./images/card/woman-desk1.jpg" alt="">
+								</div>
+								<div class="shopping__item-info">
+									<h3 class="item-info__name">BLACK JAKET</h3>
+									<span class="item-info__id">id</span>
+								<div class="info-wrapper">	
+									<span class="info-name">Price:</span>
+									<span class="info-name">400 $</span>
+								</div>
+								<div class="info-wrapper">	
+									<span class="info-name">color</span>
+									<span class="info-name">black</span>
+								</div>
+								<div class="info-wrapper">	
+									<span class="info-name">size</span>
+									<span class="info-name">8</span>
+								</div>
+								<div class="info-wrapper">	
+									<span class="info-name">quantity</span>
+									<span><span>-</span>1<span>+</span></span>
+								</div>
+								<div class="info-wrapper">	
+									<span class="info-total">Total:</span>
+									<span class="info-total">400</span>
+								</div>
+								</div>
+							</div>
 					
-					<input class="filter__input" placeholder=" " type="text">
-					<span class="filter__input-name">Filters</span>
-					<svg class="filter__input-cross"  width="14" height="14">
-						<use   href="./images/symbol.svg#icon-cross"></use>
-					</svg>
-				</label>
-				<div class="popup__box">
-					<button class="dropdawn__btn">CATEGORIES
-						<svg class="btn__icon"  width="10" height="8">
-							<use class="btn__svg" href="./images/symbol.svg#icon-Vector"></use>
-						</svg>
-					</button>
-					<!-- <div class="box-"> -->
-						<ul class="popup__list">
-							<li class="popup__item categories__item">
-								<a class="popup__link" href="">Shirts</a>
-							</li>
-							<li class="popup__item categories__item">
-								<a class="popup__link" href="">Coats</a>
-							</li>
-							<li class="popup__item categories__item">
-								<a class="popup__link categories__item" href="">Jackets</a>
-							</li>
-							<li class="popup__item categories__item">
-								<a class="popup__link" href="">Sweaters</a>
-							</li>
-							<li class="popup__item categories__item">
-								<a class="popup__link" href="">Polos&Tees</a>
-							</li>
-							<li class="popup__item categories__item">
-								<a class="popup__link" href="">Jeans &Pants</a>
-							</li>
-							<li class="popup__item categories__item">
-								<a class="popup__link" href="">Outerwear</a>
-							</li>
-						</ul>
-				<!-- </div> -->
-				</div>
-				
-				<div class="popup__box">
-					<button class="dropdawn__btn">COLOUR
-						<svg class="btn__icon"  width="10" height="8">
-							<use class="btn__svg" href="./images/symbol.svg#icon-Vector"></use>
-						</svg>
-					</button>
-					<!-- <div class="box-"> -->
-		
-					<ul class="popup__list color-filter__list">
-						<li class="popup__item color-filter__item">
-							<div  class="color-filter__color black"></div>
-							<span class="color-filter__name">black</span>
-						</li>
-						<li class="popup__item color-filter__item">
-							<div class="color-filter__color brown"></div>
-							<span class="color-filter__name">black</span>
-						</li>
-						<li class="popup__item color-filter__item">
-							<div class="color-filter__color red"></div>
-							<span class="color-filter__name">red</span>
-						</li>
-						<li class="popup__item color-filter__item">
-						
-							<div class="color-filter__color blue"></div>
-							<span class="color-filter__name">blue</span>
-						</li>
-						<li class="popup__item color-filter__item">
-							
-							<div class="color-filter__color white"></div>
-							<span class="color-filter__name">white</span>
-						</li>
-				
-				
-					</ul>
-				<!-- </div> -->
-				</div>
-				<div class="popup__box">
-					<button class="dropdawn__btn">SIZE
-						<svg class="btn__icon"  width="10" height="8">
-							<use class="btn__svg" href="./images/symbol.svg#icon-Vector"></use>
-						</svg>
-					</button>
-					<!-- <div class="box-"> -->
-					<ul class="popup__list filter-size__list">
-						<li class="popup__item filter-size__item">
-							<a class="popup__link filter-size__name" href="">6</a>
-						</li>
-						<li class="popup__item filter-size__item">
-							<a class="popup__link filter-size__name" href="">8</a>
-						</li>
-						<li class="popup__item filter-size__item">
-							<a class="popup__link filter-size__name" href="">10</a>
-						</li>
-						<li class="popup__item filter-size__item">
-							<a class="popup__link filter-size__name" href="">12</a>
-						</li>
-						<li class="popup__item filter-size__item">
-							<a class="popup__link filter-size__name" href="">14</a>
-						</li>
-						<li class="popup__item filter-size__item">
-							<a class="popup__link filter-size__name" href="">16</a>
-						</li>
-					</ul>
-				<!-- </div> -->
-				</div>
-				<div class="popup__box">
-					<button class="dropdawn__btn">ORDER
-						<svg class="btn__icon"  width="10" height="8">
-							<use class="btn__svg" href="./images/symbol.svg#icon-Vector"></use>
-						</svg>
-					</button>
-					<!-- <div class="box-"> -->
-					<ul class="popup__list">
-						<li class="popup__item">
-							<a class="popup__link" href="">Shirts</a>
-						</li>
-						<li class="popup__item">
-							<a class="popup__link" href="">Coats</a>
-						</li>
-						<li class="popup__item">
-							<a class="popup__link" href="">Jackets</a>
-						</li>
-						<li class="popup__item">
-							<a class="popup__link" href="">Sweaters</a>
-						</li>
-						<li class="popup__item">
-							<a class="popup__link" href="">Polos&Tees</a>
-						</li>
-						<li class="popup__item">
-							<a class="popup__link" href="">Jeans &Pants</a>
-						</li>
-						<li class="popup__item">
-							<a class="popup__link" href="">Outerwear</a>
-						</li>
-					</ul>
-				<!-- </div> -->
-				</div>
+						<button class="bascket__btn">
+							<svg class="bascket__btn-icon" width="14" height="14">
+								<use  class="bascket__btn-cross" href="./images/symbol.svg#icon-cross"></use>
+							</svg>
+						</button>
+					</li>
+				</ul>
 			</div>
-		
-			<!-- <ul class="card__list">
-
-			</ul> -->
-			<div class="card">
-				<div class="card__wrapper">
-					<button class="card__btn-prew card-btn">Back</button>
-					<div class="card__content">
-						<div class="card__box">
-							<div class="card__img-wrapper">
-								<img class="card__img" src="" alt="img">
-							</div>
-							<div class="card__info">
-									<div class="card__name-wrapper">
-										<h3 class="card__info-name"></h3>
-										<span class="card__info-peice"></span>
-									</div>
-									<p class="card__info-article">REF: 3294786 - 01</p>
-							</div>
-						</div>
-							<div class="card__color-wrapper">
-								<p class="card__color">color</p>
-								<ul class="card__color-list">
-									 <li class="card__color-item"> 
-										<!-- <a class="card__color-link" href="" >
-											<div class="card__color-circle black"></div>
-											<p class="card__color-name">black</p>
-										</a> -->
-									</li>
-									<li class="card__color-item">
-										<!-- <a class="card__color-link current" href="" >
-											<div class="card__color-circle brown"></div>
-											<p class="card__color-name">brown</p>
-										</a> -->
-									</li> 
-								</ul>
-							</div>
-
-							<div class="card__size-wrapper">
-								<p class="card__size">size</p>
-								<ul class="card__size-list">
-									<!-- <li class="card__size-item">
-										<a class="card__size-link" href="">6</a>
-									</li>
-									<li class="card__size-item">
-										<a class="card__size-link" href="">8</a>
-									</li>
-									<li class="card__size-item">
-										<a class="card__size-link" href="">10</a>
-									</li> -->
-								</ul>
-							</div>
-							<div class="card__quantity">
-								<button class="card__quantity-btn btn-pluss" type="button">-</button>
-								<span class="card__quantity-number">1</span>
-								<button class="card__quantity-btn btn-minus" type="button">+</button>
-							</div>
-
-							<div class="card__detail-wrapper">
-								<div class="card__detail-btn">
-									<button class="bascket-btn card__btn-add disabled" >add to bascket</button>
-									<button class="favorite__btn card__btn-add disabled">
-											<svg width="23" height="23">
-												<use href="./images/favorite_icon.svg#icon"></use>
-											</svg>
-									</button>
-								<span class="add-error is-hiden">to add to cart please select color and size</span>
-									
-								</div>
-								<div class="card__detail-info">
-									<h3 class="card__detail-title" >details</h3>
-									<p class="card__detail-text">Mouton coat made of 100% sheepskin leather. Straight cut, collar 
-										with adjustable hood, front zip fastening, long sleeves and an 
-										adjustable hem.
-										The back length for size M is 61,9 cm.
-										FREE STANDARD SHIPPING ON ORDERS OVER £100</p>
-								</div>
-							
-
-							</div>
-						
-						</div>
+			<div class="bascket-total">
+				<h3 class="bascket-total__title">SHOPPING BAG TOTAL</h3>
+				<div class="bascket-total__wrapper">
+					<div class="bascket-total__info">
+						<span class="bascket-total__name">ORDER VALUE:</span>
+						<span class="bascket-total__price">420$</span>
 					</div>
-					<button class="card__btn-next card-btn">Next</button>
+					<div class="bascket-total__info">
+						<span class="bascket-total__name">DELIVERY:</span>
+						<span class="bascket-total__price">free</span>
+					</div>
+					<div class="bascket-total__info">
+						<span class="bascket-total__sum">TOTAL:</span>
+						<span class="bascket-total__sum">420$</span>
+					</div>
+					<button class="bascked__checkout-btn">CHECKOUT</button>
 				</div>
-				
-
 			</div>
 		</section>
 	</main>
@@ -559,14 +527,14 @@
 				</ul>
 			</li>
 		</ul>
+	
+	
 	</footer>
 <!-- </div> -->
 	<script type="module" src="./js/main.min.js"></script>
-	<script type="module" src="./js/card.js"></script>
-	<script type="module" src="./js/addToBascket.js"></script>
-	<!-- <script type="module" src="./js/createCard.js"></script> -->
-	<!-- <script type="module" src="./js/copyList.js"></script> -->
-	<!-- <script type="module" src="./js/cardsList.js"></script> -->
+	
+	<!-- <script type="module" src="./js/card.js"></script> -->
+
 
 </body>
 </html>

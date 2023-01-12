@@ -9,6 +9,9 @@ body {
 
 	
 }
+body.is-open {
+	overflow: hidden;
+}
 .wrapper {
 	display: flex;
 	flex-direction: column;
@@ -93,4 +96,7 @@ body.menu-open {
 	background: var(--white-color);
 	bottom: 1rem;
 	left: 0;
+}
+.is-hiden {
+	display: block;
 }

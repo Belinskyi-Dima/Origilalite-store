@@ -72,10 +72,29 @@
 			padding: 20px 0;
 		}
 	}
+
 	.menu__btn.is-open .menu__icon-burger{
 		display: none;
 	}
 	.menu__btn.is-open .menu__btn-cross {
 		display: block;
 	}
+
+}
+.bascket-link {
+	position: relative;
+}
+.bascket-link::after {
+	content: attr(data-content);
+	color: white;
+	top: 17px;
+	font-size: 10px;
+	font-weight: 400;
+	position: absolute;
+	background: blue;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	text-align: center;
+
 }

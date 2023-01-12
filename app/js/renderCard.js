@@ -1,16 +1,16 @@
 import getQueryVariable from'./location.js';
 import {getCard} from './copyList.js';
+import openModal from './card-modal.js';
 
 
 // const url = "base.json";
 // const cards = await getCard(url);
-
+const card = document.querySelector('.card__content');
 const image = document.querySelector('.card__img');
 const cardName = document.querySelector('.card__info-name');
 const cardPrice = document.querySelector('.card__info-peice');
 const colorList = document.querySelector('.card__color-list');
 const cardHtmlID = document.querySelector('.card__info-article');
-
 
 
 const sizeList = document.querySelector('.card__size-list');
@@ -23,7 +23,7 @@ export default function renderCard(data, colorArr, sizeArr ) {
 	// console.log(colorArr);
 	
 	const { img, name, price,  colors, size} = data;
-
+	card.dataset.id = `${data.id}`;
 	image.src = img;
 	cardName.textContent = name;
 	cardPrice.textContent = `${price} $`;
@@ -77,3 +77,4 @@ if(typeof colorArr === "string") {
 }
 	
 }
+image.addEventListener("click", openModal)

@@ -2,22 +2,24 @@ import {getCard} from './copyList.js';
 import getQueryVariable from'./location.js';
 import colorsAign from './colorsAign.js';
 import renderCard from './renderCard.js';
-import {filterIdList} from './filters.js';
+import {} from './card-modal.js';
+import quantitySum from './quantittySum.js'
 import {urlSize, urlColor, urlChangeId} from './url.js'
 
 
 const url = "base.json";
 const cards = await getCard(url);
 
-// const image = document.querySelector('.card__img');
-// const cardName = document.querySelector('.card__info-name');
-// const cardPrice = document.querySelector('.card__info-peice');
-// const colorList = document.querySelector('.card__color-list');
+const bascketBtn = document.querySelector('.bascket-btn');
+const favoriteBtn = document.querySelector('.favorite__btn');
 
+const btnPluss = document.querySelector('.btn-pluss');
+const btnMinus = document.querySelector('.btn-minus');
 
 const sizeList = document.querySelector('.card__size-list');
 
 const queryVarible = getQueryVariable();
+
 
 function findCard(list, id , color, size) {
 
@@ -36,8 +38,6 @@ function findCard(list, id , color, size) {
 		}
 		
 	})
-	// const filer = filterIdList(id )
-	// console.log(filer);
 
 	const variantList = list.filter(item => item.master === id);
 		variantList.forEach(el => {
@@ -45,7 +45,6 @@ function findCard(list, id , color, size) {
 				sizeArr.push(el.size)
 			}
 		})
-		// console.log(sizeArr);
 		renderCard(b, colorArr, sizeArr)
 		
 	} else if(queryVarible.color  && !size) {
@@ -53,11 +52,6 @@ function findCard(list, id , color, size) {
 		const filterColorList = list.filter(item => item.master === id);
 		const filterColorItems = filterColorList.filter(item => item.colors ===  color);
 		const itemData = filterColorItems[0];
-		// console.log(filterColorList);
-		console.log(filterColorItems);
-		// console.log(itemData);
-	
-		 
 		const sizeArr = [];
 
 		filterColorItems.forEach(el=>{
@@ -79,6 +73,9 @@ function findCard(list, id , color, size) {
 		renderCard(b, arrColors, size)
 	}
 	if(color && size ) {
+		favoriteBtn.classList.remove("disabled");
+		bascketBtn.classList.remove("disabled");
+
 		const masterList = list.filter(item => item.master === id);
 
 		if (masterList.length > 1) {
@@ -93,24 +90,8 @@ function findCard(list, id , color, size) {
 			renderCard(a, a.colors, a.size);
 		}
 		
-		// urlSize(cardid);
-		
-		
-			
-		// renderCard(card, card.colors, card.size);
-		
 	}
-	// if(queryVarible.size) {
-	// 	const filterColorList = list.filter(item => item.master === id);
-	// 	const filterColorItems = filterColorList.filter(item => item.colors ===  color);
-	// 	const s = filterColorItems.find(item => item.size === queryVarible.size)
-	// 	// console.log(s);
-	// 	// renderCard( s);
-		
-	// } else {
-	
-	// }
-	
+
 
 	
 
@@ -121,13 +102,13 @@ findCard(cards.products, queryVarible.id, queryVarible.color, queryVarible.size)
 const colorItem = document.querySelectorAll('.card__color-link');
 const sizeItem = document.querySelectorAll('.card__size-link');
 
-// console.log(sizeItem);
+
 
 colorItem.forEach(el=> {
 	el.addEventListener('click', (e) =>{
 		const colorObj = {}
 		colorObj.color = e.currentTarget.lastElementChild.textContent;
-		// urlColor(colorObj)
+		
 		urlSize(e.currentTarget.lastElementChild.textContent)
 	})
 })
@@ -142,8 +123,7 @@ sizeItem.forEach(el=> {
 	})
 })
 
-// function color(e) {
-// 	console.log(e);
-// 	let http = window.location.href;
-// 	window.location.assign(`${http}&size=${e}`);
-// }
+
+btnMinus.addEventListener('click', quantitySum);
+btnPluss.addEventListener('click', quantitySum);
+

@@ -1,24 +1,40 @@
 "use strict";
 import './location.js'
-// import  "./copyList.js";
-// import { Deferred } from "jquery";
-
-// import Card from './woman.js';
-// const card = new Card({
-// 	brand: 'Audi',
-// 	model: 'q3',
-// 	price: '3500'
-// });
-// console.log(card.changPrice());
-// const menuLink = document.querySelectorAll(".menu__link");
-// const pages = document.querySelector(".woman-page");
-
 
 const burgerMenu = document.querySelector(".menu__btn");
 const dropDawnMenu = document.querySelectorAll(".dropdawn__btn");
 const mobileMenu = document.querySelector(".mobile-menu");
 
 // const ul = document.querySelector('.cards__list');
+const btnBascketLink = document.querySelector(".bascket-link");
+
+
+
+// const btnBascketCount = document.querySelector(".bascket-count");
+window.onload = (event) => {
+	// const btnBascketCount = document.querySelector(".bascket-count");
+	// console.log(btnBascketCount);
+	
+ };
+ (function bascketCount() {
+	
+	try {
+		const storeCount =  JSON.parse(localStorage.getItem("bascket"));
+		// console.log(storeCount.products);
+	if(storeCount.products.length !== undefined && storeCount.products.length > 0) {
+		btnBascketLink.dataset.content = `${storeCount.products.length}`;
+		// const btnBascketCount = window.getComputedStyle(document.querySelector(".bascket-count"), ':after').content;
+		// console.log(btnBascketCount);
+		setTimeout(() => {
+			btnBascketLink.setAttribute('data-content', `${storeCount.products.length}`);
+		 }, 1000)
+	} 
+	} catch (e) {
+		// throw new Error(e.message)
+		console.log(e.message);
+	}
+	
+})()
 
 const search = document.querySelector(".search");
 const filter = document.querySelector(".filter");
@@ -26,18 +42,7 @@ const filter = document.querySelector(".filter");
 const inputCross = document.querySelector(".filter__input-cross");
 const input = document.querySelector(".filter__input");
 
-// menuLink.forEach(item => {
-// 	console.log("aaa");
-// 	item.addEventListener("click", getDataAtribut)
 
-// })
-// function getDataAtribut (item){
-// 	console.log(item.currentTarget.dataset.page);
-// 	return item.currentTarget.dataset.page
-// 	// const dataName = item.currentTarget.dataset.page;
-// 	// console.log(dataName);
-// 	// pages.setAttribute("data", `${dataName}`)
-// 	}
 
 search.addEventListener("click", ()=> {
 	filter.classList.toggle("filter-open");
@@ -46,6 +51,8 @@ inputCross.addEventListener("click", () => {
 	input.value = "";
 })
 
+
+// btnBascketLink.addEventListener("click", bascketCount)
 
 burgerMenu.addEventListener("click", ()=> {
 	burgerMenu.classList.toggle("is-open");
@@ -58,7 +65,7 @@ dropDawnMenu.forEach(item =>{
 	
 	item.nextElementSibling.classList.toggle("footer__list--open").nextElementSibling;
 		})
-} )
+})
 
 
 
@@ -70,4 +77,3 @@ $(function () {
 		autoplay:true
 	})
 })
-// export default getDataAtribut;

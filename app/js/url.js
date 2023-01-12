@@ -7,12 +7,12 @@ function urlId(card) {
 }
 
 function urlSize(data) {
-	console.log(data);
+	
 	let queryHref = {};
 	const httpArr = [];
 	
 	httpArr.push(http)
-	console.log(httpArr);
+
 	location.search.substring(1).split("&").forEach(item => {
 		let param = item.split("=");
 		queryHref[param[0]]= param[1]
@@ -31,7 +31,7 @@ function urlSize(data) {
 	}
 
 	const newHttp = httpArr.slice(0,-1).join("")
-	console.log(newHttp);
+
 	window.location.assign(`${newHttp}`);
 }
 

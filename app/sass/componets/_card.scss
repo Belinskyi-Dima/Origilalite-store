@@ -106,6 +106,7 @@
 }
 &__detail-btn {
 	display: flex;
+	position: relative;
 	justify-content: space-between;
 	margin-bottom: 20px;
 }
@@ -116,15 +117,39 @@
 	display: inline-flex;
 	border: none;
 	cursor: pointer;
+	border-radius: 5px;
 }
-.bascked-btn {
+&__btn-add.disabled {
+
+	background-color:var(--card-second-color);
+	
+}
+&__quantity {
+	width: 100px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+&__quantity-btn {
+	border: transparent;
+	background-color: transparent;
+}
+.bascket-btn {
 	color: var(--white-color);
 	@include titleMixin ($fw: 400, $fz: 18px, $lh: 1.2);
 	max-width: 270px;
 	width: 100%;
 	justify-content: center;
 	margin-right: 6px;
-	
+
+}
+.add-error {
+	display: none;
+	@include titleMixin ($fw: 400, $fz: 10px, $lh: 1.2);
+	color: red;
+	position: absolute;
+	bottom: -20px;
+	left: 40px;
 }
 .favorite__btn {
 	padding-right: 15px;
