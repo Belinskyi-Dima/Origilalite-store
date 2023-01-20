@@ -3,13 +3,16 @@ import getCard from './getCardList.js';
 const btnBascket = document.querySelector(".bascket-btn");
 const addError = document.querySelector('.add-error');
 
+
 const cardList = await getCard();
 
 btnBascket.addEventListener("click", addToBascket);
 
 function addToBascket(e) {
 	const cardId = document.querySelector(".card__content").dataset.id;
+	const quantitySum = document.querySelector(".card__quantity-number").textContent;
 	console.log(cardId);
+	console.log(quantitySum);
 
 	let queryHref = {};
 	
@@ -18,15 +21,15 @@ function addToBascket(e) {
 		queryHref[param[0]]= param[1]
 	});
 	console.log(queryHref);
-	const id = cardList.products.find(item => item.id === queryHref.id)
+	const id = cardList.products.find(item => item.id === queryHref.id);
 	// console.log(id);
 		if (!queryHref.color || !queryHref.size) {
-			addError.style.display = "block"
+			addError.style.display = "block";
+		
 		}
 		if (queryHref.color && queryHref.size) {
 			addError.classList.remove('is-hiden');
 			
-
 			const products = {
 				products: []
 			}
@@ -36,12 +39,13 @@ function addToBascket(e) {
 				delivery: false,
 				sale: false,
 				quantity: "",
-				master: id.master
+				master: id.master,
+				quantity: quantitySum
 			}
 			// console.log(queryHref);
 			// console.log(prod);
 		
-			const bascketStorage = JSON.parse(localStorage.getItem("bascket") || "[]");
+			const bascketStorage = JSON.parse(localStorage.getItem("basket") || "[]");
 		
 			if(bascketStorage.products !== undefined && bascketStorage.products.length > 0) {
 				const  productsArray = [];
@@ -55,11 +59,11 @@ function addToBascket(e) {
 				}
 				productsArray.push(prod);
 				products.products.push(...productsArray);
-				localStorage.setItem("bascket", JSON.stringify(products));
+				localStorage.setItem("basket", JSON.stringify(products));
 		
 			} else  {
 				products.products.push(prod);
-				localStorage.setItem("bascket", JSON.stringify(products));
+				localStorage.setItem("basket", JSON.stringify(products));
 			}
 
 		}

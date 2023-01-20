@@ -1,2822 +1,3013 @@
 {
-	"categories": {
-		"id": "root",
-		"childCategories": [
-			{
-				"id": "women",
-				"displayName": "Women Clothes",
-				"childCategories": [
-					{
-						"id": "women-dresses",
-						"displayName": "Women Dresses"
-					},
-					{
-						"id": "women-jeans",
-						"displayName": "Women jeans"
-					},
-					{
-						"id": "women-coat",
-						"displayName": "Women coat"
-					}
-				]
-			},
-			{
-				"id": "man",
-				"displayName": "Men Clothes",
-				"childCategories": [
-					{
-						"id": "man-jaked",
-						"displayName": "Man jaked"
-					},
-					{
-						"id": "man-costume",
-						"displayName": "Man T-Shirts"
-					},
-					{
-						"id": "man-pants",
-						"displayName": "Man T-Shirts"
-					},
-					{
-						"id": "man-rousers",
-						"displayName": "Man T-Shirts"
-					}
-				]
-			}
-		]
-	}
-	,
-	"products": [
-		{
-			"id":"111111",
-			"type": "master",
-			"class":"woman",
-			"category": "women-dresses",
-			"name":"BROWN LAZER JAKET",
-			"img":"../../images/card/woman-desk1.jpg",
-			"price":"640",
-			"statu":false,
-			"colors":[
-				{
-					"hexValue":"#0C0C0C",
-					"value":"black"
-				},
-				{
-					"hexValue":"#8E521B",
-					"value":"brown"
-				},
-				{
-					"hexValue":"#F22121",
-					"value":"red"
-				},
-				{
-					"hexValue":"#201A61",
-					"value":"blue"
-				},
-				{
-					"hexValue":"#FFFFFF",
-					"value":"white"
-				}
-			],
-			"size":[
-				6,
-				8,
-				10,
-				12,
-				14,
-				16
-			]
-		},
-		{
-			"id":"111112",
-			"type": "variant",
-			"master": "111111",
-			"class":"woman",
-			"name":"Black LAZER JAKET",
-			"img":"../../images/card/woman-desk1.jpg",
-			"price":"640",
-			"statu":false,
-			"colors": "black",
-			"size": "6"
-		},
-		{
-			"id":"111113",
-			"type": "variant",
-			"master": "111111",
-			"class":"woman",
-			"name":"Black LAZER JAKET",
-			"img":"../../images/card/woman-desk1.jpg",
-			"price":"640",
-			"statu": false,
-			"colors": "black",
-			"size": "8"
-		},
-		{
-			"id":"111114",
-			"type": "variant",
-			"master": "111111",
-			"class":"woman",
-			"name":"black LAZER JAKET",
-			"img":"../../images/card/woman-desk1.jpg",
-			"price":"640",
-			"statu":false,
-			"colors": "black",
-			"size": "10"
-		},
-		{
-			"id":"111115",
-			"type": "variant",
-			"master": "111111",
-			"class":"woman",
-			"name":"black LAZER JAKET",
-			"img":"../../images/card/woman-desk1.jpg",
-			"price":"640",
-			"statu":false,
-			"colors": "black",
-			"size": "12"
-		},
-		{
-			"id":"111116",
-			"type": "variant",
-			"master": "111111",
-			"class":"woman",
-			"name":"black LAZER JAKET",
-			"img":"../../images/card/woman-desk1.jpg",
-			"price":"640",
-			"statu":false,
-			"colors": "black",
-			"size": "14"
-		},
-		{
-			"id":"111117",
-			"type": "variant",
-			"master": "111111",
-			"class":"woman",
-			"name":"black LAZER JAKET",
-			"img":"../../images/card/woman-desk1.jpg",
-			"price":"640",
-			"statu":false,
-			"colors": "black",
-			"size": "16"
-		},
-		{
-			"id":"111118",
-			"type": "variant",
-			"master": "111111",
-			"class":"woman",
-			"name":"BROWN LAZER JAKET",
-			"img":"../../images/card/woman-desk1.jpg",
-			"price":"640",
-			"statu":false,
-			"colors": "brown",
-			"size": "8"
-		},
-		{
-			"id":"111119",
-			"type": "variant",
-			"master": "111111",
-			"class":"woman",
-			"name":"BROWN LAZER JAKET",
-			"img":"../../images/card/woman-desk1.jpg",
-			"price":"200",
-			"statu":false,
-			"colors": "brown",
-			"size": "12"
-		},
-		{
-			"id":"111120",
-			"type": "variant",
-			"master": "111111",
-			"class":"woman",
-			"name":"BROWN LAZER JAKET",
-			"img":"../../images/card/woman-desk1.jpg",
-			"price":"640",
-			"statu":false,
-			"colors": "brown",
-			"size": "14"
-		},
-		{
-			"id":"111121",
-			"type": "variant",
-			"master": "111111",
-			"class":"woman",
-			"name":"red LAZER JAKET",
-			"img":"../../images/card/woman-desk1.jpg",
-			"price":"640",
-			"statu":false,
-			"colors": "red",
-			"size": "10"
-		},
-		{
-			"id":"111122",
-			"type": "variant",
-			"master": "111111",
-			"class":"woman",
-			"name":"red LAZER JAKET",
-			"img":"../../images/card/woman-desk1.jpg",
-			"price":"640",
-			"statu":false,
-			"colors": "red",
-			"size": "12"
-		},
-		{
-			"id":"111123",
-			"type": "variant",
-			"master": "111111",
-			"class":"woman",
-			"name":"red LAZER JAKET",
-			"img":"../../images/card/woman-desk1.jpg",
-			"price":"640",
-			"statu":false,
-			"colors": "red",
-			"size": "16"
-		},
-		{
-			"id":"111124",
-			"type": "variant",
-			"master": "111111",
-			"class":"woman",
-			"name":"blue LAZER JAKET",
-			"img":"../../images/card/woman-desk1.jpg",
-			"price":"640",
-			"statu":false,
-			"colors": "blue",
-			"size": "8"
-		},
-		{
-			"id":"111125",
-			"type": "variant",
-			"master": "111111",
-			"class":"woman",
-			"name":"blue LAZER JAKET",
-			"img":"../../images/card/woman-desk1.jpg",
-			"price":"640",
-			"statu":false,
-			"colors": "blue",
-			"size": "10"
-		},
-		{
-			"id":"111126",
-			"type": "variant",
-			"master": "111111",
-			"class":"woman",
-			"name":"blue LAZER JAKET",
-			"img":"../../images/card/woman-desk1.jpg",
-			"price":"440",
-			"statu":false,
-			"colors": "blue",
-			"size": "12"
-		},
-		{
-			"id":"111127",
-			"type": "variant",
-			"master": "111111",
-			"class":"woman",
-			"name":"white LAZER JAKET",
-			"img":"../../images/card/woman-desk1.jpg",
-			"price":"540",
-			"statu":false,
-			"colors": "white",
-			"size": "8"
-		},
-		{
-			"id":"111128",
-			"type": "variant",
-			"master": "111111",
-			"class":"woman",
-			"name":"white LAZER JAKET",
-			"img":"../../images/card/woman-desk1.jpg",
-			"price":"540",
-			"statu":false,
-			"colors": "white",
-			"size": "10"
-		},
-		{
-			"id":"111129",
-			"type": "variant",
-			"master": "111111",
-			"class":"woman",
-			"name":"white LAZER JAKET",
-			"img":"../../images/card/woman-desk1.jpg",
-			"price":"540",
-			"statu":false,
-			"colors":"white",
-			"size": "12"
-		},
-		{
-			"id": "222222",
-			"class": "woman",
-			"type": "master",
-			"name": "black JAKET",
-			"category": "women-dresses",
-			"img": "../../images/card/woman-desk2.jpg",
-			"price": "360",
-			"statu": false,
-			"colors": [
-				{
-					"hexValue":"#0C0C0C",
-					"value":"black"
-				},
-				{
-					"hexValue":"#8E521B",
-					"value":"brown"
-				},
-				{
-					"hexValue":"#F22121",
-					"value":"red"
-				},
-				{
-					"hexValue":"#201A61",
-					"value":"blue"
-				},
-				{
-					"hexValue":"#FFFFFF",
-					"value":"white"
-				}
-			],
-			"size": [6, 8, 10, 12, 14, 16]
-		},
-		{
-			"id": "222223",
-			"type": "variant",
-			"class": "woman",
-			"master": "222222",
-			"name": "black JAKET",
-			"img": "../../images/card/woman-desk2.jpg",
-			"price": "360",
-			"statu": false,
-			"colors": "black",
-			"size": "10"
-		},
-		{
-			"id": "222224",
-			"type": "variant",
-			"class": "woman",
-			"master": "222222",
-			"name": "black JAKET",
-			"img": "../../images/card/woman-desk2.jpg",
-			"price": "360",
-			"statu": false,
-			"colors":"black",
-			"size": "12"
-		},
-		{
-			"id": "222225",
-			"type": "variant",
-			"class": "woman",
-			"master": "222222",
-			"name": "black JAKET",
-			"img": "../../images/card/woman-desk2.jpg",
-			"price": "360",
-			"statu": false,
-			"colors": "black",
-			"size": "14"
-		},
-		{
-			"id": "222226",
-			"type": "variant",
-			"class": "woman",
-			"master": "222222",
-			"name": "brown JAKET",
-			"img": "../../images/card/woman-desk2.jpg",
-			"price": "360",
-			"statu": false,
-			"colors": "brown",
-			"size": "8"
-		},
-		{
-			"id": "222227",
-			"type": "variant",
-			"class": "woman",
-			"master": "222222",
-			"name": "brown JAKET",
-			"img": "../../images/card/woman-desk2.jpg",
-			"price": "360",
-			"statu": false,
-			"colors": "brown",
-			"size": "10"
-		},
-		{
-			"id": "222228",
-			"type": "variant",
-			"class": "woman",
-			"master": "222222",
-			"name": "brown JAKET",
-			"img": "../../images/card/woman-desk2.jpg",
-			"price": "360",
-			"statu": false,
-			"colors": "brown",
-			"size": "12"
-		},
-		{
-			"id": "222229",
-			"type": "variant",
-			"class": "woman",
-			"master": "222222",
-			"name": "brown JAKET",
-			"img": "../../images/card/woman-desk2.jpg",
-			"price": "360",
-			"statu": false,
-			"colors": "brown",
-			"size": "14"
-		},
-		{
-			"id": "222230",
-			"type": "variant",
-			"class": "woman",
-			"master": "222222",
-			"name": "red JAKET",
-			"img": "../../images/card/woman-desk2.jpg",
-			"price": "360",
-			"statu": false,
-			"colors": "red",
-			"size": "8"
-		},
-		{
-			"id": "222231",
-			"type": "variant",
-			"class": "woman",
-			"master": "222222",
-			"name": "red JAKET",
-			"img": "../../images/card/woman-desk2.jpg",
-			"price": "360",
-			"statu": false,
-			"colors": "red",
-			"size": "10"
-		},
-		{
-			"id": "222232",
-			"type": "variant",
-			"class": "woman",
-			"master": "222222",
-			"name": "red JAKET",
-			"img": "../../images/card/woman-desk2.jpg",
-			"price": "360",
-			"statu": false,
-			"colors": "red",
-			"size": "14"
-		},
-		{
-			"id": "222233",
-			"type": "variant",
-			"class": "woman",
-			"master": "222222",
-			"name": "blue JAKET",
-			"img": "../../images/card/woman-desk2.jpg",
-			"price": "260",
-			"statu": false,
-			"colors": "blue",
-			"size": "8"
-		},
-		{
-			"id": "222234",
-			"type": "variant",
-			"class": "woman",
-			"master": "222222",
-			"name": "blue JAKET",
-			"img": "../../images/card/woman-desk2.jpg",
-			"price": "260",
-			"statu": false,
-			"colors": "blue",
-			"size": "10"
-		},
-		{
-			"id": "222235",
-			"type": "variant",
-			"class": "woman",
-			"master": "222222",
-			"name": "blue JAKET",
-			"img": "../../images/card/woman-desk2.jpg",
-			"price": "250",
-			"statu": false,
-			"colors": "blue",
-			"size": "14"
-		},
-		{
-			"id": "222236",
-			"type": "variant",
-			"class": "woman",
-			"master": "222222",
-			"name": "WHITE JAKET",
-			"img": "../../images/card/woman-desk2.jpg",
-			"price": "360",
-			"statu": false,
-			"colors": "white",
-			"size": "8"
-		},
-		{
-			"id": "222237",
-			"type": "variant",
-			"class": "woman",
-			"master": "222222",
-			"name": "WHITE JAKET",
-			"img": "../../images/card/woman-desk2.jpg",
-			"price": "360",
-			"statu": false,
-			"colors": "white",
-			"size": "8"
-		},
-		{
-			"id": "222238",
-			"type": "variant",
-			"class": "woman",
-			"master": "222222",
-			"name": "WHITE JAKET",
-			"img": "../../images/card/woman-desk2.jpg",
-			"price": "360",
-			"statu": false,
-			"colors": "white",
-			"size": "10"
-		},
-		{
-			"id": "222239",
-			"type": "variant",
-			"class": "woman",
-			"master": "222222",
-			"name": "WHITE JAKET",
-			"img": "../../images/card/woman-desk2.jpg",
-			"price": "360",
-			"statu": false,
-			"colors": "white",
-			"size": "12"
-		},
-		{
-			"id": "333330",
-			"class": "woman",
-			"type": "master",
-			"name": "JAKET",
-			"category": "women-dresses",
-			"img": "../../images/card/woman-desk3.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": [
-				{
-					"hexValue":"#0C0C0C",
-					"value":"black"
-				},
-				{
-					"hexValue":"#8E521B",
-					"value":"brown"
-				},
-				{
-					"hexValue":"#F22121",
-					"value":"red"
-				},
-				{
-					"hexValue":"#201A61",
-					"value":"blue"
-				},
-				{
-					"hexValue":"#FFFFFF",
-					"value":"white"
-				}
-					],
-					"size": [6, 8, 10, 12, 14, 16]
-		},
-		{
-			"id": "333331",
-			"type": "variant",
-			"class": "woman",
-			"master": "333330",
-			"name": "JAKET",
-			"img": "../../images/card/woman-desk3.jpg",
-			"price": "660",
-			"statu": false,
-			"colors": "black",
-			"size": "8"
-		}
-		,
-		{
-			"id": "333332",
-			"type": "variant",
-			"class": "woman",
-			"master": "333330",
-			"name": "JAKET",
-			"img": "../../images/card/woman-desk3.jpg",
-			"price": "630",
-			"statu": false,
-			"colors": "black",
-			"size": "10"
-		},
-		{
-			"id": "333333",
-			"type": "variant",
-			"class": "woman",
-			"master": "333330",
-			"name": "JAKET",
-			"img": "../../images/card/woman-desk3.jpg",
-			"price": "620",
-			"statu": false,
-			"colors": "brown",
-			"size": "8"
-		},
-		{
-			"id": "333334",
-			"type": "variant",
-			"class": "woman",
-			"master": "333330",
-			"name": "JAKET",
-			"img": "../../images/card/woman-desk3.jpg",
-			"price": "620",
-			"statu": false,
-			"colors": "brown",
-			"size": "12"
-		},
-		{
-			"id": "333335",
-			"type": "variant",
-			"class": "woman",
-			"master": "333330",
-			"name": "JAKET",
-			"img": "../../images/card/woman-desk3.jpg",
-			"price": "620",
-			"statu": false,
-			"colors": "brown",
-			"size": "14"
-		},
-		{
-			"id": "333336",
-			"type": "variant",
-			"class": "woman",
-			"master": "333330",
-			"name": "JAKET",
-			"img": "../../images/card/woman-desk3.jpg",
-			"price": "620",
-			"statu": false,
-			"colors": "red",
-			"size": "10"
-		},
-		{
-			"id": "333337",
-			"type": "variant",
-			"class": "woman",
-			"master": "333330",
-			"name": "JAKET",
-			"img": "../../images/card/woman-desk3.jpg",
-			"price": "620",
-			"statu": false,
-			"colors": "red",
-			"size": "14"
-		},
-		{
-			"id": "333338",
-			"type": "variant",
-			"class": "woman",
-			"master": "333330",
-			"name": "JAKET",
-			"img": "../../images/card/woman-desk3.jpg",
-			"price": "650",
-			"statu": false,
-			"colors": "blue",
-			"size": "8"
-		},
-		{
-			"id": "333339",
-			"type": "variant",
-			"class": "woman",
-			"master": "333330",
-			"name": "JAKET",
-			"img": "../../images/card/woman-desk3.jpg",
-			"price": "620",
-			"statu": false,
-			"colors": "blue",
-			"size": "10"
-		},
-		{
-			"id": "333340",
-			"type": "variant",
-			"class": "woman",
-			"master": "333330",
-			"name": "JAKET",
-			"img": "../../images/card/woman-desk3.jpg",
-			"price": "625",
-			"statu": false,
-			"colors": "blue",
-			"size": "12"
-		},
-		{
-			"id": "333341",
-			"type": "variant",
-			"class": "woman",
-			"master": "333330",
-			"name": "JAKET",
-			"img": "../../images/card/woman-desk3.jpg",
-			"price": "620",
-			"statu": false,
-			"colors": "blue",
-			"size": "14"
-		},
-		{
-			"id": "333342",
-			"type": "variant",
-			"class": "woman",
-			"master": "333330",
-			"name": "JAKET",
-			"img": "../../images/card/woman-desk3.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "white",
-			"size": "8"
-		},
-		{
-			"id": "333343",
-			"type": "variant",
-			"class": "woman",
-			"master": "333330",
-			"name": "JAKET",
-			"img": "../../images/card/woman-desk3.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "white",
-			"size": "10"
-		},
-		{
-			"id": "333344",
-			"type": "variant",
-			"class": "woman",
-			"master": "333330",
-			"name": "JAKET",
-			"img": "../../images/card/woman-desk3.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "white",
-			"size": "12"
-		},
-		{
-			"id": "333345",
-			"type": "variant",
-			"class": "woman",
-			"master": "333330",
-			"name": "JAKET",
-			"img": "../../images/card/woman-desk3.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "white",
-			"size": "14"
-		},
-		{
-			"id": "444440",
-			"type": "master",
-			"class": "woman",
-			"category": "women-jeans",
-			"name": "jeans",
-			"img": "../../images/card/woman-desk4.jpg",
-			"price": "40",
-			"statu": false,
-			"colors": [
-				{
-					"hexValue":"#0C0C0C",
-					"value":"black"
-				},
-				{
-					"hexValue":"#8E521B",
-					"value":"brown"
-				},
-				{
-					"hexValue":"#201A61",
-					"value":"blue"
-				}
-					],
-					"size": [6, 8, 10, 12]
-		},
-		{
-			"id": "444441",
-			"type": "variant",
-			"master": "444440",
-			"class": "woman",
-			"name": "jeans",
-			"img": "../../images/card/woman-desk4.jpg",
-			"price": "40",
-			"statu": false,
-			"colors": "black",
-			"size": "6"
-		},
-		{
-			"id": "444442",
-			"type": "variant",
-			"master": "444440",
-			"class": "woman",
-			"name": "jeans",
-			"img": "../../images/card/woman-desk4.jpg",
-			"price": "40",
-			"statu": false,
-			"colors": "black",
-			"size": "8"
-		},
-		{
-			"id": "444443",
-			"type": "variant",
-			"master": "444440",
-			"class": "woman",
-			"name": "jeans",
-			"img": "../../images/card/woman-desk4.jpg",
-			"price": "35",
-			"statu": false,
-			"colors": "black",
-			"size": "10"
-		},
-		{
-			"id": "444444",
-			"type": "variant",
-			"master": "444440",
-			"class": "woman",
-			"name": "jeans",
-			"img": "../../images/card/woman-desk4.jpg",
-			"price": "39",
-			"statu": false,
-			"colors": "black",
-			"size": "12"
-		},
-		{
-			"id": "444445",
-			"type": "variant",
-			"master": "444440",
-			"class": "woman",
-			"name": "jeans",
-			"img": "../../images/card/woman-desk4.jpg",
-			"price": "14 sconto",
-			"statu": false,
-			"colors": "brown",
-			"size": "6"
-		},
-		{
-			"id": "444446",
-			"type": "variant",
-			"master": "444440",
-			"class": "woman",
-			"name": "jeans",
-			"img": "../../images/card/woman-desk4.jpg",
-			"price": "34",
-			"statu": false,
-			"colors": "brown",
-			"size": "8"
-		},
-		{
-			"id": "444407",
-			"type": "variant",
-			"master": "444440",
-			"class": "woman",
-			"name": "jeans",
-			"img": "../../images/card/woman-desk4.jpg",
-			"price": "34",
-			"statu": false,
-			"colors": "brown",
-			"size": "10"
-		},
-		{
-			"id": "444408",
-			"type": "variant",
-			"master": "444440",
-			"class": "woman",
-			"name": "jeans",
-			"img": "../../images/card/woman-desk4.jpg",
-			"price": "25",
-			"statu": false,
-			"colors": "brown",
-			"size": "12"
-		},
-		{
-			"id": "444409",
-			"type": "variant",
-			"master": "444440",
-			"class": "woman",
-			"name": "jeans",
-			"img": "../../images/card/woman-desk4.jpg",
-			"price": "25",
-			"statu": false,
-			"colors": "brown",
-			"size": "14"
-		},
-		{
-			"id": "444449",
-			"type": "variant",
-			"master": "444440",
-			"class": "woman",
-			"name": "jeans",
-			"img": "../../images/card/woman-desk4.jpg",
-			"price": "36",
-			"statu": false,
-			"colors": "blue",
-			"size": "8"
-		},
-		{
-			"id": "444450",
-			"type": "variant",
-			"master": "444440",
-			"class": "woman",
-			"name": "jeans",
-			"img": "../../images/card/woman-desk4.jpg",
-			"price": "36",
-			"statu": false,
-			"colors": "blue",
-			"size": "10"
-		},
-		{
-			"id": "444451",
-			"type": "variant",
-			"master": "444440",
-			"class": "woman",
-			"name": "jeans",
-			"img": "../../images/card/woman-desk4.jpg",
-			"price": "39",
-			"statu": false,
-			"colors": "white",
-			"size": "6"
-		},
-		{
-			"id": "444452",
-			"type": "variant",
-			"master": "444440",
-			"class": "woman",
-			"name": "jeans",
-			"img": "../../images/card/woman-desk4.jpg",
-			"price": "39",
-			"statu": false,
-			"colors": "white",
-			"size": "8"
-		},
-		{
-			"id": "444453",
-			"type": "variant",
-			"master": "444440",
-			"class": "woman",
-			"name": "jeans",
-			"img": "../../images/card/woman-desk4.jpg",
-			"price": "39",
-			"statu": false,
-			"colors": "white",
-			"size": "10"
-		},
-		{
-			"id": "444454",
-			"type": "variant",
-			"master": "444440",
-			"class": "woman",
-			"name": "jeans",
-			"img": "../../images/card/woman-desk4.jpg",
-			"price": "39",
-			"statu": false,
-			"colors": "white",
-			"size": "12"
-		},
-		{
-			"id": "444455",
-			"type": "variant",
-			"master": "444440",
-			"class": "woman",
-			"name": "jeans",
-			"img": "../../images/card/woman-desk4.jpg",
-			"price": "39",
-			"statu": false,
-			"colors": "white",
-			"size": "14"
-		},
-		{
-			"id": "444001",
-			"type": "master",
-			"class": "woman",
-			"category": "women-dresses",
-			"name": "lazer jaket",
-			"img": "../../images/card/woman-desk5.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": [
-				{
-					"hexValue":"#0C0C0C",
-					"value":"black"
-				},
-				{
-					"hexValue":"#8E521B",
-					"value":"brown"
-				},
-				{
-					"hexValue":"#201A61",
-					"value":"blue"
-				},
-				
-				{
-					"hexValue": "#FFFFFF",
-					"value": "white"
-					}
-					],
-					"size": [6, 8, 10, 12]
-		},
-		{
-			"id": "444002",
-			"type": "variant",
-			"master": "444001",
-			"class": "woman",
-			"name": "lazer jaket",
-			"img": "../../images/card/woman-desk5.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "black",
-			"size": "6"
-		},
-		{
-			"id": "444003",
-			"type": "variant",
-			"master": "444001",
-			"class": "woman",
-			"name": "lazer jaket",
-			"img": "../../images/card/woman-desk5.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "black",
-			"size": "8"
-		},
-		{
-			"id": "444004",
-			"type": "variant",
-			"master": "444001",
-			"class": "woman",
-			"name": "lazer jaket",
-			"img": "../../images/card/woman-desk5.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "black",
-			"size": "10"
-		},
-		{
-			"id": "444005",
-			"type": "variant",
-			"master": "444001",
-			"class": "woman",
-			"name": "lazer jaket",
-			"img": "../../images/card/woman-desk5.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "black",
-			"size": "12"
-		},
-		{
-			"id": "444006",
-			"type": "variant",
-			"master": "444001",
-			"class": "woman",
-			"name": "lazer jaket",
-			"img": "../../images/card/woman-desk5.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "brown",
-			"size": "6"
-		},
-		{
-			"id": "444007",
-			"type": "variant",
-			"master": "444001",
-			"class": "woman",
-			"name": "lazer jaket",
-			"img": "../../images/card/woman-desk5.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "brown",
-			"size": "8"
-		},
-		{
-			"id": "444008",
-			"type": "variant",
-			"master": "444001",
-			"class": "woman",
-			"name": "lazer jaket",
-			"img": "../../images/card/woman-desk5.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "brown",
-			"size": "10"
-		},
-		{
-			"id": "444009",
-			"type": "variant",
-			"master": "444001",
-			"class": "woman",
-			"name": "lazer jaket",
-			"img": "../../images/card/woman-desk5.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "brown",
-			"size": "12"
-		},
-		{
-			"id": "444010",
-			"type": "variant",
-			"master": "444001",
-			"class": "woman",
-			"name": "lazer jaket",
-			"img": "../../images/card/woman-desk5.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "blue",
-			"size": "6"
-		},
-		{
-			"id": "444011",
-			"type": "variant",
-			"master": "444001",
-			"class": "woman",
-			"name": "lazer jaket",
-			"img": "../../images/card/woman-desk5.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "blue",
-			"size": "8"
-		},
-		{
-			"id": "444012",
-			"type": "variant",
-			"master": "444001",
-			"class": "woman",
-			"name": "lazer jaket",
-			"img": "../../images/card/woman-desk5.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "blue",
-			"size": "10"
-		},
-		{
-			"id": "444013",
-			"type": "variant",
-			"master": "444001",
-			"class": "woman",
-			"name": "lazer jaket",
-			"img": "../../images/card/woman-desk5.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "blue",
-			"size": "12"
-		},
-		{
-			"id": "444014",
-			"type": "variant",
-			"master": "444001",
-			"class": "woman",
-			"name": "lazer jaket",
-			"img": "../../images/card/woman-desk5.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "white",
-			"size": "8"
-		},
-		{
-			"id": "444015",
-			"type": "variant",
-			"master": "444001",
-			"class": "woman",
-			"name": "lazer jaket",
-			"img": "../../images/card/woman-desk5.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "white",
-			"size": "10"
-		},
-		{
-			"id": "444016",
-			"type": "variant",
-			"master": "444001",
-			"class": "woman",
-			"name": "lazer jaket",
-			"img": "../../images/card/woman-desk5.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "white",
-			"size": "12"
-		},
-		{
-			"id": "400001",
-			"type": "master",
-			"class": "woman",
-			"category": "women-coat",
-			"name": "grey coat",
-			"img": "../../images/card/woman6.jpg",
-			"price": "340",
-			"statu": false,
-			"colors": [
-				{
-					"hexValue":"#0C0C0C",
-					"value":"black"
-				},
-				{
-					"hexValue":"#8E521B",
-					"value":"brown"
-				},
-				{
-					"hexValue":"#201A61",
-					"value":"blue"
-				},
-				
-				{
-					"hexValue": "#FFFFFF",
-					"value": "white"
-					}
-					],
-					"size": [6, 8, 10, 12]
-		},
-		{
-			"id": "400002",
-			"type": "variant",
-			"master": "400001",
-			"class": "woman",
-			"name": "grey coat",
-			"img": "../../images/card/woman6.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "black",
-			"size": "8"
-		},
-		{
-			"id": "400003",
-			"type": "variant",
-			"master": "400001",
-			"class": "woman",
-			"name": "grey coat",
-			"img": "../../images/card/woman6.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "black",
-			"size": "10"
-		},
-		{
-			"id": "400004",
-			"type": "variant",
-			"master": "400001",
-			"class": "woman",
-			"name": "grey coat",
-			"img": "../../images/card/woman6.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "black",
-			"size": "12"
-		},
-		{
-			"id": "400005",
-			"type": "variant",
-			"master": "400001",
-			"class": "woman",
-			"name": "grey coat",
-			"img": "../../images/card/woman6.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "black",
-			"size": "14"
-		},
-		{
-			"id": "400006",
-			"type": "variant",
-			"master": "400001",
-			"class": "woman",
-			"name": "grey coat",
-			"img": "../../images/card/woman6.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "brown",
-			"size": "6"
-		},
-		{
-			"id": "400007",
-			"type": "variant",
-			"master": "400001",
-			"class": "woman",
-			"name": "grey coat",
-			"img": "../../images/card/woman6.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "brown",
-			"size": "8"
-		},
-		{
-			"id": "400008",
-			"type": "variant",
-			"master": "400001",
-			"class": "woman",
-			"name": "grey coat",
-			"img": "../../images/card/woman6.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "brown",
-			"size": "10"
-		},
-		{
-			"id": "400009",
-			"type": "variant",
-			"master": "400001",
-			"class": "woman",
-			"name": "grey coat",
-			"img": "../../images/card/woman6.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "brown",
-			"size": "12"
-		},
-		{
-			"id": "400010",
-			"type": "variant",
-			"master": "400001",
-			"class": "woman",
-			"name": "grey coat",
-			"img": "../../images/card/woman6.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "blue",
-			"size": "6"
-		},
-		{
-			"id": "400011",
-			"type": "variant",
-			"master": "400001",
-			"class": "woman",
-			"name": "grey coat",
-			"img": "../../images/card/woman6.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "blue",
-			"size": "8"
-		},
-		{
-			"id": "400012",
-			"type": "variant",
-			"master": "400001",
-			"class": "woman",
-			"name": "grey coat",
-			"img": "../../images/card/woman6.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "blue",
-			"size": "10"
-		},
-		{
-			"id": "400013",
-			"type": "variant",
-			"master": "400001",
-			"class": "woman",
-			"name": "grey coat",
-			"img": "../../images/card/woman6.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "blue",
-			"size": "14"
-		},
-		{
-			"id": "400014",
-			"type": "variant",
-			"master": "400001",
-			"class": "woman",
-			"name": "grey coat",
-			"img": "../../images/card/woman6.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "white",
-			"size": "6"
-		},
-		{
-			"id": "400015",
-			"type": "variant",
-			"master": "400001",
-			"class": "woman",
-			"name": "grey coat",
-			"img": "../../images/card/woman6.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "white",
-			"size": "8"
-		},
-		{
-			"id": "400016",
-			"type": "variant",
-			"master": "400001",
-			"class": "woman",
-			"name": "grey coat",
-			"img": "../../images/card/woman6.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "white",
-			"size": "12"
-		},
-		{
-			"id": "400017",
-			"type": "variant",
-			"master": "400001",
-			"class": "woman",
-			"name": "grey coat",
-			"img": "../../images/card/woman6.jpg",
-			"price": "640",
-			"statu": false,
-			"colors": "white",
-			"size": "14"
-		},
-		{
-			"id": "555000",
-			"type": "master",
-			"class": "man",
-			"category": "man-jaked",
-			"name": "jacket",
-			"img": "../../images/card/man/man1.webp",
-			"price": "330",
-			"statu": false,
-			"colors": [
-				{
-					"hexValue":"#0C0C0C",
-					"value":"black"
-				},
-				{
-					"hexValue":"#8E521B",
-					"value":"brown"
-				},
-				{
-					"hexValue":"#201A61",
-					"value":"blue"
-				},
-				{
-					"hexValue":"#F22121",
-					"value":"red"
-				},
-				{
-					"hexValue":"#FFFFFF",
-					"value":"white"
-				}
-					],
-					"size": [6, 8, 10, 12, 14]
-		},
-		{
-			"id": "555001",
-			"type": "variant",
-			"master": "555000",
-			"class": "man",
-			"name": "jeans",
-			"img": "../../images/card/man/man1.webp",
-			"price": "330",
-			"statu": false,
-			"colors": "black",
-			"size": "6"
-		},
-		{
-			"id": "555002",
-			"type": "variant",
-			"master": "555000",
-			"class": "man",
-			"name": "jeans",
-			"img": "../../images/card/man/man1.webp",
-			"price": "330",
-			"statu": false,
-			"colors": "black",
-			"size": "8"
-		},	{
-			"id": "555003",
-			"type": "variant",
-			"master": "555000",
-			"class": "man",
-			"name": "jeans",
-			"img": "../../images/card/man/man1.webp",
-			"price": "330",
-			"statu": false,
-			"colors": "black",
-			"size": "10"
-		},
-		{
-			"id": "555004",
-			"type": "variant",
-			"master": "555000",
-			"class": "man",
-			"name": "jeans",
-			"img": "../../images/card/man/man1.webp",
-			"price": "320",
-			"statu": false,
-			"colors": "black",
-			"size": "12"
-		},
-		{
-			"id": "555005",
-			"type": "variant",
-			"master": "555000",
-			"class": "man",
-			"name": "jeans",
-			"img": "../../images/card/man/man1.webp",
-			"price": "300",
-			"statu": false,
-			"colors": "brown",
-			"size": "8"
-		},
-		{
-			"id": "555006",
-			"type": "variant",
-			"master": "555000",
-			"class": "man",
-			"name": "jeans",
-			"img": "../../images/card/man/man1.webp",
-			"price": "300",
-			"statu": false,
-			"colors": "brown",
-			"size": "10"
-		},
-		{
-			"id": "555007",
-			"type": "variant",
-			"master": "555000",
-			"class": "man",
-			"name": "jeans",
-			"img": "../../images/card/man/man1.webp",
-			"price": "300",
-			"statu": false,
-			"colors": "brown",
-			"size": "12"
-		},
-		{
-			"id": "555008",
-			"type": "variant",
-			"master": "555000",
-			"class": "man",
-			"name": "jeans",
-			"img": "../../images/card/man/man1.webp",
-			"price": "310",
-			"statu": false,
-			"colors": "red",
-			"size": "6"
-		},
-		{
-			"id": "555009",
-			"type": "variant",
-			"master": "555000",
-			"class": "man",
-			"name": "jeans",
-			"img": "../../images/card/man/man1.webp",
-			"price": "310",
-			"statu": false,
-			"colors": "red",
-			"size": "8"
-		},
-		{
-			"id": "555010",
-			"type": "variant",
-			"master": "555000",
-			"class": "man",
-			"name": "jeans",
-			"img": "../../images/card/man/man1.webp",
-			"price": "310",
-			"statu": false,
-			"colors": "red",
-			"size": "10"
-		},
-		{
-			"id": "555011",
-			"type": "variant",
-			"master": "555000",
-			"class": "man",
-			"name": "jeans",
-			"img": "../../images/card/man/man1.webp",
-			"price": "350",
-			"statu": false,
-			"colors": "blue",
-			"size": "6"
-		},
-		{
-			"id": "555012",
-			"type": "variant",
-			"master": "555000",
-			"class": "man",
-			"name": "jeans",
-			"img": "../../images/card/man/man1.webp",
-			"price": "350",
-			"statu": false,
-			"colors": "blue",
-			"size": "8"
-		},
-		{
-			"id": "555013",
-			"type": "variant",
-			"master": "555000",
-			"class": "man",
-			"name": "jeans",
-			"img": "../../images/card/man/man1.webp",
-			"price": "350",
-			"statu": false,
-			"colors": "blue",
-			"size": "10"
-		},
-		{
-			"id": "555014",
-			"type": "variant",
-			"master": "555000",
-			"class": "man",
-			"name": "jeans",
-			"img": "../../images/card/man/man1.webp",
-			"price": "350",
-			"statu": false,
-			"colors": "blue",
-			"size": "12"
-		},
-		{
-			"id": "555015",
-			"type": "variant",
-			"master": "555000",
-			"class": "man",
-			"name": "jeans",
-			"img": "../../images/card/man/man1.webp",
-			"price": "350",
-			"statu": false,
-			"colors": "white",
-			"size": "6"
-		},		{
-			"id": "555016",
-			"type": "variant",
-			"master": "555000",
-			"class": "man",
-			"name": "jeans",
-			"img": "../../images/card/man/man1.webp",
-			"price": "350",
-			"statu": false,
-			"colors": "white",
-			"size": "8"
-		},
-		{
-			"id": "555017",
-			"type": "variant",
-			"master": "555000",
-			"class": "man",
-			"name": "jeans",
-			"img": "../../images/card/man/man1.webp",
-			"price": "350",
-			"statu": false,
-			"colors": "white",
-			"size": "10"
-		},
-		{
-			"id": "555018",
-			"type": "variant",
-			"master": "555000",
-			"class": "man",
-			"name": "jeans",
-			"img": "../../images/card/man/man1.webp",
-			"price": "350",
-			"statu": false,
-			"colors": "white",
-			"size": "12"
-		},
-		{
-			"id": "555019",
-			"type": "variant",
-			"master": "555000",
-			"class": "man",
-			"name": "jeans",
-			"img": "../../images/card/man/man1.webp",
-			"price": "350",
-			"statu": false,
-			"colors": "white",
-			"size": "14"
-		},
-		{
-			"id": "666000",
-			"type": "master",
-			"class": "man",
-			"category": "man-jaked",
-			"name": "men's vest",
-			"img": "../../images/card/man/man2.webp",
-			"price": "430",
-			"statu": false,
-			"colors": [
-				{
-					"hexValue":"#0C0C0C",
-					"value":"black"
-				},
-				{
-					"hexValue":"#8E521B",
-					"value":"brown"
-				},
-				{
-					"hexValue":"#201A61",
-					"value":"blue"
-				},
-				{
-					"hexValue":"#F22121",
-					"value":"red"
-				},
-				{
-					"hexValue":"#FFFFFF",
-					"value":"white"
-				}
-					],
-					"size": [ 8, 10, 12, 14]
-		},
-		{
-			"id": "666001",
-			"type": "variant",
-			"master": "666000",
-			"class": "man",
-			"name": "men's vest",
-			"img": "../../images/card/man/man2.webp",
-			"price": "430",
-			"statu": false,
-			"colors": "black",
-			"size": "6"
-		},
-		{
-			"id": "666002",
-			"type": "variant",
-			"master": "666000",
-			"class": "man",
-			"name": "men's vest",
-			"img": "../../images/card/man/man2.webp",
-			"price": "430",
-			"statu": false,
-			"colors": "black",
-			"size": "8"
-		},
-		{
-			"id": "666003",
-			"type": "variant",
-			"master": "666000",
-			"class": "man",
-			"name": "men's vest",
-			"img": "../../images/card/man/man2.webp",
-			"price": "430",
-			"statu": false,
-			"colors": "black",
-			"size": "10"
-		},
-		{
-			"id": "666004",
-			"type": "variant",
-			"master": "666000",
-			"class": "man",
-			"name": "men's vest",
-			"img": "../../images/card/man/man2.webp",
-			"price": "430",
-			"statu": false,
-			"colors": "black",
-			"size": "12"
-		},
-		{
-			"id": "666005",
-			"type": "variant",
-			"master": "666000",
-			"class": "man",
-			"name": "men's vest",
-			"img": "../../images/card/man/man2.webp",
-			"price": "430",
-			"statu": false,
-			"colors": "brown",
-			"size": "8"
-		},
-		{
-			"id": "666006",
-			"type": "variant",
-			"master": "666000",
-			"class": "man",
-			"name": "men's vest",
-			"img": "../../images/card/man/man2.webp",
-			"price": "430",
-			"statu": false,
-			"colors": "brown",
-			"size": "10"
-		},
-		{
-			"id": "666007",
-			"type": "variant",
-			"master": "666000",
-			"class": "man",
-			"name": "men's vest",
-			"img": "../../images/card/man/man2.webp",
-			"price": "430",
-			"statu": false,
-			"colors": "brown",
-			"size": "12"
-		},
-		{
-			"id": "666008",
-			"type": "variant",
-			"master": "666000",
-			"class": "man",
-			"name": "men's vest",
-			"img": "../../images/card/man/man2.webp",
-			"price": "430",
-			"statu": false,
-			"colors": "brown",
-			"size": "14"
-		},
-		{
-			"id": "666009",
-			"type": "variant",
-			"master": "666000",
-			"class": "man",
-			"name": "men's vest",
-			"img": "../../images/card/man/man2.webp",
-			"price": "430",
-			"statu": false,
-			"colors": "blue",
-			"size": "6"
-		},
-		{
-			"id": "666010",
-			"type": "variant",
-			"master": "666000",
-			"class": "man",
-			"name": "men's vest",
-			"img": "../../images/card/man/man2.webp",
-			"price": "430",
-			"statu": false,
-			"colors": "blue",
-			"size": "8"
-		},
-		{
-			"id": "666011",
-			"type": "variant",
-			"master": "666000",
-			"class": "man",
-			"name": "men's vest",
-			"img": "../../images/card/man/man2.webp",
-			"price": "430",
-			"statu": false,
-			"colors": "blue",
-			"size": "10"
-		},
-		{
-			"id": "666012",
-			"type": "variant",
-			"master": "666000",
-			"class": "man",
-			"name": "men's vest",
-			"img": "../../images/card/man/man2.webp",
-			"price": "430",
-			"statu": false,
-			"colors": "blue",
-			"size": "12"
-		},
-		{
-			"id": "666013",
-			"type": "variant",
-			"master": "666000",
-			"class": "man",
-			"name": "men's vest",
-			"img": "../../images/card/man/man2.webp",
-			"price": "430",
-			"statu": false,
-			"colors": "blue",
-			"size": "14"
-		},
-		{
-			"id": "666014",
-			"type": "variant",
-			"master": "666000",
-			"class": "man",
-			"name": "men's vest",
-			"img": "../../images/card/man/man2.webp",
-			"price": "430",
-			"statu": false,
-			"colors": "white",
-			"size": "8"
-		},
-		{
-			"id": "666015",
-			"type": "variant",
-			"master": "666000",
-			"class": "man",
-			"name": "men's vest",
-			"img": "../../images/card/man/man2.webp",
-			"price": "430",
-			"statu": false,
-			"colors": "white",
-			"size": "10"
-		},
-		{
-			"id": "666016",
-			"type": "variant",
-			"master": "666000",
-			"class": "man",
-			"name": "men's vest",
-			"img": "../../images/card/man/man2.webp",
-			"price": "430",
-			"statu": false,
-			"colors": "white",
-			"size": "12"
-		},
-		{
-			"id": "666017",
-			"type": "variant",
-			"master": "666000",
-			"class": "man",
-			"name": "men's vest",
-			"img": "../../images/card/man/man2.webp",
-			"price": "400",
-			"statu": false,
-			"colors": "white",
-			"size": "14"
-		},
-		{
-			"id": "777000",
-			"type": "master",
-			"class": "man",
-			"category": "man-costume",
-			"name": "men's costume",
-			"img": "../../images/card/man/man3.webp",
-			"price": "130",
-			"statu": false,
-			"colors": [
-				{
-					"hexValue":"#0C0C0C",
-					"value":"black"
-				},
-				{
-					"hexValue":"#8E521B",
-					"value":"brown"
-				},
-				{
-					"hexValue":"#201A61",
-					"value":"blue"
-				}
-					],
-					"size": [ 8, 10, 12, 14]
-		},
-		{
-			"id": "777001",
-			"type": "variant",
-			"master": "777000",
-			"class": "man",
-			"name": "men's costume",
-			"img": "../../images/card/man/man3.webp",
-			"price": "130",
-			"statu": false,
-			"colors": "black",
-			"size": "6"
-		},
-		{
-			"id": "777002",
-			"type": "variant",
-			"master": "777000",
-			"class": "man",
-			"name": "men's costume",
-			"img": "../../images/card/man/man3.webp",
-			"price": "130",
-			"statu": false,
-			"colors": "black",
-			"size": "8"
-		},
-		{
-			"id": "777003",
-			"type": "variant",
-			"master": "777000",
-			"class": "man",
-			"name": "men's costume",
-			"img": "../../images/card/man/man3.webp",
-			"price": "130",
-			"statu": false,
-			"colors": "black",
-			"size": "10"
-		},
-		{
-			"id": "777004",
-			"type": "variant",
-			"master": "777000",
-			"class": "man",
-			"name": "men's costume",
-			"img": "../../images/card/man/man3.webp",
-			"price": "130",
-			"statu": false,
-			"colors": "black",
-			"size": "12"
-		},
-		{
-			"id": "777005",
-			"type": "variant",
-			"master": "777000",
-			"class": "man",
-			"name": "men's costume",
-			"img": "../../images/card/man/man3.webp",
-			"price": "130",
-			"statu": false,
-			"colors": "brown",
-			"size": "8"
-		},
-		{
-			"id": "777006",
-			"type": "variant",
-			"master": "777000",
-			"class": "man",
-			"name": "men's costume",
-			"img": "../../images/card/man/man3.webp",
-			"price": "130",
-			"statu": false,
-			"colors": "brown",
-			"size": "10"
-		},
-		{
-			"id": "777007",
-			"type": "variant",
-			"master": "777000",
-			"class": "man",
-			"name": "men's costume",
-			"img": "../../images/card/man/man3.webp",
-			"price": "130",
-			"statu": false,
-			"colors": "brown",
-			"size": "12"
-		},
-		{
-			"id": "777008",
-			"type": "variant",
-			"master": "777000",
-			"class": "man",
-			"name": "men's costume",
-			"img": "../../images/card/man/man3.webp",
-			"price": "130",
-			"statu": false,
-			"colors": "brown",
-			"size": "14"
-		},
-		{
-			"id": "777009",
-			"type": "variant",
-			"master": "777000",
-			"class": "man",
-			"name": "men's costume",
-			"img": "../../images/card/man/man3.webp",
-			"price": "130",
-			"statu": false,
-			"colors": "blue",
-			"size": "8"
-		},
-		{
-			"id": "777010",
-			"type": "variant",
-			"master": "777000",
-			"class": "man",
-			"name": "men's costume",
-			"img": "../../images/card/man/man3.webp",
-			"price": "130",
-			"statu": false,
-			"colors": "blue",
-			"size": "10"
-		},
-		{
-			"id": "777011",
-			"type": "variant",
-			"master": "777000",
-			"class": "man",
-			"name": "men's costume",
-			"img": "../../images/card/man/man3.webp",
-			"price": "130",
-			"statu": false,
-			"colors": "blue",
-			"size": "12"
-		},
-		{
-			"id": "777012",
-			"type": "variant",
-			"master": "777000",
-			"class": "man",
-			"name": "men's costume",
-			"img": "../../images/card/man/man3.webp",
-			"price": "130",
-			"statu": false,
-			"colors": "blue",
-			"size": "14"
-		},
-		{
-			"id": "888000",
-			"type": "master",
-			"class": "man",
-			"category": "man-rousers",
-			"name": "men's rousers",
-			"img": "../../images/card/man/man4.webp",
-			"price": "220",
-			"statu": false,
-			"colors": [
-				{
-					"hexValue":"#0C0C0C",
-					"value":"black"
-				},
-				{
-					"hexValue":"#8E521B",
-					"value":"brown"
-				},
-				{
-					"hexValue":"#201A61",
-					"value":"blue"
-				},
-				{
-					"hexValue":"#FFFFFF",
-					"value":"white"
-				}
-					],
-					"size": [ 8, 10, 12, 14]
-		},
-		{
-			"id": "888001",
-			"type": "variant",
-			"master": "888000",
-			"class": "man",
-			"name": "men's rousers",
-			"img": "../../images/card/man/man4.webp",
-			"price": "220",
-			"statu": false,
-			"colors": "black",
-			"size": "6"
-		},
-		{
-			"id": "888002",
-			"type": "variant",
-			"master": "888000",
-			"class": "man",
-			"name": "men's rousers",
-			"img": "../../images/card/man/man4.webp",
-			"price": "220",
-			"statu": false,
-			"colors": "black",
-			"size": "8"
-		},
-		{
-			"id": "888003",
-			"type": "variant",
-			"master": "888000",
-			"class": "man",
-			"name": "men's rousers",
-			"img": "../../images/card/man/man4.webp",
-			"price": "220",
-			"statu": false,
-			"colors": "black",
-			"size": "10"
-		},
-		{
-			"id": "888004",
-			"type": "variant",
-			"master": "888000",
-			"class": "man",
-			"name": "men's rousers",
-			"img": "../../images/card/man/man4.webp",
-			"price": "220",
-			"statu": false,
-			"colors": "black",
-			"size": "12"
-		},
-		{
-			"id": "888005",
-			"type": "variant",
-			"master": "888000",
-			"class": "man",
-			"name": "men's rousers",
-			"img": "../../images/card/man/man4.webp",
-			"price": "220",
-			"statu": false,
-			"colors": "black",
-			"size": "14"
-		},
-		{
-			"id": "888006",
-			"type": "variant",
-			"master": "888000",
-			"class": "man",
-			"name": "men's rousers",
-			"img": "../../images/card/man/man4.webp",
-			"price": "220",
-			"statu": false,
-			"colors": "brown",
-			"size": "8"
-		},
-		{
-			"id": "888007",
-			"type": "variant",
-			"master": "888000",
-			"class": "man",
-			"name": "men's rousers",
-			"img": "../../images/card/man/man4.webp",
-			"price": "220",
-			"statu": false,
-			"colors": "brown",
-			"size": "10"
-		},
-		{
-			"id": "888008",
-			"type": "variant",
-			"master": "888000",
-			"class": "man",
-			"name": "men's rousers",
-			"img": "../../images/card/man/man4.webp",
-			"price": "220",
-			"statu": false,
-			"colors": "brown",
-			"size": "12"
-		},
-		{
-			"id": "888009",
-			"type": "variant",
-			"master": "888000",
-			"class": "man",
-			"name": "men's rousers",
-			"img": "../../images/card/man/man4.webp",
-			"price": "220",
-			"statu": false,
-			"colors": "brown",
-			"size": "14"
-		},
-		{
-			"id": "888010",
-			"type": "variant",
-			"master": "888000",
-			"class": "man",
-			"name": "men's rousers",
-			"img": "../../images/card/man/man4.webp",
-			"price": "220",
-			"statu": false,
-			"colors": "blue",
-			"size": "6"
-		},
-		{
-			"id": "888011",
-			"type": "variant",
-			"master": "888000",
-			"class": "man",
-			"name": "men's rousers",
-			"img": "../../images/card/man/man4.webp",
-			"price": "220",
-			"statu": false,
-			"colors": "blue",
-			"size": "8"
-		},
-		{
-			"id": "888012",
-			"type": "variant",
-			"master": "888000",
-			"class": "man",
-			"name": "men's rousers",
-			"img": "../../images/card/man/man4.webp",
-			"price": "220",
-			"statu": false,
-			"colors": "blue",
-			"size": "10"
-		},
-		{
-			"id": "888013",
-			"type": "variant",
-			"master": "888000",
-			"class": "man",
-			"name": "men's rousers",
-			"img": "../../images/card/man/man4.webp",
-			"price": "220",
-			"statu": false,
-			"colors": "blue",
-			"size": "12"
-		},
-		{
-			"id": "888014",
-			"type": "variant",
-			"master": "888000",
-			"class": "man",
-			"name": "men's rousers",
-			"img": "../../images/card/man/man4.webp",
-			"price": "220",
-			"statu": false,
-			"colors": "blue",
-			"size": "14"
-		},
-		{
-			"id": "888015",
-			"type": "variant",
-			"master": "888000",
-			"class": "man",
-			"name": "men's rousers",
-			"img": "../../images/card/man/man4.webp",
-			"price": "220",
-			"statu": false,
-			"colors": "white",
-			"size": "6"
-		},
-		{
-			"id": "888016",
-			"type": "variant",
-			"master": "888000",
-			"class": "man",
-			"name": "men's rousers",
-			"img": "../../images/card/man/man4.webp",
-			"price": "220",
-			"statu": false,
-			"colors": "white",
-			"size": "8"
-		},
-		{
-			"id": "888017",
-			"type": "variant",
-			"master": "888000",
-			"class": "man",
-			"name": "men's rousers",
-			"img": "../../images/card/man/man4.webp",
-			"price": "220",
-			"statu": false,
-			"colors": "white",
-			"size": "10"
-		},
-		{
-			"id": "888018",
-			"type": "variant",
-			"master": "888000",
-			"class": "man",
-			"name": "men's rousers",
-			"img": "../../images/card/man/man4.webp",
-			"price": "220",
-			"statu": false,
-			"colors": "white",
-			"size": "12"
-		},
-		{
-			"id": "888019",
-			"type": "variant",
-			"master": "888000",
-			"class": "man",
-			"name": "men's rousers",
-			"img": "../../images/card/man/man4.webp",
-			"price": "220",
-			"statu": false,
-			"colors": "white",
-			"size": "14"
-		},
-		{
-			"id": "999000",
-			"type": "master",
-			"class": "man",
-			"category": "man-jaked",
-			"name": "autumn jacket",
-			"img": "../../images/card/man/man5.webp",
-			"price": "420",
-			"statu": false,
-			"colors": [
-				{
-					"hexValue":"#0C0C0C",
-					"value":"black"
-				},
-				{
-					"hexValue":"#8E521B",
-					"value":"brown"
-				},
-				{
-					"hexValue":"#201A61",
-					"value":"blue"
-				},
-				{
-					"hexValue":"#FFFFFF",
-					"value":"white"
-				}
-					],
-					"size": [ 8, 10, 12, 14]
-		},
-		{
-			"id": "999001",
-			"type": "variant",
-			"master": "999000",
-			"class": "man",
-			"name": "autumn jacket",
-			"img": "../../images/card/man/man5.webp",
-			"price": "420",
-			"statu": false,
-			"colors": "black",
-			"size": "6"
-		},
-		{
-			"id": "999002",
-			"type": "variant",
-			"master": "999000",
-			"class": "man",
-			"name": "autumn jacket",
-			"img": "../../images/card/man/man5.webp",
-			"price": "420",
-			"statu": false,
-			"colors": "black",
-			"size": "8"
-		},
-		{
-			"id": "999003",
-			"type": "variant",
-			"master": "999000",
-			"class": "man",
-			"name": "autumn jacket",
-			"img": "../../images/card/man/man5.webp",
-			"price": "420",
-			"statu": false,
-			"colors": "black",
-			"size": "10"
-		},
-		{
-			"id": "999004",
-			"type": "variant",
-			"master": "999000",
-			"class": "man",
-			"name": "autumn jacket",
-			"img": "../../images/card/man/man5.webp",
-			"price": "420",
-			"statu": false,
-			"colors": "black",
-			"size": "12"
-		},
-		{
-			"id": "999005",
-			"type": "variant",
-			"master": "999000",
-			"class": "man",
-			"name": "autumn jacket",
-			"img": "../../images/card/man/man5.webp",
-			"price": "420",
-			"statu": false,
-			"colors": "black",
-			"size": "14"
-		},
-		{
-			"id": "999006",
-			"type": "variant",
-			"master": "999000",
-			"class": "man",
-			"name": "autumn jacket",
-			"img": "../../images/card/man/man5.webp",
-			"price": "420",
-			"statu": false,
-			"colors": "brown",
-			"size": "6"
-		},
-		{
-			"id": "999007",
-			"type": "variant",
-			"master": "999000",
-			"class": "man",
-			"name": "autumn jacket",
-			"img": "../../images/card/man/man5.webp",
-			"price": "420",
-			"statu": false,
-			"colors": "brown",
-			"size": "8"
-		},
-		{
-			"id": "999008",
-			"type": "variant",
-			"master": "999000",
-			"class": "man",
-			"name": "autumn jacket",
-			"img": "../../images/card/man/man5.webp",
-			"price": "420",
-			"statu": false,
-			"colors": "brown",
-			"size": "10"
-		},
-		{
-			"id": "999009",
-			"type": "variant",
-			"master": "999000",
-			"class": "man",
-			"name": "autumn jacket",
-			"img": "../../images/card/man/man5.webp",
-			"price": "420",
-			"statu": false,
-			"colors": "brown",
-			"size": "12"
-		},
-		{
-			"id": "999010",
-			"type": "variant",
-			"master": "999000",
-			"class": "man",
-			"name": "autumn jacket",
-			"img": "../../images/card/man/man5.webp",
-			"price": "420",
-			"statu": false,
-			"colors": "blue",
-			"size": "8"
-		},
-		{
-			"id": "999011",
-			"type": "variant",
-			"master": "999000",
-			"class": "man",
-			"name": "autumn jacket",
-			"img": "../../images/card/man/man5.webp",
-			"price": "420",
-			"statu": false,
-			"colors": "blue",
-			"size": "10"
-		},
-		{
-			"id": "999012",
-			"type": "variant",
-			"master": "999000",
-			"class": "man",
-			"name": "autumn jacket",
-			"img": "../../images/card/man/man5.webp",
-			"price": "420",
-			"statu": false,
-			"colors": "blue",
-			"size": "12"
-		},
-		{
-			"id": "999013",
-			"type": "variant",
-			"master": "999000",
-			"class": "man",
-			"name": "autumn jacket",
-			"img": "../../images/card/man/man5.webp",
-			"price": "420",
-			"statu": false,
-			"colors": "blue",
-			"size": "14"
-		},
-		{
-			"id": "999014",
-			"type": "variant",
-			"master": "999000",
-			"class": "man",
-			"name": "autumn jacket",
-			"img": "../../images/card/man/man5.webp",
-			"price": "420",
-			"statu": false,
-			"colors": "white",
-			"size": "6"
-		},
-		{
-			"id": "999015",
-			"type": "variant",
-			"master": "999000",
-			"class": "man",
-			"name": "autumn jacket",
-			"img": "../../images/card/man/man5.webp",
-			"price": "420",
-			"statu": false,
-			"colors": "white",
-			"size": "8"
-		},
-		{
-			"id": "999016",
-			"type": "variant",
-			"master": "999000",
-			"class": "man",
-			"name": "autumn jacket",
-			"img": "../../images/card/man/man5.webp",
-			"price": "420",
-			"statu": false,
-			"colors": "white",
-			"size": "10"
-		},
-		{
-			"id": "999017",
-			"type": "variant",
-			"master": "999000",
-			"class": "man",
-			"name": "autumn jacket",
-			"img": "../../images/card/man/man5.webp",
-			"price": "420",
-			"statu": false,
-			"colors": "white",
-			"size": "12"
-		},
-		{
-			"id": "100000",
-			"type": "master",
-			"class": "man",
-			"category": "man-pants",
-			"name": "men's pants",
-			"img": "../../images/card/man/man6.webp",
-			"price": "40",
-			"statu": false,
-			"colors": [
-				{
-					"hexValue":"#0C0C0C",
-					"value":"black"
-				},
-				{
-					"hexValue":"#8E521B",
-					"value":"brown"
-				},
-				{
-					"hexValue":"#201A61",
-					"value":"blue"
-				},
-				{
-					"hexValue":"#FFFFFF",
-					"value":"white"
-				}
-					],
-					"size": [ 8, 10, 12, 14]
-		},
-		{
-			"id": "100001",
-			"type": "variant",
-			"master": "100000",
-			"class": "man",
-			"name": "men's pants",
-			"img": "../../images/card/man/man6.webp",
-			"price": "40",
-			"statu": false,
-			"colors": "black",
-			"size": "6"
-		},
-		{
-			"id": "100002",
-			"type": "variant",
-			"master": "100000",
-			"class": "man",
-			"name": "men's pants",
-			"img": "../../images/card/man/man6.webp",
-			"price": "40",
-			"statu": false,
-			"colors": "black",
-			"size": "8"
-		},
-		{
-			"id": "100003",
-			"type": "variant",
-			"master": "100000",
-			"class": "man",
-			"name": "men's pants",
-			"img": "../../images/card/man/man6.webp",
-			"price": "40",
-			"statu": false,
-			"colors": "black",
-			"size": "10"
-		},
-		{
-			"id": "100004",
-			"type": "variant",
-			"master": "100000",
-			"class": "man",
-			"name": "men's pants",
-			"img": "../../images/card/man/man6.webp",
-			"price": "40",
-			"statu": false,
-			"colors": "black",
-			"size": "12"
-		},
-		{
-			"id": "100005",
-			"type": "variant",
-			"master": "100000",
-			"class": "man",
-			"name": "men's pants",
-			"img": "../../images/card/man/man6.webp",
-			"price": "40",
-			"statu": false,
-			"colors": "black",
-			"size": "14"
-		},
-		{
-			"id": "100006",
-			"type": "variant",
-			"master": "100000",
-			"class": "man",
-			"name": "men's pants",
-			"img": "../../images/card/man/man6.webp",
-			"price": "40",
-			"statu": false,
-			"colors": "brown",
-			"size": "6"
-		},
-		{
-			"id": "100007",
-			"type": "variant",
-			"master": "100000",
-			"class": "man",
-			"name": "men's pants",
-			"img": "../../images/card/man/man6.webp",
-			"price": "40",
-			"statu": false,
-			"colors": "brown",
-			"size": "8"
-		},
-		{
-			"id": "100008",
-			"type": "variant",
-			"master": "100000",
-			"class": "man",
-			"name": "men's pants",
-			"img": "../../images/card/man/man6.webp",
-			"price": "40",
-			"statu": false,
-			"colors": "brown",
-			"size": "10"
-		},
-		{
-			"id": "100009",
-			"type": "variant",
-			"master": "100000",
-			"class": "man",
-			"name": "men's pants",
-			"img": "../../images/card/man/man6.webp",
-			"price": "40",
-			"statu": false,
-			"colors": "brown",
-			"size": "12"
-		},
-		{
-			"id": "100010",
-			"type": "variant",
-			"master": "100000",
-			"class": "man",
-			"name": "men's pants",
-			"img": "../../images/card/man/man6.webp",
-			"price": "40",
-			"statu": false,
-			"colors": "brown",
-			"size": "14"
-		},
-		{
-			"id": "100011",
-			"type": "variant",
-			"master": "100000",
-			"class": "man",
-			"name": "men's pants",
-			"img": "../../images/card/man/man6.webp",
-			"price": "40",
-			"statu": false,
-			"colors": "blue",
-			"size": "6"
-		},
-		{
-			"id": "100012",
-			"type": "variant",
-			"master": "100000",
-			"class": "man",
-			"name": "men's pants",
-			"img": "../../images/card/man/man6.webp",
-			"price": "40",
-			"statu": false,
-			"colors": "blue",
-			"size": "8"
-		},
-		{
-			"id": "100013",
-			"type": "variant",
-			"master": "100000",
-			"class": "man",
-			"name": "men's pants",
-			"img": "../../images/card/man/man6.webp",
-			"price": "40",
-			"statu": false,
-			"colors": "blue",
-			"size": "10"
-		},
-		{
-			"id": "100014",
-			"type": "variant",
-			"master": "100000",
-			"class": "man",
-			"name": "men's pants",
-			"img": "../../images/card/man/man6.webp",
-			"price": "40",
-			"statu": false,
-			"colors": "blue",
-			"size": "12"
-		},
-		{
-			"id": "100015",
-			"type": "variant",
-			"master": "100000",
-			"class": "man",
-			"name": "men's pants",
-			"img": "../../images/card/man/man6.webp",
-			"price": "40",
-			"statu": false,
-			"colors": "blue",
-			"size": "14"
-		},
-		{
-			"id": "100016",
-			"type": "variant",
-			"master": "100000",
-			"class": "man",
-			"name": "men's pants",
-			"img": "../../images/card/man/man6.webp",
-			"price": "40",
-			"statu": false,
-			"colors": "white",
-			"size": "6"
-		},
-		{
-			"id": "100017",
-			"type": "variant",
-			"master": "100000",
-			"class": "man",
-			"name": "men's pants",
-			"img": "../../images/card/man/man6.webp",
-			"price": "40",
-			"statu": false,
-			"colors": "white",
-			"size": "8"
-		},
-		{
-			"id": "100018",
-			"type": "variant",
-			"master": "100000",
-			"class": "man",
-			"name": "men's pants",
-			"img": "../../images/card/man/man6.webp",
-			"price": "40",
-			"statu": false,
-			"colors": "white",
-			"size": "10"
-		},
-		{
-			"id": "100019",
-			"type": "variant",
-			"master": "100000",
-			"class": "man",
-			"name": "men's pants",
-			"img": "../../images/card/man/man6.webp",
-			"price": "40",
-			"statu": false,
-			"colors": "white",
-			"size": "12"
-		}
+  "categories": {
+    "id": "root",
+    "childCategories": [
+      {
+        "id": "women",
+        "displayName": "Women Clothes",
+        "childCategories": [
+          {
+            "id": "women-dresses",
+            "displayName": "Women Dresses"
+          },
+          {
+            "id": "women-jeans",
+            "displayName": "Women jeans"
+          },
+          {
+            "id": "women-coat",
+            "displayName": "Women coat"
+          }
+        ]
+      },
+      {
+        "id": "man",
+        "displayName": "Men Clothes",
+        "childCategories": [
+          {
+            "id": "man-jaked",
+            "displayName": "Man jaked"
+          },
+          {
+            "id": "man-costume",
+            "displayName": "Man T-Shirts"
+          },
+          {
+            "id": "man-pants",
+            "displayName": "Man T-Shirts"
+          },
+          {
+            "id": "man-rousers",
+            "displayName": "Man T-Shirts"
+          }
+        ]
+      }
+    ]
+  },
+  "products": [
+    {
+      "id": "111111",
+      "type": "master",
+      "class": "woman",
+      "category": "women-dresses",
+      "name": "BROWN LAZER JAKET",
+      "img": "../../images/card/woman-desk1.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": [
+        {
+          "hexValue": "#0C0C0C",
+          "value": "black"
+        },
+        {
+          "hexValue": "#8E521B",
+          "value": "brown"
+        },
+        {
+          "hexValue": "#F22121",
+          "value": "red"
+        },
+        {
+          "hexValue": "#201A61",
+          "value": "blue"
+        },
+        {
+          "hexValue": "#FFFFFF",
+          "value": "white"
+        }
+      ],
+      "size": [6, 8, 10, 12, 14, 16]
+    },
+    {
+      "id": "111112",
+      "type": "variant",
+      "master": "111111",
+      "class": "woman",
+      "name": "Black LAZER JAKET",
+      "img": "../../images/card/woman-desk1.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "black",
+      "size": "6"
+    },
+    {
+      "id": "111113",
+      "type": "variant",
+      "master": "111111",
+      "class": "woman",
+      "name": "Black LAZER JAKET",
+      "img": "../../images/card/woman-desk1.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "black",
+      "size": "8"
+    },
+    {
+      "id": "111114",
+      "type": "variant",
+      "master": "111111",
+      "class": "woman",
+      "name": "black LAZER JAKET",
+      "img": "../../images/card/woman-desk1.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "black",
+      "size": "10"
+    },
+    {
+      "id": "111115",
+      "type": "variant",
+      "master": "111111",
+      "class": "woman",
+      "name": "black LAZER JAKET",
+      "img": "../../images/card/woman-desk1.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "black",
+      "size": "12"
+    },
+    {
+      "id": "111116",
+      "type": "variant",
+      "master": "111111",
+      "class": "woman",
+      "name": "black LAZER JAKET",
+      "img": "../../images/card/woman-desk1.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "black",
+      "size": "14"
+    },
+    {
+      "id": "111117",
+      "type": "variant",
+      "master": "111111",
+      "class": "woman",
+      "name": "black LAZER JAKET",
+      "img": "../../images/card/woman-desk1.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "black",
+      "size": "16"
+    },
+    {
+      "id": "111118",
+      "type": "variant",
+      "master": "111111",
+      "class": "woman",
+      "name": "BROWN LAZER JAKET",
+      "img": "../../images/card/woman-desk1.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "brown",
+      "size": "8"
+    },
+    {
+      "id": "111119",
+      "type": "variant",
+      "master": "111111",
+      "class": "woman",
+      "name": "BROWN LAZER JAKET",
+      "img": "../../images/card/woman-desk1.jpg",
+      "price": "200",
+      "statu": false,
+      "colors": "brown",
+      "size": "12"
+    },
+    {
+      "id": "111120",
+      "type": "variant",
+      "master": "111111",
+      "class": "woman",
+      "name": "BROWN LAZER JAKET",
+      "img": "../../images/card/woman-desk1.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "brown",
+      "size": "14"
+    },
+    {
+      "id": "111121",
+      "type": "variant",
+      "master": "111111",
+      "class": "woman",
+      "name": "red LAZER JAKET",
+      "img": "../../images/card/woman-desk1.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "red",
+      "size": "10"
+    },
+    {
+      "id": "111122",
+      "type": "variant",
+      "master": "111111",
+      "class": "woman",
+      "name": "red LAZER JAKET",
+      "img": "../../images/card/woman-desk1.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "red",
+      "size": "12"
+    },
+    {
+      "id": "111123",
+      "type": "variant",
+      "master": "111111",
+      "class": "woman",
+      "name": "red LAZER JAKET",
+      "img": "../../images/card/woman-desk1.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "red",
+      "size": "16"
+    },
+    {
+      "id": "111124",
+      "type": "variant",
+      "master": "111111",
+      "class": "woman",
+      "name": "blue LAZER JAKET",
+      "img": "../../images/card/woman-desk1.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "blue",
+      "size": "8"
+    },
+    {
+      "id": "111125",
+      "type": "variant",
+      "master": "111111",
+      "class": "woman",
+      "name": "blue LAZER JAKET",
+      "img": "../../images/card/woman-desk1.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "blue",
+      "size": "10"
+    },
+    {
+      "id": "111126",
+      "type": "variant",
+      "master": "111111",
+      "class": "woman",
+      "name": "blue LAZER JAKET",
+      "img": "../../images/card/woman-desk1.jpg",
+      "price": "440",
+      "statu": false,
+      "colors": "blue",
+      "size": "12"
+    },
+    {
+      "id": "111127",
+      "type": "variant",
+      "master": "111111",
+      "class": "woman",
+      "name": "white LAZER JAKET",
+      "img": "../../images/card/woman-desk1.jpg",
+      "price": "540",
+      "statu": false,
+      "colors": "white",
+      "size": "8"
+    },
+    {
+      "id": "111128",
+      "type": "variant",
+      "master": "111111",
+      "class": "woman",
+      "name": "white LAZER JAKET",
+      "img": "../../images/card/woman-desk1.jpg",
+      "price": "540",
+      "statu": false,
+      "colors": "white",
+      "size": "10"
+    },
+    {
+      "id": "111129",
+      "type": "variant",
+      "master": "111111",
+      "class": "woman",
+      "name": "white LAZER JAKET",
+      "img": "../../images/card/woman-desk1.jpg",
+      "price": "540",
+      "statu": false,
+      "colors": "white",
+      "size": "12"
+    },
+    {
+      "id": "222222",
+      "class": "woman",
+      "type": "master",
+      "name": "black JAKET",
+      "category": "women-dresses",
+      "img": "../../images/card/woman-desk2.jpg",
+      "price": "360",
+      "statu": false,
+      "colors": [
+        {
+          "hexValue": "#0C0C0C",
+          "value": "black"
+        },
+        {
+          "hexValue": "#8E521B",
+          "value": "brown"
+        },
+        {
+          "hexValue": "#F22121",
+          "value": "red"
+        },
+        {
+          "hexValue": "#201A61",
+          "value": "blue"
+        },
+        {
+          "hexValue": "#FFFFFF",
+          "value": "white"
+        }
+      ],
+      "size": [6, 8, 10, 12, 14, 16]
+    },
+    {
+      "id": "222223",
+      "type": "variant",
+      "class": "woman",
+      "master": "222222",
+      "name": "black JAKET",
+      "img": "../../images/card/woman-desk2.jpg",
+      "price": "360",
+      "statu": false,
+      "colors": "black",
+      "size": "10"
+    },
+    {
+      "id": "222224",
+      "type": "variant",
+      "class": "woman",
+      "master": "222222",
+      "name": "black JAKET",
+      "img": "../../images/card/woman-desk2.jpg",
+      "price": "360",
+      "statu": false,
+      "colors": "black",
+      "size": "12"
+    },
+    {
+      "id": "222225",
+      "type": "variant",
+      "class": "woman",
+      "master": "222222",
+      "name": "black JAKET",
+      "img": "../../images/card/woman-desk2.jpg",
+      "price": "360",
+      "statu": false,
+      "colors": "black",
+      "size": "14"
+    },
+    {
+      "id": "222226",
+      "type": "variant",
+      "class": "woman",
+      "master": "222222",
+      "name": "brown JAKET",
+      "img": "../../images/card/woman-desk2.jpg",
+      "price": "360",
+      "statu": false,
+      "colors": "brown",
+      "size": "8"
+    },
+    {
+      "id": "222227",
+      "type": "variant",
+      "class": "woman",
+      "master": "222222",
+      "name": "brown JAKET",
+      "img": "../../images/card/woman-desk2.jpg",
+      "price": "360",
+      "statu": false,
+      "colors": "brown",
+      "size": "10"
+    },
+    {
+      "id": "222228",
+      "type": "variant",
+      "class": "woman",
+      "master": "222222",
+      "name": "brown JAKET",
+      "img": "../../images/card/woman-desk2.jpg",
+      "price": "360",
+      "statu": false,
+      "colors": "brown",
+      "size": "12"
+    },
+    {
+      "id": "222229",
+      "type": "variant",
+      "class": "woman",
+      "master": "222222",
+      "name": "brown JAKET",
+      "img": "../../images/card/woman-desk2.jpg",
+      "price": "360",
+      "statu": false,
+      "colors": "brown",
+      "size": "14"
+    },
+    {
+      "id": "222230",
+      "type": "variant",
+      "class": "woman",
+      "master": "222222",
+      "name": "red JAKET",
+      "img": "../../images/card/woman-desk2.jpg",
+      "price": "360",
+      "statu": false,
+      "colors": "red",
+      "size": "8"
+    },
+    {
+      "id": "222231",
+      "type": "variant",
+      "class": "woman",
+      "master": "222222",
+      "name": "red JAKET",
+      "img": "../../images/card/woman-desk2.jpg",
+      "price": "360",
+      "statu": false,
+      "colors": "red",
+      "size": "10"
+    },
+    {
+      "id": "222232",
+      "type": "variant",
+      "class": "woman",
+      "master": "222222",
+      "name": "red JAKET",
+      "img": "../../images/card/woman-desk2.jpg",
+      "price": "360",
+      "statu": false,
+      "colors": "red",
+      "size": "14"
+    },
+    {
+      "id": "222233",
+      "type": "variant",
+      "class": "woman",
+      "master": "222222",
+      "name": "blue JAKET",
+      "img": "../../images/card/woman-desk2.jpg",
+      "price": "260",
+      "statu": false,
+      "colors": "blue",
+      "size": "8"
+    },
+    {
+      "id": "222234",
+      "type": "variant",
+      "class": "woman",
+      "master": "222222",
+      "name": "blue JAKET",
+      "img": "../../images/card/woman-desk2.jpg",
+      "price": "260",
+      "statu": false,
+      "colors": "blue",
+      "size": "10"
+    },
+    {
+      "id": "222235",
+      "type": "variant",
+      "class": "woman",
+      "master": "222222",
+      "name": "blue JAKET",
+      "img": "../../images/card/woman-desk2.jpg",
+      "price": "250",
+      "statu": false,
+      "colors": "blue",
+      "size": "14"
+    },
+    {
+      "id": "222236",
+      "type": "variant",
+      "class": "woman",
+      "master": "222222",
+      "name": "WHITE JAKET",
+      "img": "../../images/card/woman-desk2.jpg",
+      "price": "360",
+      "statu": false,
+      "colors": "white",
+      "size": "8"
+    },
+    {
+      "id": "222237",
+      "type": "variant",
+      "class": "woman",
+      "master": "222222",
+      "name": "WHITE JAKET",
+      "img": "../../images/card/woman-desk2.jpg",
+      "price": "360",
+      "statu": false,
+      "colors": "white",
+      "size": "8"
+    },
+    {
+      "id": "222238",
+      "type": "variant",
+      "class": "woman",
+      "master": "222222",
+      "name": "WHITE JAKET",
+      "img": "../../images/card/woman-desk2.jpg",
+      "price": "360",
+      "statu": false,
+      "colors": "white",
+      "size": "10"
+    },
+    {
+      "id": "222239",
+      "type": "variant",
+      "class": "woman",
+      "master": "222222",
+      "name": "WHITE JAKET",
+      "img": "../../images/card/woman-desk2.jpg",
+      "price": "360",
+      "statu": false,
+      "colors": "white",
+      "size": "12"
+    },
+    {
+      "id": "333330",
+      "class": "woman",
+      "type": "master",
+      "name": "JAKET",
+      "category": "women-dresses",
+      "img": "../../images/card/woman-desk3.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": [
+        {
+          "hexValue": "#0C0C0C",
+          "value": "black"
+        },
+        {
+          "hexValue": "#8E521B",
+          "value": "brown"
+        },
+        {
+          "hexValue": "#F22121",
+          "value": "red"
+        },
+        {
+          "hexValue": "#201A61",
+          "value": "blue"
+        },
+        {
+          "hexValue": "#FFFFFF",
+          "value": "white"
+        }
+      ],
+      "size": [6, 8, 10, 12, 14, 16]
+    },
+    {
+      "id": "333331",
+      "type": "variant",
+      "class": "woman",
+      "master": "333330",
+      "name": "JAKET",
+      "img": "../../images/card/woman-desk3.jpg",
+      "price": "660",
+      "statu": false,
+      "colors": "black",
+      "size": "8"
+    },
+    {
+      "id": "333332",
+      "type": "variant",
+      "class": "woman",
+      "master": "333330",
+      "name": "JAKET",
+      "img": "../../images/card/woman-desk3.jpg",
+      "price": "630",
+      "statu": false,
+      "colors": "black",
+      "size": "10"
+    },
+    {
+      "id": "333333",
+      "type": "variant",
+      "class": "woman",
+      "master": "333330",
+      "name": "JAKET",
+      "img": "../../images/card/woman-desk3.jpg",
+      "price": "620",
+      "statu": false,
+      "colors": "brown",
+      "size": "8"
+    },
+    {
+      "id": "333334",
+      "type": "variant",
+      "class": "woman",
+      "master": "333330",
+      "name": "JAKET",
+      "img": "../../images/card/woman-desk3.jpg",
+      "price": "620",
+      "statu": false,
+      "colors": "brown",
+      "size": "12"
+    },
+    {
+      "id": "333335",
+      "type": "variant",
+      "class": "woman",
+      "master": "333330",
+      "name": "JAKET",
+      "img": "../../images/card/woman-desk3.jpg",
+      "price": "620",
+      "statu": false,
+      "colors": "brown",
+      "size": "14"
+    },
+    {
+      "id": "333336",
+      "type": "variant",
+      "class": "woman",
+      "master": "333330",
+      "name": "JAKET",
+      "img": "../../images/card/woman-desk3.jpg",
+      "price": "620",
+      "statu": false,
+      "colors": "red",
+      "size": "10"
+    },
+    {
+      "id": "333337",
+      "type": "variant",
+      "class": "woman",
+      "master": "333330",
+      "name": "JAKET",
+      "img": "../../images/card/woman-desk3.jpg",
+      "price": "620",
+      "statu": false,
+      "colors": "red",
+      "size": "14"
+    },
+    {
+      "id": "333338",
+      "type": "variant",
+      "class": "woman",
+      "master": "333330",
+      "name": "JAKET",
+      "img": "../../images/card/woman-desk3.jpg",
+      "price": "650",
+      "statu": false,
+      "colors": "blue",
+      "size": "8"
+    },
+    {
+      "id": "333339",
+      "type": "variant",
+      "class": "woman",
+      "master": "333330",
+      "name": "JAKET",
+      "img": "../../images/card/woman-desk3.jpg",
+      "price": "620",
+      "statu": false,
+      "colors": "blue",
+      "size": "10"
+    },
+    {
+      "id": "333340",
+      "type": "variant",
+      "class": "woman",
+      "master": "333330",
+      "name": "JAKET",
+      "img": "../../images/card/woman-desk3.jpg",
+      "price": "625",
+      "statu": false,
+      "colors": "blue",
+      "size": "12"
+    },
+    {
+      "id": "333341",
+      "type": "variant",
+      "class": "woman",
+      "master": "333330",
+      "name": "JAKET",
+      "img": "../../images/card/woman-desk3.jpg",
+      "price": "620",
+      "statu": false,
+      "colors": "blue",
+      "size": "14"
+    },
+    {
+      "id": "333342",
+      "type": "variant",
+      "class": "woman",
+      "master": "333330",
+      "name": "JAKET",
+      "img": "../../images/card/woman-desk3.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "white",
+      "size": "8"
+    },
+    {
+      "id": "333343",
+      "type": "variant",
+      "class": "woman",
+      "master": "333330",
+      "name": "JAKET",
+      "img": "../../images/card/woman-desk3.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "white",
+      "size": "10"
+    },
+    {
+      "id": "333344",
+      "type": "variant",
+      "class": "woman",
+      "master": "333330",
+      "name": "JAKET",
+      "img": "../../images/card/woman-desk3.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "white",
+      "size": "12"
+    },
+    {
+      "id": "333345",
+      "type": "variant",
+      "class": "woman",
+      "master": "333330",
+      "name": "JAKET",
+      "img": "../../images/card/woman-desk3.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "white",
+      "size": "14"
+    },
+    {
+      "id": "444440",
+      "type": "master",
+      "class": "woman",
+      "category": "women-jeans",
+      "name": "jeans",
+      "img": "../../images/card/woman-desk4.jpg",
+      "price": "40",
+      "statu": false,
+      "colors": [
+        {
+          "hexValue": "#0C0C0C",
+          "value": "black"
+        },
+        {
+          "hexValue": "#8E521B",
+          "value": "brown"
+        },
+        {
+          "hexValue": "#201A61",
+          "value": "blue"
+        }
+      ],
+      "size": [6, 8, 10, 12]
+    },
+    {
+      "id": "444441",
+      "type": "variant",
+      "master": "444440",
+      "class": "woman",
+      "name": "jeans",
+      "img": "../../images/card/woman-desk4.jpg",
+      "price": "40",
+      "statu": false,
+      "colors": "black",
+      "size": "6"
+    },
+    {
+      "id": "444442",
+      "type": "variant",
+      "master": "444440",
+      "class": "woman",
+      "name": "jeans",
+      "img": "../../images/card/woman-desk4.jpg",
+      "price": "40",
+      "statu": false,
+      "colors": "black",
+      "size": "8"
+    },
+    {
+      "id": "444443",
+      "type": "variant",
+      "master": "444440",
+      "class": "woman",
+      "name": "jeans",
+      "img": "../../images/card/woman-desk4.jpg",
+      "price": "35",
+      "statu": false,
+      "colors": "black",
+      "size": "10"
+    },
+    {
+      "id": "444444",
+      "type": "variant",
+      "master": "444440",
+      "class": "woman",
+      "name": "jeans",
+      "img": "../../images/card/woman-desk4.jpg",
+      "price": "39",
+      "statu": false,
+      "colors": "black",
+      "size": "12"
+    },
+    {
+      "id": "444445",
+      "type": "variant",
+      "master": "444440",
+      "class": "woman",
+      "name": "jeans",
+      "img": "../../images/card/woman-desk4.jpg",
+      "price": "14 sconto",
+      "statu": false,
+      "colors": "brown",
+      "size": "6"
+    },
+    {
+      "id": "444446",
+      "type": "variant",
+      "master": "444440",
+      "class": "woman",
+      "name": "jeans",
+      "img": "../../images/card/woman-desk4.jpg",
+      "price": "34",
+      "statu": false,
+      "colors": "brown",
+      "size": "8"
+    },
+    {
+      "id": "444407",
+      "type": "variant",
+      "master": "444440",
+      "class": "woman",
+      "name": "jeans",
+      "img": "../../images/card/woman-desk4.jpg",
+      "price": "34",
+      "statu": false,
+      "colors": "brown",
+      "size": "10"
+    },
+    {
+      "id": "444408",
+      "type": "variant",
+      "master": "444440",
+      "class": "woman",
+      "name": "jeans",
+      "img": "../../images/card/woman-desk4.jpg",
+      "price": "25",
+      "statu": false,
+      "colors": "brown",
+      "size": "12"
+    },
+    {
+      "id": "444409",
+      "type": "variant",
+      "master": "444440",
+      "class": "woman",
+      "name": "jeans",
+      "img": "../../images/card/woman-desk4.jpg",
+      "price": "25",
+      "statu": false,
+      "colors": "brown",
+      "size": "14"
+    },
+    {
+      "id": "444449",
+      "type": "variant",
+      "master": "444440",
+      "class": "woman",
+      "name": "jeans",
+      "img": "../../images/card/woman-desk4.jpg",
+      "price": "36",
+      "statu": false,
+      "colors": "blue",
+      "size": "8"
+    },
+    {
+      "id": "444450",
+      "type": "variant",
+      "master": "444440",
+      "class": "woman",
+      "name": "jeans",
+      "img": "../../images/card/woman-desk4.jpg",
+      "price": "36",
+      "statu": false,
+      "colors": "blue",
+      "size": "10"
+    },
+    {
+      "id": "444451",
+      "type": "variant",
+      "master": "444440",
+      "class": "woman",
+      "name": "jeans",
+      "img": "../../images/card/woman-desk4.jpg",
+      "price": "39",
+      "statu": false,
+      "colors": "white",
+      "size": "6"
+    },
+    {
+      "id": "444452",
+      "type": "variant",
+      "master": "444440",
+      "class": "woman",
+      "name": "jeans",
+      "img": "../../images/card/woman-desk4.jpg",
+      "price": "39",
+      "statu": false,
+      "colors": "white",
+      "size": "8"
+    },
+    {
+      "id": "444453",
+      "type": "variant",
+      "master": "444440",
+      "class": "woman",
+      "name": "jeans",
+      "img": "../../images/card/woman-desk4.jpg",
+      "price": "39",
+      "statu": false,
+      "colors": "white",
+      "size": "10"
+    },
+    {
+      "id": "444454",
+      "type": "variant",
+      "master": "444440",
+      "class": "woman",
+      "name": "jeans",
+      "img": "../../images/card/woman-desk4.jpg",
+      "price": "39",
+      "statu": false,
+      "colors": "white",
+      "size": "12"
+    },
+    {
+      "id": "444455",
+      "type": "variant",
+      "master": "444440",
+      "class": "woman",
+      "name": "jeans",
+      "img": "../../images/card/woman-desk4.jpg",
+      "price": "39",
+      "statu": false,
+      "colors": "white",
+      "size": "14"
+    },
+    {
+      "id": "444001",
+      "type": "master",
+      "class": "woman",
+      "category": "women-dresses",
+      "name": "lazer jaket",
+      "img": "../../images/card/woman-desk5.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": [
+        {
+          "hexValue": "#0C0C0C",
+          "value": "black"
+        },
+        {
+          "hexValue": "#8E521B",
+          "value": "brown"
+        },
+        {
+          "hexValue": "#201A61",
+          "value": "blue"
+        },
 
+        {
+          "hexValue": "#FFFFFF",
+          "value": "white"
+        }
+      ],
+      "size": [6, 8, 10, 12]
+    },
+    {
+      "id": "444002",
+      "type": "variant",
+      "master": "444001",
+      "class": "woman",
+      "name": "lazer jaket",
+      "img": "../../images/card/woman-desk5.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "black",
+      "size": "6"
+    },
+    {
+      "id": "444003",
+      "type": "variant",
+      "master": "444001",
+      "class": "woman",
+      "name": "lazer jaket",
+      "img": "../../images/card/woman-desk5.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "black",
+      "size": "8"
+    },
+    {
+      "id": "444004",
+      "type": "variant",
+      "master": "444001",
+      "class": "woman",
+      "name": "lazer jaket",
+      "img": "../../images/card/woman-desk5.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "black",
+      "size": "10"
+    },
+    {
+      "id": "444005",
+      "type": "variant",
+      "master": "444001",
+      "class": "woman",
+      "name": "lazer jaket",
+      "img": "../../images/card/woman-desk5.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "black",
+      "size": "12"
+    },
+    {
+      "id": "444006",
+      "type": "variant",
+      "master": "444001",
+      "class": "woman",
+      "name": "lazer jaket",
+      "img": "../../images/card/woman-desk5.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "brown",
+      "size": "6"
+    },
+    {
+      "id": "444007",
+      "type": "variant",
+      "master": "444001",
+      "class": "woman",
+      "name": "lazer jaket",
+      "img": "../../images/card/woman-desk5.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "brown",
+      "size": "8"
+    },
+    {
+      "id": "444008",
+      "type": "variant",
+      "master": "444001",
+      "class": "woman",
+      "name": "lazer jaket",
+      "img": "../../images/card/woman-desk5.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "brown",
+      "size": "10"
+    },
+    {
+      "id": "444009",
+      "type": "variant",
+      "master": "444001",
+      "class": "woman",
+      "name": "lazer jaket",
+      "img": "../../images/card/woman-desk5.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "brown",
+      "size": "12"
+    },
+    {
+      "id": "444010",
+      "type": "variant",
+      "master": "444001",
+      "class": "woman",
+      "name": "lazer jaket",
+      "img": "../../images/card/woman-desk5.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "blue",
+      "size": "6"
+    },
+    {
+      "id": "444011",
+      "type": "variant",
+      "master": "444001",
+      "class": "woman",
+      "name": "lazer jaket",
+      "img": "../../images/card/woman-desk5.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "blue",
+      "size": "8"
+    },
+    {
+      "id": "444012",
+      "type": "variant",
+      "master": "444001",
+      "class": "woman",
+      "name": "lazer jaket",
+      "img": "../../images/card/woman-desk5.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "blue",
+      "size": "10"
+    },
+    {
+      "id": "444013",
+      "type": "variant",
+      "master": "444001",
+      "class": "woman",
+      "name": "lazer jaket",
+      "img": "../../images/card/woman-desk5.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "blue",
+      "size": "12"
+    },
+    {
+      "id": "444014",
+      "type": "variant",
+      "master": "444001",
+      "class": "woman",
+      "name": "lazer jaket",
+      "img": "../../images/card/woman-desk5.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "white",
+      "size": "8"
+    },
+    {
+      "id": "444015",
+      "type": "variant",
+      "master": "444001",
+      "class": "woman",
+      "name": "lazer jaket",
+      "img": "../../images/card/woman-desk5.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "white",
+      "size": "10"
+    },
+    {
+      "id": "444016",
+      "type": "variant",
+      "master": "444001",
+      "class": "woman",
+      "name": "lazer jaket",
+      "img": "../../images/card/woman-desk5.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "white",
+      "size": "12"
+    },
+    {
+      "id": "400001",
+      "type": "master",
+      "class": "woman",
+      "category": "women-coat",
+      "name": "grey coat",
+      "img": "../../images/card/woman6.jpg",
+      "price": "340",
+      "statu": false,
+      "colors": [
+        {
+          "hexValue": "#0C0C0C",
+          "value": "black"
+        },
+        {
+          "hexValue": "#8E521B",
+          "value": "brown"
+        },
+        {
+          "hexValue": "#201A61",
+          "value": "blue"
+        },
 
-	]
-
-
+        {
+          "hexValue": "#FFFFFF",
+          "value": "white"
+        }
+      ],
+      "size": [6, 8, 10, 12]
+    },
+    {
+      "id": "400002",
+      "type": "variant",
+      "master": "400001",
+      "class": "woman",
+      "name": "grey coat",
+      "img": "../../images/card/woman6.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "black",
+      "size": "8"
+    },
+    {
+      "id": "400003",
+      "type": "variant",
+      "master": "400001",
+      "class": "woman",
+      "name": "grey coat",
+      "img": "../../images/card/woman6.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "black",
+      "size": "10"
+    },
+    {
+      "id": "400004",
+      "type": "variant",
+      "master": "400001",
+      "class": "woman",
+      "name": "grey coat",
+      "img": "../../images/card/woman6.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "black",
+      "size": "12"
+    },
+    {
+      "id": "400005",
+      "type": "variant",
+      "master": "400001",
+      "class": "woman",
+      "name": "grey coat",
+      "img": "../../images/card/woman6.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "black",
+      "size": "14"
+    },
+    {
+      "id": "400006",
+      "type": "variant",
+      "master": "400001",
+      "class": "woman",
+      "name": "grey coat",
+      "img": "../../images/card/woman6.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "brown",
+      "size": "6"
+    },
+    {
+      "id": "400007",
+      "type": "variant",
+      "master": "400001",
+      "class": "woman",
+      "name": "grey coat",
+      "img": "../../images/card/woman6.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "brown",
+      "size": "8"
+    },
+    {
+      "id": "400008",
+      "type": "variant",
+      "master": "400001",
+      "class": "woman",
+      "name": "grey coat",
+      "img": "../../images/card/woman6.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "brown",
+      "size": "10"
+    },
+    {
+      "id": "400009",
+      "type": "variant",
+      "master": "400001",
+      "class": "woman",
+      "name": "grey coat",
+      "img": "../../images/card/woman6.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "brown",
+      "size": "12"
+    },
+    {
+      "id": "400010",
+      "type": "variant",
+      "master": "400001",
+      "class": "woman",
+      "name": "grey coat",
+      "img": "../../images/card/woman6.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "blue",
+      "size": "6"
+    },
+    {
+      "id": "400011",
+      "type": "variant",
+      "master": "400001",
+      "class": "woman",
+      "name": "grey coat",
+      "img": "../../images/card/woman6.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "blue",
+      "size": "8"
+    },
+    {
+      "id": "400012",
+      "type": "variant",
+      "master": "400001",
+      "class": "woman",
+      "name": "grey coat",
+      "img": "../../images/card/woman6.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "blue",
+      "size": "10"
+    },
+    {
+      "id": "400013",
+      "type": "variant",
+      "master": "400001",
+      "class": "woman",
+      "name": "grey coat",
+      "img": "../../images/card/woman6.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "blue",
+      "size": "14"
+    },
+    {
+      "id": "400014",
+      "type": "variant",
+      "master": "400001",
+      "class": "woman",
+      "name": "grey coat",
+      "img": "../../images/card/woman6.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "white",
+      "size": "6"
+    },
+    {
+      "id": "400015",
+      "type": "variant",
+      "master": "400001",
+      "class": "woman",
+      "name": "grey coat",
+      "img": "../../images/card/woman6.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "white",
+      "size": "8"
+    },
+    {
+      "id": "400016",
+      "type": "variant",
+      "master": "400001",
+      "class": "woman",
+      "name": "grey coat",
+      "img": "../../images/card/woman6.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "white",
+      "size": "12"
+    },
+    {
+      "id": "400017",
+      "type": "variant",
+      "master": "400001",
+      "class": "woman",
+      "name": "grey coat",
+      "img": "../../images/card/woman6.jpg",
+      "price": "640",
+      "statu": false,
+      "colors": "white",
+      "size": "14"
+    },
+    {
+      "id": "555000",
+      "type": "master",
+      "class": "man",
+      "category": "man-jaked",
+      "name": "jacket",
+      "img": "../../images/card/man/man1.webp",
+      "price": "330",
+      "statu": false,
+      "colors": [
+        {
+          "hexValue": "#0C0C0C",
+          "value": "black"
+        },
+        {
+          "hexValue": "#8E521B",
+          "value": "brown"
+        },
+        {
+          "hexValue": "#201A61",
+          "value": "blue"
+        },
+        {
+          "hexValue": "#F22121",
+          "value": "red"
+        },
+        {
+          "hexValue": "#FFFFFF",
+          "value": "white"
+        }
+      ],
+      "size": [6, 8, 10, 12, 14]
+    },
+    {
+      "id": "555001",
+      "type": "variant",
+      "master": "555000",
+      "class": "man",
+      "name": "jeans",
+      "img": "../../images/card/man/man1.webp",
+      "price": "330",
+      "statu": false,
+      "colors": "black",
+      "size": "6"
+    },
+    {
+      "id": "555002",
+      "type": "variant",
+      "master": "555000",
+      "class": "man",
+      "name": "jeans",
+      "img": "../../images/card/man/man1.webp",
+      "price": "330",
+      "statu": false,
+      "colors": "black",
+      "size": "8"
+    },
+    {
+      "id": "555003",
+      "type": "variant",
+      "master": "555000",
+      "class": "man",
+      "name": "jeans",
+      "img": "../../images/card/man/man1.webp",
+      "price": "330",
+      "statu": false,
+      "colors": "black",
+      "size": "10"
+    },
+    {
+      "id": "555004",
+      "type": "variant",
+      "master": "555000",
+      "class": "man",
+      "name": "jeans",
+      "img": "../../images/card/man/man1.webp",
+      "price": "320",
+      "statu": false,
+      "colors": "black",
+      "size": "12"
+    },
+    {
+      "id": "555005",
+      "type": "variant",
+      "master": "555000",
+      "class": "man",
+      "name": "jeans",
+      "img": "../../images/card/man/man1.webp",
+      "price": "300",
+      "statu": false,
+      "colors": "brown",
+      "size": "8"
+    },
+    {
+      "id": "555006",
+      "type": "variant",
+      "master": "555000",
+      "class": "man",
+      "name": "jeans",
+      "img": "../../images/card/man/man1.webp",
+      "price": "300",
+      "statu": false,
+      "colors": "brown",
+      "size": "10"
+    },
+    {
+      "id": "555007",
+      "type": "variant",
+      "master": "555000",
+      "class": "man",
+      "name": "jeans",
+      "img": "../../images/card/man/man1.webp",
+      "price": "300",
+      "statu": false,
+      "colors": "brown",
+      "size": "12"
+    },
+    {
+      "id": "555008",
+      "type": "variant",
+      "master": "555000",
+      "class": "man",
+      "name": "jeans",
+      "img": "../../images/card/man/man1.webp",
+      "price": "310",
+      "statu": false,
+      "colors": "red",
+      "size": "6"
+    },
+    {
+      "id": "555009",
+      "type": "variant",
+      "master": "555000",
+      "class": "man",
+      "name": "jeans",
+      "img": "../../images/card/man/man1.webp",
+      "price": "310",
+      "statu": false,
+      "colors": "red",
+      "size": "8"
+    },
+    {
+      "id": "555010",
+      "type": "variant",
+      "master": "555000",
+      "class": "man",
+      "name": "jeans",
+      "img": "../../images/card/man/man1.webp",
+      "price": "310",
+      "statu": false,
+      "colors": "red",
+      "size": "10"
+    },
+    {
+      "id": "555011",
+      "type": "variant",
+      "master": "555000",
+      "class": "man",
+      "name": "jeans",
+      "img": "../../images/card/man/man1.webp",
+      "price": "350",
+      "statu": false,
+      "colors": "blue",
+      "size": "6"
+    },
+    {
+      "id": "555012",
+      "type": "variant",
+      "master": "555000",
+      "class": "man",
+      "name": "jeans",
+      "img": "../../images/card/man/man1.webp",
+      "price": "350",
+      "statu": false,
+      "colors": "blue",
+      "size": "8"
+    },
+    {
+      "id": "555013",
+      "type": "variant",
+      "master": "555000",
+      "class": "man",
+      "name": "jeans",
+      "img": "../../images/card/man/man1.webp",
+      "price": "350",
+      "statu": false,
+      "colors": "blue",
+      "size": "10"
+    },
+    {
+      "id": "555014",
+      "type": "variant",
+      "master": "555000",
+      "class": "man",
+      "name": "jeans",
+      "img": "../../images/card/man/man1.webp",
+      "price": "350",
+      "statu": false,
+      "colors": "blue",
+      "size": "12"
+    },
+    {
+      "id": "555015",
+      "type": "variant",
+      "master": "555000",
+      "class": "man",
+      "name": "jeans",
+      "img": "../../images/card/man/man1.webp",
+      "price": "350",
+      "statu": false,
+      "colors": "white",
+      "size": "6"
+    },
+    {
+      "id": "555016",
+      "type": "variant",
+      "master": "555000",
+      "class": "man",
+      "name": "jeans",
+      "img": "../../images/card/man/man1.webp",
+      "price": "350",
+      "statu": false,
+      "colors": "white",
+      "size": "8"
+    },
+    {
+      "id": "555017",
+      "type": "variant",
+      "master": "555000",
+      "class": "man",
+      "name": "jeans",
+      "img": "../../images/card/man/man1.webp",
+      "price": "350",
+      "statu": false,
+      "colors": "white",
+      "size": "10"
+    },
+    {
+      "id": "555018",
+      "type": "variant",
+      "master": "555000",
+      "class": "man",
+      "name": "jeans",
+      "img": "../../images/card/man/man1.webp",
+      "price": "350",
+      "statu": false,
+      "colors": "white",
+      "size": "12"
+    },
+    {
+      "id": "555019",
+      "type": "variant",
+      "master": "555000",
+      "class": "man",
+      "name": "jeans",
+      "img": "../../images/card/man/man1.webp",
+      "price": "350",
+      "statu": false,
+      "colors": "white",
+      "size": "14"
+    },
+    {
+      "id": "666000",
+      "type": "master",
+      "class": "man",
+      "category": "man-jaked",
+      "name": "men's vest",
+      "img": "../../images/card/man/man2.webp",
+      "price": "430",
+      "statu": false,
+      "colors": [
+        {
+          "hexValue": "#0C0C0C",
+          "value": "black"
+        },
+        {
+          "hexValue": "#8E521B",
+          "value": "brown"
+        },
+        {
+          "hexValue": "#201A61",
+          "value": "blue"
+        },
+        {
+          "hexValue": "#F22121",
+          "value": "red"
+        },
+        {
+          "hexValue": "#FFFFFF",
+          "value": "white"
+        }
+      ],
+      "size": [8, 10, 12, 14]
+    },
+    {
+      "id": "666001",
+      "type": "variant",
+      "master": "666000",
+      "class": "man",
+      "name": "men's vest",
+      "img": "../../images/card/man/man2.webp",
+      "price": "430",
+      "statu": false,
+      "colors": "black",
+      "size": "6"
+    },
+    {
+      "id": "666002",
+      "type": "variant",
+      "master": "666000",
+      "class": "man",
+      "name": "men's vest",
+      "img": "../../images/card/man/man2.webp",
+      "price": "430",
+      "statu": false,
+      "colors": "black",
+      "size": "8"
+    },
+    {
+      "id": "666003",
+      "type": "variant",
+      "master": "666000",
+      "class": "man",
+      "name": "men's vest",
+      "img": "../../images/card/man/man2.webp",
+      "price": "430",
+      "statu": false,
+      "colors": "black",
+      "size": "10"
+    },
+    {
+      "id": "666004",
+      "type": "variant",
+      "master": "666000",
+      "class": "man",
+      "name": "men's vest",
+      "img": "../../images/card/man/man2.webp",
+      "price": "430",
+      "statu": false,
+      "colors": "black",
+      "size": "12"
+    },
+    {
+      "id": "666005",
+      "type": "variant",
+      "master": "666000",
+      "class": "man",
+      "name": "men's vest",
+      "img": "../../images/card/man/man2.webp",
+      "price": "430",
+      "statu": false,
+      "colors": "brown",
+      "size": "8"
+    },
+    {
+      "id": "666006",
+      "type": "variant",
+      "master": "666000",
+      "class": "man",
+      "name": "men's vest",
+      "img": "../../images/card/man/man2.webp",
+      "price": "430",
+      "statu": false,
+      "colors": "brown",
+      "size": "10"
+    },
+    {
+      "id": "666007",
+      "type": "variant",
+      "master": "666000",
+      "class": "man",
+      "name": "men's vest",
+      "img": "../../images/card/man/man2.webp",
+      "price": "430",
+      "statu": false,
+      "colors": "brown",
+      "size": "12"
+    },
+    {
+      "id": "666008",
+      "type": "variant",
+      "master": "666000",
+      "class": "man",
+      "name": "men's vest",
+      "img": "../../images/card/man/man2.webp",
+      "price": "430",
+      "statu": false,
+      "colors": "brown",
+      "size": "14"
+    },
+    {
+      "id": "666009",
+      "type": "variant",
+      "master": "666000",
+      "class": "man",
+      "name": "men's vest",
+      "img": "../../images/card/man/man2.webp",
+      "price": "430",
+      "statu": false,
+      "colors": "blue",
+      "size": "6"
+    },
+    {
+      "id": "666010",
+      "type": "variant",
+      "master": "666000",
+      "class": "man",
+      "name": "men's vest",
+      "img": "../../images/card/man/man2.webp",
+      "price": "430",
+      "statu": false,
+      "colors": "blue",
+      "size": "8"
+    },
+    {
+      "id": "666011",
+      "type": "variant",
+      "master": "666000",
+      "class": "man",
+      "name": "men's vest",
+      "img": "../../images/card/man/man2.webp",
+      "price": "430",
+      "statu": false,
+      "colors": "blue",
+      "size": "10"
+    },
+    {
+      "id": "666012",
+      "type": "variant",
+      "master": "666000",
+      "class": "man",
+      "name": "men's vest",
+      "img": "../../images/card/man/man2.webp",
+      "price": "430",
+      "statu": false,
+      "colors": "blue",
+      "size": "12"
+    },
+    {
+      "id": "666013",
+      "type": "variant",
+      "master": "666000",
+      "class": "man",
+      "name": "men's vest",
+      "img": "../../images/card/man/man2.webp",
+      "price": "430",
+      "statu": false,
+      "colors": "blue",
+      "size": "14"
+    },
+    {
+      "id": "666014",
+      "type": "variant",
+      "master": "666000",
+      "class": "man",
+      "name": "men's vest",
+      "img": "../../images/card/man/man2.webp",
+      "price": "430",
+      "statu": false,
+      "colors": "white",
+      "size": "8"
+    },
+    {
+      "id": "666015",
+      "type": "variant",
+      "master": "666000",
+      "class": "man",
+      "name": "men's vest",
+      "img": "../../images/card/man/man2.webp",
+      "price": "430",
+      "statu": false,
+      "colors": "white",
+      "size": "10"
+    },
+    {
+      "id": "666016",
+      "type": "variant",
+      "master": "666000",
+      "class": "man",
+      "name": "men's vest",
+      "img": "../../images/card/man/man2.webp",
+      "price": "430",
+      "statu": false,
+      "colors": "white",
+      "size": "12"
+    },
+    {
+      "id": "666017",
+      "type": "variant",
+      "master": "666000",
+      "class": "man",
+      "name": "men's vest",
+      "img": "../../images/card/man/man2.webp",
+      "price": "400",
+      "statu": false,
+      "colors": "white",
+      "size": "14"
+    },
+    {
+      "id": "777000",
+      "type": "master",
+      "class": "man",
+      "category": "man-costume",
+      "name": "men's costume",
+      "img": "../../images/card/man/man3.webp",
+      "price": "130",
+      "statu": false,
+      "colors": [
+        {
+          "hexValue": "#0C0C0C",
+          "value": "black"
+        },
+        {
+          "hexValue": "#8E521B",
+          "value": "brown"
+        },
+        {
+          "hexValue": "#201A61",
+          "value": "blue"
+        }
+      ],
+      "size": [8, 10, 12, 14]
+    },
+    {
+      "id": "777001",
+      "type": "variant",
+      "master": "777000",
+      "class": "man",
+      "name": "men's costume",
+      "img": "../../images/card/man/man3.webp",
+      "price": "130",
+      "statu": false,
+      "colors": "black",
+      "size": "6"
+    },
+    {
+      "id": "777002",
+      "type": "variant",
+      "master": "777000",
+      "class": "man",
+      "name": "men's costume",
+      "img": "../../images/card/man/man3.webp",
+      "price": "130",
+      "statu": false,
+      "colors": "black",
+      "size": "8"
+    },
+    {
+      "id": "777003",
+      "type": "variant",
+      "master": "777000",
+      "class": "man",
+      "name": "men's costume",
+      "img": "../../images/card/man/man3.webp",
+      "price": "130",
+      "statu": false,
+      "colors": "black",
+      "size": "10"
+    },
+    {
+      "id": "777004",
+      "type": "variant",
+      "master": "777000",
+      "class": "man",
+      "name": "men's costume",
+      "img": "../../images/card/man/man3.webp",
+      "price": "130",
+      "statu": false,
+      "colors": "black",
+      "size": "12"
+    },
+    {
+      "id": "777005",
+      "type": "variant",
+      "master": "777000",
+      "class": "man",
+      "name": "men's costume",
+      "img": "../../images/card/man/man3.webp",
+      "price": "130",
+      "statu": false,
+      "colors": "brown",
+      "size": "8"
+    },
+    {
+      "id": "777006",
+      "type": "variant",
+      "master": "777000",
+      "class": "man",
+      "name": "men's costume",
+      "img": "../../images/card/man/man3.webp",
+      "price": "130",
+      "statu": false,
+      "colors": "brown",
+      "size": "10"
+    },
+    {
+      "id": "777007",
+      "type": "variant",
+      "master": "777000",
+      "class": "man",
+      "name": "men's costume",
+      "img": "../../images/card/man/man3.webp",
+      "price": "130",
+      "statu": false,
+      "colors": "brown",
+      "size": "12"
+    },
+    {
+      "id": "777008",
+      "type": "variant",
+      "master": "777000",
+      "class": "man",
+      "name": "men's costume",
+      "img": "../../images/card/man/man3.webp",
+      "price": "130",
+      "statu": false,
+      "colors": "brown",
+      "size": "14"
+    },
+    {
+      "id": "777009",
+      "type": "variant",
+      "master": "777000",
+      "class": "man",
+      "name": "men's costume",
+      "img": "../../images/card/man/man3.webp",
+      "price": "130",
+      "statu": false,
+      "colors": "blue",
+      "size": "8"
+    },
+    {
+      "id": "777010",
+      "type": "variant",
+      "master": "777000",
+      "class": "man",
+      "name": "men's costume",
+      "img": "../../images/card/man/man3.webp",
+      "price": "130",
+      "statu": false,
+      "colors": "blue",
+      "size": "10"
+    },
+    {
+      "id": "777011",
+      "type": "variant",
+      "master": "777000",
+      "class": "man",
+      "name": "men's costume",
+      "img": "../../images/card/man/man3.webp",
+      "price": "130",
+      "statu": false,
+      "colors": "blue",
+      "size": "12"
+    },
+    {
+      "id": "777012",
+      "type": "variant",
+      "master": "777000",
+      "class": "man",
+      "name": "men's costume",
+      "img": "../../images/card/man/man3.webp",
+      "price": "130",
+      "statu": false,
+      "colors": "blue",
+      "size": "14"
+    },
+    {
+      "id": "888000",
+      "type": "master",
+      "class": "man",
+      "category": "man-rousers",
+      "name": "men's rousers",
+      "img": "../../images/card/man/man4.webp",
+      "price": "220",
+      "statu": false,
+      "colors": [
+        {
+          "hexValue": "#0C0C0C",
+          "value": "black"
+        },
+        {
+          "hexValue": "#8E521B",
+          "value": "brown"
+        },
+        {
+          "hexValue": "#201A61",
+          "value": "blue"
+        },
+        {
+          "hexValue": "#FFFFFF",
+          "value": "white"
+        }
+      ],
+      "size": [8, 10, 12, 14]
+    },
+    {
+      "id": "888001",
+      "type": "variant",
+      "master": "888000",
+      "class": "man",
+      "name": "men's rousers",
+      "img": "../../images/card/man/man4.webp",
+      "price": "220",
+      "statu": false,
+      "colors": "black",
+      "size": "6"
+    },
+    {
+      "id": "888002",
+      "type": "variant",
+      "master": "888000",
+      "class": "man",
+      "name": "men's rousers",
+      "img": "../../images/card/man/man4.webp",
+      "price": "220",
+      "statu": false,
+      "colors": "black",
+      "size": "8"
+    },
+    {
+      "id": "888003",
+      "type": "variant",
+      "master": "888000",
+      "class": "man",
+      "name": "men's rousers",
+      "img": "../../images/card/man/man4.webp",
+      "price": "220",
+      "statu": false,
+      "colors": "black",
+      "size": "10"
+    },
+    {
+      "id": "888004",
+      "type": "variant",
+      "master": "888000",
+      "class": "man",
+      "name": "men's rousers",
+      "img": "../../images/card/man/man4.webp",
+      "price": "220",
+      "statu": false,
+      "colors": "black",
+      "size": "12"
+    },
+    {
+      "id": "888005",
+      "type": "variant",
+      "master": "888000",
+      "class": "man",
+      "name": "men's rousers",
+      "img": "../../images/card/man/man4.webp",
+      "price": "220",
+      "statu": false,
+      "colors": "black",
+      "size": "14"
+    },
+    {
+      "id": "888006",
+      "type": "variant",
+      "master": "888000",
+      "class": "man",
+      "name": "men's rousers",
+      "img": "../../images/card/man/man4.webp",
+      "price": "220",
+      "statu": false,
+      "colors": "brown",
+      "size": "8"
+    },
+    {
+      "id": "888007",
+      "type": "variant",
+      "master": "888000",
+      "class": "man",
+      "name": "men's rousers",
+      "img": "../../images/card/man/man4.webp",
+      "price": "220",
+      "statu": false,
+      "colors": "brown",
+      "size": "10"
+    },
+    {
+      "id": "888008",
+      "type": "variant",
+      "master": "888000",
+      "class": "man",
+      "name": "men's rousers",
+      "img": "../../images/card/man/man4.webp",
+      "price": "220",
+      "statu": false,
+      "colors": "brown",
+      "size": "12"
+    },
+    {
+      "id": "888009",
+      "type": "variant",
+      "master": "888000",
+      "class": "man",
+      "name": "men's rousers",
+      "img": "../../images/card/man/man4.webp",
+      "price": "220",
+      "statu": false,
+      "colors": "brown",
+      "size": "14"
+    },
+    {
+      "id": "888010",
+      "type": "variant",
+      "master": "888000",
+      "class": "man",
+      "name": "men's rousers",
+      "img": "../../images/card/man/man4.webp",
+      "price": "220",
+      "statu": false,
+      "colors": "blue",
+      "size": "6"
+    },
+    {
+      "id": "888011",
+      "type": "variant",
+      "master": "888000",
+      "class": "man",
+      "name": "men's rousers",
+      "img": "../../images/card/man/man4.webp",
+      "price": "220",
+      "statu": false,
+      "colors": "blue",
+      "size": "8"
+    },
+    {
+      "id": "888012",
+      "type": "variant",
+      "master": "888000",
+      "class": "man",
+      "name": "men's rousers",
+      "img": "../../images/card/man/man4.webp",
+      "price": "220",
+      "statu": false,
+      "colors": "blue",
+      "size": "10"
+    },
+    {
+      "id": "888013",
+      "type": "variant",
+      "master": "888000",
+      "class": "man",
+      "name": "men's rousers",
+      "img": "../../images/card/man/man4.webp",
+      "price": "220",
+      "statu": false,
+      "colors": "blue",
+      "size": "12"
+    },
+    {
+      "id": "888014",
+      "type": "variant",
+      "master": "888000",
+      "class": "man",
+      "name": "men's rousers",
+      "img": "../../images/card/man/man4.webp",
+      "price": "220",
+      "statu": false,
+      "colors": "blue",
+      "size": "14"
+    },
+    {
+      "id": "888015",
+      "type": "variant",
+      "master": "888000",
+      "class": "man",
+      "name": "men's rousers",
+      "img": "../../images/card/man/man4.webp",
+      "price": "220",
+      "statu": false,
+      "colors": "white",
+      "size": "6"
+    },
+    {
+      "id": "888016",
+      "type": "variant",
+      "master": "888000",
+      "class": "man",
+      "name": "men's rousers",
+      "img": "../../images/card/man/man4.webp",
+      "price": "220",
+      "statu": false,
+      "colors": "white",
+      "size": "8"
+    },
+    {
+      "id": "888017",
+      "type": "variant",
+      "master": "888000",
+      "class": "man",
+      "name": "men's rousers",
+      "img": "../../images/card/man/man4.webp",
+      "price": "220",
+      "statu": false,
+      "colors": "white",
+      "size": "10"
+    },
+    {
+      "id": "888018",
+      "type": "variant",
+      "master": "888000",
+      "class": "man",
+      "name": "men's rousers",
+      "img": "../../images/card/man/man4.webp",
+      "price": "220",
+      "statu": false,
+      "colors": "white",
+      "size": "12"
+    },
+    {
+      "id": "888019",
+      "type": "variant",
+      "master": "888000",
+      "class": "man",
+      "name": "men's rousers",
+      "img": "../../images/card/man/man4.webp",
+      "price": "220",
+      "statu": false,
+      "colors": "white",
+      "size": "14"
+    },
+    {
+      "id": "999000",
+      "type": "master",
+      "class": "man",
+      "category": "man-jaked",
+      "name": "autumn jacket",
+      "img": "../../images/card/man/man5.webp",
+      "price": "420",
+      "statu": false,
+      "colors": [
+        {
+          "hexValue": "#0C0C0C",
+          "value": "black"
+        },
+        {
+          "hexValue": "#8E521B",
+          "value": "brown"
+        },
+        {
+          "hexValue": "#201A61",
+          "value": "blue"
+        },
+        {
+          "hexValue": "#FFFFFF",
+          "value": "white"
+        }
+      ],
+      "size": [8, 10, 12, 14]
+    },
+    {
+      "id": "999001",
+      "type": "variant",
+      "master": "999000",
+      "class": "man",
+      "name": "autumn jacket",
+      "img": "../../images/card/man/man5.webp",
+      "price": "420",
+      "statu": false,
+      "colors": "black",
+      "size": "6"
+    },
+    {
+      "id": "999002",
+      "type": "variant",
+      "master": "999000",
+      "class": "man",
+      "name": "autumn jacket",
+      "img": "../../images/card/man/man5.webp",
+      "price": "420",
+      "statu": false,
+      "colors": "black",
+      "size": "8"
+    },
+    {
+      "id": "999003",
+      "type": "variant",
+      "master": "999000",
+      "class": "man",
+      "name": "autumn jacket",
+      "img": "../../images/card/man/man5.webp",
+      "price": "420",
+      "statu": false,
+      "colors": "black",
+      "size": "10"
+    },
+    {
+      "id": "999004",
+      "type": "variant",
+      "master": "999000",
+      "class": "man",
+      "name": "autumn jacket",
+      "img": "../../images/card/man/man5.webp",
+      "price": "420",
+      "statu": false,
+      "colors": "black",
+      "size": "12"
+    },
+    {
+      "id": "999005",
+      "type": "variant",
+      "master": "999000",
+      "class": "man",
+      "name": "autumn jacket",
+      "img": "../../images/card/man/man5.webp",
+      "price": "420",
+      "statu": false,
+      "colors": "black",
+      "size": "14"
+    },
+    {
+      "id": "999006",
+      "type": "variant",
+      "master": "999000",
+      "class": "man",
+      "name": "autumn jacket",
+      "img": "../../images/card/man/man5.webp",
+      "price": "420",
+      "statu": false,
+      "colors": "brown",
+      "size": "6"
+    },
+    {
+      "id": "999007",
+      "type": "variant",
+      "master": "999000",
+      "class": "man",
+      "name": "autumn jacket",
+      "img": "../../images/card/man/man5.webp",
+      "price": "420",
+      "statu": false,
+      "colors": "brown",
+      "size": "8"
+    },
+    {
+      "id": "999008",
+      "type": "variant",
+      "master": "999000",
+      "class": "man",
+      "name": "autumn jacket",
+      "img": "../../images/card/man/man5.webp",
+      "price": "420",
+      "statu": false,
+      "colors": "brown",
+      "size": "10"
+    },
+    {
+      "id": "999009",
+      "type": "variant",
+      "master": "999000",
+      "class": "man",
+      "name": "autumn jacket",
+      "img": "../../images/card/man/man5.webp",
+      "price": "420",
+      "statu": false,
+      "colors": "brown",
+      "size": "12"
+    },
+    {
+      "id": "999010",
+      "type": "variant",
+      "master": "999000",
+      "class": "man",
+      "name": "autumn jacket",
+      "img": "../../images/card/man/man5.webp",
+      "price": "420",
+      "statu": false,
+      "colors": "blue",
+      "size": "8"
+    },
+    {
+      "id": "999011",
+      "type": "variant",
+      "master": "999000",
+      "class": "man",
+      "name": "autumn jacket",
+      "img": "../../images/card/man/man5.webp",
+      "price": "420",
+      "statu": false,
+      "colors": "blue",
+      "size": "10"
+    },
+    {
+      "id": "999012",
+      "type": "variant",
+      "master": "999000",
+      "class": "man",
+      "name": "autumn jacket",
+      "img": "../../images/card/man/man5.webp",
+      "price": "420",
+      "statu": false,
+      "colors": "blue",
+      "size": "12"
+    },
+    {
+      "id": "999013",
+      "type": "variant",
+      "master": "999000",
+      "class": "man",
+      "name": "autumn jacket",
+      "img": "../../images/card/man/man5.webp",
+      "price": "420",
+      "statu": false,
+      "colors": "blue",
+      "size": "14"
+    },
+    {
+      "id": "999014",
+      "type": "variant",
+      "master": "999000",
+      "class": "man",
+      "name": "autumn jacket",
+      "img": "../../images/card/man/man5.webp",
+      "price": "420",
+      "statu": false,
+      "colors": "white",
+      "size": "6"
+    },
+    {
+      "id": "999015",
+      "type": "variant",
+      "master": "999000",
+      "class": "man",
+      "name": "autumn jacket",
+      "img": "../../images/card/man/man5.webp",
+      "price": "420",
+      "statu": false,
+      "colors": "white",
+      "size": "8"
+    },
+    {
+      "id": "999016",
+      "type": "variant",
+      "master": "999000",
+      "class": "man",
+      "name": "autumn jacket",
+      "img": "../../images/card/man/man5.webp",
+      "price": "420",
+      "statu": false,
+      "colors": "white",
+      "size": "10"
+    },
+    {
+      "id": "999017",
+      "type": "variant",
+      "master": "999000",
+      "class": "man",
+      "name": "autumn jacket",
+      "img": "../../images/card/man/man5.webp",
+      "price": "420",
+      "statu": false,
+      "colors": "white",
+      "size": "12"
+    },
+    {
+      "id": "100000",
+      "type": "master",
+      "class": "man",
+      "category": "man-pants",
+      "name": "men's pants",
+      "img": "../../images/card/man/man6.webp",
+      "price": "40",
+      "statu": false,
+      "colors": [
+        {
+          "hexValue": "#0C0C0C",
+          "value": "black"
+        },
+        {
+          "hexValue": "#8E521B",
+          "value": "brown"
+        },
+        {
+          "hexValue": "#201A61",
+          "value": "blue"
+        },
+        {
+          "hexValue": "#FFFFFF",
+          "value": "white"
+        }
+      ],
+      "size": [8, 10, 12, 14]
+    },
+    {
+      "id": "100001",
+      "type": "variant",
+      "master": "100000",
+      "class": "man",
+      "name": "men's pants",
+      "img": "../../images/card/man/man6.webp",
+      "price": "40",
+      "statu": false,
+      "colors": "black",
+      "size": "6"
+    },
+    {
+      "id": "100002",
+      "type": "variant",
+      "master": "100000",
+      "class": "man",
+      "name": "men's pants",
+      "img": "../../images/card/man/man6.webp",
+      "price": "40",
+      "statu": false,
+      "colors": "black",
+      "size": "8"
+    },
+    {
+      "id": "100003",
+      "type": "variant",
+      "master": "100000",
+      "class": "man",
+      "name": "men's pants",
+      "img": "../../images/card/man/man6.webp",
+      "price": "40",
+      "statu": false,
+      "colors": "black",
+      "size": "10"
+    },
+    {
+      "id": "100004",
+      "type": "variant",
+      "master": "100000",
+      "class": "man",
+      "name": "men's pants",
+      "img": "../../images/card/man/man6.webp",
+      "price": "40",
+      "statu": false,
+      "colors": "black",
+      "size": "12"
+    },
+    {
+      "id": "100005",
+      "type": "variant",
+      "master": "100000",
+      "class": "man",
+      "name": "men's pants",
+      "img": "../../images/card/man/man6.webp",
+      "price": "40",
+      "statu": false,
+      "colors": "black",
+      "size": "14"
+    },
+    {
+      "id": "100006",
+      "type": "variant",
+      "master": "100000",
+      "class": "man",
+      "name": "men's pants",
+      "img": "../../images/card/man/man6.webp",
+      "price": "40",
+      "statu": false,
+      "colors": "brown",
+      "size": "6"
+    },
+    {
+      "id": "100007",
+      "type": "variant",
+      "master": "100000",
+      "class": "man",
+      "name": "men's pants",
+      "img": "../../images/card/man/man6.webp",
+      "price": "40",
+      "statu": false,
+      "colors": "brown",
+      "size": "8"
+    },
+    {
+      "id": "100008",
+      "type": "variant",
+      "master": "100000",
+      "class": "man",
+      "name": "men's pants",
+      "img": "../../images/card/man/man6.webp",
+      "price": "40",
+      "statu": false,
+      "colors": "brown",
+      "size": "10"
+    },
+    {
+      "id": "100009",
+      "type": "variant",
+      "master": "100000",
+      "class": "man",
+      "name": "men's pants",
+      "img": "../../images/card/man/man6.webp",
+      "price": "40",
+      "statu": false,
+      "colors": "brown",
+      "size": "12"
+    },
+    {
+      "id": "100010",
+      "type": "variant",
+      "master": "100000",
+      "class": "man",
+      "name": "men's pants",
+      "img": "../../images/card/man/man6.webp",
+      "price": "40",
+      "statu": false,
+      "colors": "brown",
+      "size": "14"
+    },
+    {
+      "id": "100011",
+      "type": "variant",
+      "master": "100000",
+      "class": "man",
+      "name": "men's pants",
+      "img": "../../images/card/man/man6.webp",
+      "price": "40",
+      "statu": false,
+      "colors": "blue",
+      "size": "6"
+    },
+    {
+      "id": "100012",
+      "type": "variant",
+      "master": "100000",
+      "class": "man",
+      "name": "men's pants",
+      "img": "../../images/card/man/man6.webp",
+      "price": "40",
+      "statu": false,
+      "colors": "blue",
+      "size": "8"
+    },
+    {
+      "id": "100013",
+      "type": "variant",
+      "master": "100000",
+      "class": "man",
+      "name": "men's pants",
+      "img": "../../images/card/man/man6.webp",
+      "price": "40",
+      "statu": false,
+      "colors": "blue",
+      "size": "10"
+    },
+    {
+      "id": "100014",
+      "type": "variant",
+      "master": "100000",
+      "class": "man",
+      "name": "men's pants",
+      "img": "../../images/card/man/man6.webp",
+      "price": "40",
+      "statu": false,
+      "colors": "blue",
+      "size": "12"
+    },
+    {
+      "id": "100015",
+      "type": "variant",
+      "master": "100000",
+      "class": "man",
+      "name": "men's pants",
+      "img": "../../images/card/man/man6.webp",
+      "price": "40",
+      "statu": false,
+      "colors": "blue",
+      "size": "14"
+    },
+    {
+      "id": "100016",
+      "type": "variant",
+      "master": "100000",
+      "class": "man",
+      "name": "men's pants",
+      "img": "../../images/card/man/man6.webp",
+      "price": "40",
+      "statu": false,
+      "colors": "white",
+      "size": "6"
+    },
+    {
+      "id": "100017",
+      "type": "variant",
+      "master": "100000",
+      "class": "man",
+      "name": "men's pants",
+      "img": "../../images/card/man/man6.webp",
+      "price": "40",
+      "statu": false,
+      "colors": "white",
+      "size": "8"
+    },
+    {
+      "id": "100018",
+      "type": "variant",
+      "master": "100000",
+      "class": "man",
+      "name": "men's pants",
+      "img": "../../images/card/man/man6.webp",
+      "price": "40",
+      "statu": false,
+      "colors": "white",
+      "size": "10"
+    },
+    {
+      "id": "100019",
+      "type": "variant",
+      "master": "100000",
+      "class": "man",
+      "name": "men's pants",
+      "img": "../../images/card/man/man6.webp",
+      "price": "40",
+      "statu": false,
+      "colors": "white",
+      "size": "12"
+    }
+  ],
+  "inventory": [
+    { "id": "111112", "quantity": 9 },
+    { "id": "111113", "quantity": 10 },
+    { "id": "111114", "quantity": 10 },
+    { "id": "111115", "quantity": 6 },
+    { "id": "111116", "quantity": 6 },
+    { "id": "111117", "quantity": 3 },
+    { "id": "111118", "quantity": 2 },
+    { "id": "111119", "quantity": 4 },
+    { "id": "111120", "quantity": 5 },
+    { "id": "111121", "quantity": 7 },
+    { "id": "111122", "quantity": 10 },
+    { "id": "111123", "quantity": 10 },
+    { "id": "111124", "quantity": 7 },
+    { "id": "111125", "quantity": 9 },
+    { "id": "111126", "quantity": 3 },
+    { "id": "111127", "quantity": 10 },
+    { "id": "111128", "quantity": 3 },
+    { "id": "111129", "quantity": 9 },
+    { "id": "222223", "quantity": 4 },
+    { "id": "222224", "quantity": 2 },
+    { "id": "222225", "quantity": 3 },
+    { "id": "222226", "quantity": 4 },
+    { "id": "222227", "quantity": 3 },
+    { "id": "222228", "quantity": 2 },
+    { "id": "222229", "quantity": 2 },
+    { "id": "222230", "quantity": 1 },
+    { "id": "222231", "quantity": 5 },
+    { "id": "222232", "quantity": 4 },
+    { "id": "222233", "quantity": 8 },
+    { "id": "222234", "quantity": 3 },
+    { "id": "222235", "quantity": 7 },
+    { "id": "222236", "quantity": 10 },
+    { "id": "222237", "quantity": 4 },
+    { "id": "222238", "quantity": 3 },
+    { "id": "222239", "quantity": 7 },
+    { "id": "333331", "quantity": 9 },
+    { "id": "333332", "quantity": 3 },
+    { "id": "333333", "quantity": 7 },
+    { "id": "333334", "quantity": 5 },
+    { "id": "333335", "quantity": 1 },
+    { "id": "333336", "quantity": 5 },
+    { "id": "333337", "quantity": 9 },
+    { "id": "333338", "quantity": 3 },
+    { "id": "333339", "quantity": 9 },
+    { "id": "333340", "quantity": 8 },
+    { "id": "333341", "quantity": 2 },
+    { "id": "333342", "quantity": 8 },
+    { "id": "333343", "quantity": 7 },
+    { "id": "333344", "quantity": 10 },
+    { "id": "333345", "quantity": 10 },
+    { "id": "444441", "quantity": 1 },
+    { "id": "444442", "quantity": 7 },
+    { "id": "444443", "quantity": 5 },
+    { "id": "444444", "quantity": 7 },
+    { "id": "444445", "quantity": 1 },
+    { "id": "444446", "quantity": 9 },
+    { "id": "444407", "quantity": 5 },
+    { "id": "444408", "quantity": 4 },
+    { "id": "444409", "quantity": 4 },
+    { "id": "444449", "quantity": 7 },
+    { "id": "444450", "quantity": 5 },
+    { "id": "444451", "quantity": 8 },
+    { "id": "444452", "quantity": 3 },
+    { "id": "444453", "quantity": 1 },
+    { "id": "444454", "quantity": 10 },
+    { "id": "444455", "quantity": 10 },
+    { "id": "444002", "quantity": 10 },
+    { "id": "444003", "quantity": 4 },
+    { "id": "444004", "quantity": 7 },
+    { "id": "444005", "quantity": 5 },
+    { "id": "444006", "quantity": 3 },
+    { "id": "444007", "quantity": 5 },
+    { "id": "444008", "quantity": 2 },
+    { "id": "444009", "quantity": 1 },
+    { "id": "444010", "quantity": 8 },
+    { "id": "444011", "quantity": 8 },
+    { "id": "444012", "quantity": 4 },
+    { "id": "444013", "quantity": 9 },
+    { "id": "444014", "quantity": 3 },
+    { "id": "444015", "quantity": 5 },
+    { "id": "444016", "quantity": 5 },
+    { "id": "400002", "quantity": 1 },
+    { "id": "400003", "quantity": 3 },
+    { "id": "400004", "quantity": 1 },
+    { "id": "400005", "quantity": 4 },
+    { "id": "400006", "quantity": 4 },
+    { "id": "400007", "quantity": 8 },
+    { "id": "400008", "quantity": 2 },
+    { "id": "400009", "quantity": 1 },
+    { "id": "400010", "quantity": 2 },
+    { "id": "400011", "quantity": 4 },
+    { "id": "400012", "quantity": 4 },
+    { "id": "400013", "quantity": 9 },
+    { "id": "400014", "quantity": 5 },
+    { "id": "400015", "quantity": 5 },
+    { "id": "400016", "quantity": 4 },
+    { "id": "400017", "quantity": 4 },
+    { "id": "555001", "quantity": 2 },
+    { "id": "555002", "quantity": 4 },
+    { "id": "555003", "quantity": 1 },
+    { "id": "555004", "quantity": 5 },
+    { "id": "555005", "quantity": 2 },
+    { "id": "555006", "quantity": 6 },
+    { "id": "555007", "quantity": 4 },
+    { "id": "555008", "quantity": 3 },
+    { "id": "555009", "quantity": 5 },
+    { "id": "555010", "quantity": 4 },
+    { "id": "555011", "quantity": 2 },
+    { "id": "555012", "quantity": 9 },
+    { "id": "555013", "quantity": 6 },
+    { "id": "555014", "quantity": 4 },
+    { "id": "555015", "quantity": 3 },
+    { "id": "555016", "quantity": 10 },
+    { "id": "555017", "quantity": 8 },
+    { "id": "555018", "quantity": 10 },
+    { "id": "555019", "quantity": 6 },
+    { "id": "666001", "quantity": 3 },
+    { "id": "666002", "quantity": 10 },
+    { "id": "666003", "quantity": 9 },
+    { "id": "666004", "quantity": 6 },
+    { "id": "666005", "quantity": 10 },
+    { "id": "666006", "quantity": 4 },
+    { "id": "666007", "quantity": 9 },
+    { "id": "666008", "quantity": 4 },
+    { "id": "666009", "quantity": 10 },
+    { "id": "666010", "quantity": 3 },
+    { "id": "666011", "quantity": 3 },
+    { "id": "666012", "quantity": 9 },
+    { "id": "666013", "quantity": 7 },
+    { "id": "666014", "quantity": 9 },
+    { "id": "666015", "quantity": 3 },
+    { "id": "666016", "quantity": 6 },
+    { "id": "666017", "quantity": 7 },
+    { "id": "777001", "quantity": 8 },
+    { "id": "777002", "quantity": 8 },
+    { "id": "777003", "quantity": 6 },
+    { "id": "777004", "quantity": 8 },
+    { "id": "777005", "quantity": 6 },
+    { "id": "777006", "quantity": 5 },
+    { "id": "777007", "quantity": 9 },
+    { "id": "777008", "quantity": 2 },
+    { "id": "777009", "quantity": 2 },
+    { "id": "777010", "quantity": 4 },
+    { "id": "777011", "quantity": 10 },
+    { "id": "777012", "quantity": 7 },
+    { "id": "888001", "quantity": 10 },
+    { "id": "888002", "quantity": 2 },
+    { "id": "888003", "quantity": 2 },
+    { "id": "888004", "quantity": 3 },
+    { "id": "888005", "quantity": 8 },
+    { "id": "888006", "quantity": 1 },
+    { "id": "888007", "quantity": 2 },
+    { "id": "888008", "quantity": 4 },
+    { "id": "888009", "quantity": 3 },
+    { "id": "888010", "quantity": 7 },
+    { "id": "888011", "quantity": 8 },
+    { "id": "888012", "quantity": 1 },
+    { "id": "888013", "quantity": 2 },
+    { "id": "888014", "quantity": 10 },
+    { "id": "888015", "quantity": 1 },
+    { "id": "888016", "quantity": 5 },
+    { "id": "888017", "quantity": 6 },
+    { "id": "888018", "quantity": 3 },
+    { "id": "888019", "quantity": 2 },
+    { "id": "999001", "quantity": 8 },
+    { "id": "999002", "quantity": 5 },
+    { "id": "999003", "quantity": 3 },
+    { "id": "999004", "quantity": 9 },
+    { "id": "999005", "quantity": 6 },
+    { "id": "999006", "quantity": 8 },
+    { "id": "999007", "quantity": 2 },
+    { "id": "999008", "quantity": 3 },
+    { "id": "999009", "quantity": 4 },
+    { "id": "999010", "quantity": 9 },
+    { "id": "999011", "quantity": 10 },
+    { "id": "999012", "quantity": 8 },
+    { "id": "999013", "quantity": 10 },
+    { "id": "999014", "quantity": 6 },
+    { "id": "999015", "quantity": 10 },
+    { "id": "999016", "quantity": 10 },
+    { "id": "999017", "quantity": 9 },
+    { "id": "100001", "quantity": 3 },
+    { "id": "100002", "quantity": 10 },
+    { "id": "100003", "quantity": 10 },
+    { "id": "100004", "quantity": 4 },
+    { "id": "100005", "quantity": 2 },
+    { "id": "100006", "quantity": 8 },
+    { "id": "100007", "quantity": 10 },
+    { "id": "100008", "quantity": 1 },
+    { "id": "100009", "quantity": 6 },
+    { "id": "100010", "quantity": 6 },
+    { "id": "100011", "quantity": 1 },
+    { "id": "100012", "quantity": 8 },
+    { "id": "100013", "quantity": 6 },
+    { "id": "100014", "quantity": 8 },
+    { "id": "100015", "quantity": 3 },
+    { "id": "100016", "quantity": 4 },
+    { "id": "100017", "quantity": 4 },
+    { "id": "100018", "quantity": 2 },
+    { "id": "100019", "quantity": 4 }
+  ]
 }

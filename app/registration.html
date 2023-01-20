@@ -12,7 +12,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Open+Sans:wght@400;700&family=Sofia&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./css/style.min.css">
-	<title>bascked</title>
+	<title>Document</title>
 </head>
 
 <body>
@@ -22,8 +22,8 @@
 			<div class="page-header__wrapper ">
 			<nav class="menu container">
 				<ul class="menu__list">
-					<li class="menu__item"><a class="menu__link" href="./man.html">Man</a></li>
-					<li class="menu__item current"><a class="menu__link current" href="./woman.html">woman</a></li>
+					<li class="menu__item"><a class="menu__link" data-page="man"  href="">Man</a></li>
+					<li class="menu__item"><a class="menu__link" href="./woman.html">woman</a></li>
 					<li class="menu__item"><a class="menu__link" href="">ACCESSORY</a></li>
 				</ul>
 			</nav>
@@ -48,7 +48,7 @@
 						</a>
 					</li>
 					<li class="authorization__item">
-						<a class="authorization__link" href="">
+						<a class="authorization__link bascket-link" href="./basket.html">
 							<svg class="authorization__icon" width="17" height="17">
 								<use href="./images/symbol.svg#icon-cart"></use>
 							</svg>
@@ -70,153 +70,13 @@
 		<!-- </div> -->
 	</header>
 	<main>
-		<div class="filter ">
-			<label class="filter__label">
-				
-				<input class="filter__input" placeholder=" " type="text">
-				<span class="filter__input-name">Filters</span>
-				<svg class="filter__input-cross"  width="14" height="14">
-					<use   href="./images/symbol.svg#icon-cross"></use>
-				</svg>
-			</label>
-			<div class="popup__box">
-				<button class="dropdawn__btn">CATEGORIES
-					<svg class="btn__icon"  width="10" height="8">
-						<use class="btn__svg" href="./images/symbol.svg#icon-Vector"></use>
-					</svg>
-				</button>
-				<!-- <div class="box-"> -->
-					<ul class="popup__list">
-						<li class="popup__item categories__item">
-							<a class="popup__link" href="">Shirts</a>
-						</li>
-						<li class="popup__item categories__item">
-							<a class="popup__link" href="">Coats</a>
-						</li>
-						<li class="popup__item categories__item">
-							<a class="popup__link categories__item" href="">Jackets</a>
-						</li>
-						<li class="popup__item categories__item">
-							<a class="popup__link" href="">Sweaters</a>
-						</li>
-						<li class="popup__item categories__item">
-							<a class="popup__link" href="">Polos&Tees</a>
-						</li>
-						<li class="popup__item categories__item">
-							<a class="popup__link" href="">Jeans &Pants</a>
-						</li>
-						<li class="popup__item categories__item">
-							<a class="popup__link" href="">Outerwear</a>
-						</li>
-					</ul>
-			<!-- </div> -->
-			</div>
-			
-			<div class="popup__box">
-				<button class="dropdawn__btn">COLOUR
-					<svg class="btn__icon"  width="10" height="8">
-						<use class="btn__svg" href="./images/symbol.svg#icon-Vector"></use>
-					</svg>
-				</button>
-				<!-- <div class="box-"> -->
-	
-				<ul class="popup__list color-filter__list">
-					<li class="popup__item color-filter__item">
-						<div  class="color-filter__color black"></div>
-						<span class="color-filter__name">black</span>
-					</li>
-					<li class="popup__item color-filter__item">
-						<div class="color-filter__color brown"></div>
-						<span class="color-filter__name">black</span>
-					</li>
-					<li class="popup__item color-filter__item">
-						<div class="color-filter__color red"></div>
-						<span class="color-filter__name">red</span>
-					</li>
-					<li class="popup__item color-filter__item">
-					
-						<div class="color-filter__color blue"></div>
-						<span class="color-filter__name">blue</span>
-					</li>
-					<li class="popup__item color-filter__item">
-						
-						<div class="color-filter__color white"></div>
-						<span class="color-filter__name">white</span>
-					</li>
-			
-			
-				</ul>
-			<!-- </div> -->
-			</div>
-			<div class="popup__box">
-				<button class="dropdawn__btn">SIZE
-					<svg class="btn__icon"  width="10" height="8">
-						<use class="btn__svg" href="./images/symbol.svg#icon-Vector"></use>
-					</svg>
-				</button>
-				<!-- <div class="box-"> -->
-				<ul class="popup__list filter-size__list">
-					<li class="popup__item filter-size__item">
-						<a class="popup__link filter-size__name" href="">6</a>
-					</li>
-					<li class="popup__item filter-size__item">
-						<a class="popup__link filter-size__name" href="">8</a>
-					</li>
-					<li class="popup__item filter-size__item">
-						<a class="popup__link filter-size__name" href="">10</a>
-					</li>
-					<li class="popup__item filter-size__item">
-						<a class="popup__link filter-size__name" href="">12</a>
-					</li>
-					<li class="popup__item filter-size__item">
-						<a class="popup__link filter-size__name" href="">14</a>
-					</li>
-					<li class="popup__item filter-size__item">
-						<a class="popup__link filter-size__name" href="">16</a>
-					</li>
-				</ul>
-			<!-- </div> -->
-			</div>
-			<div class="popup__box">
-				<button class="dropdawn__btn">ORDER
-					<svg class="btn__icon"  width="10" height="8">
-						<use class="btn__svg" href="./images/symbol.svg#icon-Vector"></use>
-					</svg>
-				</button>
-				<!-- <div class="box-"> -->
-				<ul class="popup__list">
-					<li class="popup__item">
-						<a class="popup__link" href="">Shirts</a>
-					</li>
-					<li class="popup__item">
-						<a class="popup__link" href="">Coats</a>
-					</li>
-					<li class="popup__item">
-						<a class="popup__link" href="">Jackets</a>
-					</li>
-					<li class="popup__item">
-						<a class="popup__link" href="">Sweaters</a>
-					</li>
-					<li class="popup__item">
-						<a class="popup__link" href="">Polos&Tees</a>
-					</li>
-					<li class="popup__item">
-						<a class="popup__link" href="">Jeans &Pants</a>
-					</li>
-					<li class="popup__item">
-						<a class="popup__link" href="">Outerwear</a>
-					</li>
-				</ul>
-			<!-- </div> -->
-			</div>
-		</div>
 		<div class="mobile-menu container">
 			<div class="mobile-menu__authorization">
-				<form >
+				<!-- <form >
 					<label class="form__label">login/register
 						<input class="form__input" type="text">
 					</label>
-				</form>
+				</form> -->
 				<div class="mobile-menu__dropdawns">
 	
 					<div class="dropdawns__new-collection">
@@ -399,71 +259,231 @@
 				
 			</div>
 		</div>
-		<section class="container bascket">
-			<h3 class="bascket__name">Shopping bag </h3>
-			<div class="bascket__wrapper">
-				<ul class="shopping__list">
-					<li class="shopping__item">
-						
-							<div class="shopping__item-wrapper">
-								<div class="shopping__item-img">
-									<img class="item-img" src="./images/card/woman-desk1.jpg" alt="">
-								</div>
-								<div class="shopping__item-info">
-									<h3 class="item-info__name">BLACK JAKET</h3>
-									<span class="item-info__id">id</span>
-								<div class="info-wrapper">	
-									<span class="info-name">Price:</span>
-									<span class="info-name">400 $</span>
-								</div>
-								<div class="info-wrapper">	
-									<span class="info-name">color</span>
-									<span class="info-name">black</span>
-								</div>
-								<div class="info-wrapper">	
-									<span class="info-name">size</span>
-									<span class="info-name">8</span>
-								</div>
-								<div class="info-wrapper">	
-									<span class="info-name">quantity</span>
-									<span><span>-</span>1<span>+</span></span>
-								</div>
-								<div class="info-wrapper">	
-									<span class="info-total">Total:</span>
-									<span class="info-total">400</span>
-								</div>
-								</div>
-							</div>
+		<section class=" container" data-page="man">
+			<div class="filter ">
+				<label class="filter__label">
 					
-						<button class="bascket__btn">
-							<svg class="bascket__btn-icon" width="14" height="14">
-								<use  class="bascket__btn-cross" href="./images/symbol.svg#icon-cross"></use>
-							</svg>
-						</button>
-					</li>
-				</ul>
-			</div>
-			<div class="bascket-total">
-				<h3 class="bascket-total__title">SHOPPING BAG TOTAL</h3>
-				<div class="bascket-total__wrapper">
-					<div class="bascket-total__info">
-						<span class="bascket-total__name">ORDER VALUE:</span>
-						<span class="bascket-total__price">420$</span>
-					</div>
-					<div class="bascket-total__info">
-						<span class="bascket-total__name">DELIVERY:</span>
-						<span class="bascket-total__price">free</span>
-					</div>
-					<div class="bascket-total__info">
-						<span class="bascket-total__sum">TOTAL:</span>
-						<span class="bascket-total__sum">420$</span>
-					</div>
-					<button class="bascked__checkout-btn">CHECKOUT</button>
+					<input class="filter__input" placeholder=" " type="text">
+					<span class="filter__input-name">Filters</span>
+					<svg class="filter__input-cross"  width="14" height="14">
+						<use   href="./images/symbol.svg#icon-cross"></use>
+					</svg>
+				</label>
+				<div class="popup__box">
+					<button class="dropdawn__btn">CATEGORIES
+						<svg class="btn__icon"  width="10" height="8">
+							<use class="btn__svg" href="./images/symbol.svg#icon-Vector"></use>
+						</svg>
+					</button>
+					<!-- <div class="box-"> -->
+						<ul class="popup__list">
+							<li class="popup__item categories__item">
+								<a class="popup__link" href="">Shirts</a>
+							</li>
+							<li class="popup__item categories__item">
+								<a class="popup__link" href="">Coats</a>
+							</li>
+							<li class="popup__item categories__item">
+								<a class="popup__link categories__item" href="">Jackets</a>
+							</li>
+							<li class="popup__item categories__item">
+								<a class="popup__link" href="">Sweaters</a>
+							</li>
+							<li class="popup__item categories__item">
+								<a class="popup__link" href="">Polos&Tees</a>
+							</li>
+							<li class="popup__item categories__item">
+								<a class="popup__link" href="">Jeans &Pants</a>
+							</li>
+							<li class="popup__item categories__item">
+								<a class="popup__link" href="">Outerwear</a>
+							</li>
+						</ul>
+				<!-- </div> -->
+				</div>
+				
+				<div class="popup__box">
+					<button class="dropdawn__btn">COLOUR
+						<svg class="btn__icon"  width="10" height="8">
+							<use class="btn__svg" href="./images/symbol.svg#icon-Vector"></use>
+						</svg>
+					</button>
+					<!-- <div class="box-"> -->
+		
+					<ul class="popup__list color-filter__list">
+						<li class="popup__item color-filter__item">
+							<div  class="color-filter__color black"></div>
+							<span class="color-filter__name">black</span>
+						</li>
+						<li class="popup__item color-filter__item">
+							<div class="color-filter__color brown"></div>
+							<span class="color-filter__name">black</span>
+						</li>
+						<li class="popup__item color-filter__item">
+							<div class="color-filter__color red"></div>
+							<span class="color-filter__name">red</span>
+						</li>
+						<li class="popup__item color-filter__item">
+						
+							<div class="color-filter__color blue"></div>
+							<span class="color-filter__name">blue</span>
+						</li>
+						<li class="popup__item color-filter__item">
+							
+							<div class="color-filter__color white"></div>
+							<span class="color-filter__name">white</span>
+						</li>
+				
+				
+					</ul>
+				<!-- </div> -->
+				</div>
+				<div class="popup__box">
+					<button class="dropdawn__btn">SIZE
+						<svg class="btn__icon"  width="10" height="8">
+							<use class="btn__svg" href="./images/symbol.svg#icon-Vector"></use>
+						</svg>
+					</button>
+					<!-- <div class="box-"> -->
+					<ul class="popup__list filter-size__list">
+						<li class="popup__item filter-size__item">
+							<a class="popup__link filter-size__name" href="">6</a>
+						</li>
+						<li class="popup__item filter-size__item">
+							<a class="popup__link filter-size__name" href="">8</a>
+						</li>
+						<li class="popup__item filter-size__item">
+							<a class="popup__link filter-size__name" href="">10</a>
+						</li>
+						<li class="popup__item filter-size__item">
+							<a class="popup__link filter-size__name" href="">12</a>
+						</li>
+						<li class="popup__item filter-size__item">
+							<a class="popup__link filter-size__name" href="">14</a>
+						</li>
+						<li class="popup__item filter-size__item">
+							<a class="popup__link filter-size__name" href="">16</a>
+						</li>
+					</ul>
+				<!-- </div> -->
+				</div>
+				<div class="popup__box">
+					<button class="dropdawn__btn">ORDER
+						<svg class="btn__icon"  width="10" height="8">
+							<use class="btn__svg" href="./images/symbol.svg#icon-Vector"></use>
+						</svg>
+					</button>
+					<!-- <div class="box-"> -->
+					<ul class="popup__list">
+						<li class="popup__item">
+							<a class="popup__link" href="">Shirts</a>
+						</li>
+						<li class="popup__item">
+							<a class="popup__link" href="">Coats</a>
+						</li>
+						<li class="popup__item">
+							<a class="popup__link" href="">Jackets</a>
+						</li>
+						<li class="popup__item">
+							<a class="popup__link" href="">Sweaters</a>
+						</li>
+						<li class="popup__item">
+							<a class="popup__link" href="">Polos&Tees</a>
+						</li>
+						<li class="popup__item">
+							<a class="popup__link" href="">Jeans &Pants</a>
+						</li>
+						<li class="popup__item">
+							<a class="popup__link" href="">Outerwear</a>
+						</li>
+					</ul>
+				<!-- </div> -->
 				</div>
 			</div>
+			<div class="register-modal">
+				<div class="register-modal__content">
+					<p class="register-modal__text">registration was successful</p>
+				</div>
+			</div>
+			
+			
+		<!--registration -->
+		<div class="registration">
+			<div class="registration__titles">
+				<button class="registration__button login-btn current" data-registration="login">Login</button>
+				<button class="registration__button registration-btn" data-registration="registration">Registration</button>
+			</div>
+			<div class="ddd">
+			<!-- <p class="registration__text">Please enter your account details to log in</p>
+			<form class="registration__form form" >
+
+				<label class="form__label">
+					<input class="form__input input-email" type="email" placeholder=" " >
+					<span class="form__input-name">E-mail</span>
+				</label>
+
+				<label class="form__label">
+					<input class="form__input input-pass"  type="password" placeholder=" " >
+					<span class="form__input-name">password</span>
+				
+					<svg class="icon-eye" width="14" height="14">
+						<use class="eye eye-open" href="./images/eye1.svg#icon-eye"></use>
+						<use class="eye eye-blocked  is-hiden" href="./images/eye1.svg#icon-eye-blocked"></use>
+					</svg>
+				</label>
+
+				<label class=" chackbox__label" for="checkbox">
+					<span class="checkbox"></span>
+					<input class="form__checkbox" name="topic" value="html" type="checkbox" id="checkbox"  >
+					<span class="form__checkbox-name">Keep me signed in</span>
+					<span class="checkbox__icon"></span>
+				
+			</label> 
+			<button class="form__btn">Log in</button>
+		
+			</form> -->
+			<form class="registration__form form">
+				<label  class="form__label">
+					First Name
+					<input class="form__input" type="text"  placeholder="Your first name" data-name="firstName" >
+					<!-- <span class="form__input-name">Your first name</span> -->
+				</label>
+				<label class="form__label">
+					SECOND NAME
+					<input class="form__input" type="text"  placeholder="Your second name" data-name="secondName" >
+					<!-- <span class="form__input-name">Your second name</span> -->
+				</label>
+				<label class="form__label">
+					<input class="form__input input-email" type="email" placeholder=" " data-name="email" >
+					<span class="form__input-name">E-mail</span>
+				</label>
+				<label class="form__label">
+					<input class="form__input input-pass"  type="password" placeholder=" " data-name="password1" >
+					<span class="form__input-name">password</span>
+					<svg class="icon-eye" width="14" height="14">
+						<use class="eye eye-open" href="./images/eye1.svg#icon-eye"></use>
+						<use class="eye eye-blocked  is-hiden" href="./images/eye1.svg#icon-eye-blocked"></use>
+					</svg>
+				</label>
+				<label class="form__label">
+					<input class="form__input input-pass" type="password" placeholder="Confirm password" data-name="password" >
+					<!-- <span>Confirm password</span> -->
+					<svg class="icon-eye" width="14" height="14">
+						<use class="eye eye-open" href="./images/eye1.svg#icon-eye"></use>
+						<use class="eye eye-blocked  is-hiden" href="./images/eye1.svg#icon-eye-blocked"></use>
+					</svg>
+					<p class="register-error">uncorect password</p>
+				</label>
+				
+				<button type="submit" class="form__btn" required>REGISTER</button>
+
+			</form>
+		</div>
+	</div>
+
 		</section>
 	</main>
-	<footer class="footer container">
+	<!-- <footer class="footer container">
 		<ul class="footer__dropdawn-list">
 			<li class="footer__dropdawn-item dropdawn__item">
 				<button class="dropdawn__btn">
@@ -529,12 +549,13 @@
 		</ul>
 	
 	
-	</footer>
+	</footer> -->
 <!-- </div> -->
 	<script type="module" src="./js/main.min.js"></script>
-	
-	<!-- <script type="module" src="./js/card.js"></script> -->
-
+	<script type="module" src="./js/login.js" ></script>
+	<!-- <script type="module" src="./js/renderRegister.js"></script> -->
+	<!-- <script type="module" src="./js/cardsList.js"></script> -->
+	<!-- <script type="module" src="./js/copyList.js"></script> -->
 
 </body>
 </html>

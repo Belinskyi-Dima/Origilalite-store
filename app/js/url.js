@@ -31,7 +31,7 @@ function urlSize(data) {
 	}
 
 	const newHttp = httpArr.slice(0,-1).join("")
-
+console.log(newHttp);
 	window.location.assign(`${newHttp}`);
 }
 

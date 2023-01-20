@@ -12,8 +12,16 @@ const cards = await getCard();
 function cardList (page) {
 
 	const cardsList = page.filter(item => item.class === current && item.type === "master")
+// console.log(cardsList);
+let b =[]
+const a = cardsList.filter(item=> {
+const c=	page.find(it=> it.master === item.id )
 
-		return cardsList.forEach(({id, img, name, price}) => {
+b.push(c)
+} )
+// console.log(b);
+
+		return b.forEach(({id, img, name, price}) => {
 			// href="./card.html"
 			ul.insertAdjacentHTML('beforeend', `
 			<li class="cards__item" id="${id}" >

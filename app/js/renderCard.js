@@ -11,23 +11,26 @@ const cardName = document.querySelector('.card__info-name');
 const cardPrice = document.querySelector('.card__info-peice');
 const colorList = document.querySelector('.card__color-list');
 const cardHtmlID = document.querySelector('.card__info-article');
+const remainderNum = document.querySelector('.remainder-number');
+
 
 
 const sizeList = document.querySelector('.card__size-list');
 const sizeQuery = getQueryVariable().size
 // console.log(typeof sizeQuery);
 
-export default function renderCard(data, colorArr, sizeArr ) {
+export default function renderCard(data, colorArr, sizeArr, goodsRest={quantity:"1"}  ) {
 	// console.log(data);
 	// console.log(sizeArr);
-	// console.log(colorArr);
+	// console.log(goodsRest);
 	
 	const { img, name, price,  colors, size} = data;
 	card.dataset.id = `${data.id}`;
 	image.src = img;
 	cardName.textContent = name;
 	cardPrice.textContent = `${price} $`;
-	cardHtmlID.textContent= data.id
+	cardHtmlID.textContent= data.id;
+	remainderNum.textContent = ` ${goodsRest.quantity} ` ;
 // console.log(typeof colorArr === "string");
 // console.log(colorArr);
 if(typeof colorArr === "string") {

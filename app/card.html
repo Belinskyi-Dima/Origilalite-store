@@ -48,7 +48,7 @@
 						</a>
 					</li>
 					<li class="authorization__item">
-						<a class="authorization__link bascket-link" href="./bascket.html">
+						<a class="authorization__link bascket-link" href="./basket.html">
 							<svg class="authorization__icon" width="17" height="17">
 								<use href="./images/symbol.svg#icon-cart"></use>
 							</svg>
@@ -461,8 +461,11 @@
 								<button class="card__quantity-btn btn-pluss" type="button">-</button>
 								<span class="card__quantity-number">1</span>
 								<button class="card__quantity-btn btn-minus" type="button">+</button>
+								<span class="card__quantity-error">
+								Please choose color and size</span>
 							</div>
 
+							<p class="remainder-text">remainder-<span class="remainder-number">1</span></p>
 							<div class="card__detail-wrapper">
 								<div class="card__detail-btn">
 									<button class="bascket-btn card__btn-add disabled" >add to bascket</button>
@@ -474,6 +477,7 @@
 								<span class="add-error is-hiden">to add to cart please select color and size</span>
 									
 								</div>
+								
 								<div class="card__detail-info">
 									<h3 class="card__detail-title" >details</h3>
 									<p class="card__detail-text">Mouton coat made of 100% sheepskin leather. Straight cut, collar 
@@ -494,6 +498,7 @@
 
 			</div>
 		</section>
+		
 	</main>
 	<footer class="footer container">
 		<ul class="footer__dropdawn-list">

@@ -1,5 +1,7 @@
 "use strict";
-import './location.js'
+import './location.js';
+// import jsonInventory from './jsonInventory.js';
+	
 
 const burgerMenu = document.querySelector(".menu__btn");
 const dropDawnMenu = document.querySelectorAll(".dropdawn__btn");
@@ -11,15 +13,11 @@ const btnBascketLink = document.querySelector(".bascket-link");
 
 
 // const btnBascketCount = document.querySelector(".bascket-count");
-window.onload = (event) => {
-	// const btnBascketCount = document.querySelector(".bascket-count");
-	// console.log(btnBascketCount);
-	
- };
+// window.onload = (event) => {};
  (function bascketCount() {
 	
 	try {
-		const storeCount =  JSON.parse(localStorage.getItem("bascket"));
+		const storeCount =  JSON.parse(localStorage.getItem("basket"));
 		// console.log(storeCount.products);
 	if(storeCount.products.length !== undefined && storeCount.products.length > 0) {
 		btnBascketLink.dataset.content = `${storeCount.products.length}`;
@@ -66,6 +64,9 @@ dropDawnMenu.forEach(item =>{
 	item.nextElementSibling.classList.toggle("footer__list--open").nextElementSibling;
 		})
 })
+
+
+
 
 
 

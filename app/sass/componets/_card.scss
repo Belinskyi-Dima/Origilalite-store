@@ -119,6 +119,10 @@
 	cursor: pointer;
 	border-radius: 5px;
 }
+&__btn-add:hover,
+&__btn-add:focus {
+	background: rgb(25, 68, 127);
+}
 &__btn-add.disabled {
 
 	background-color:var(--card-second-color);
@@ -127,8 +131,9 @@
 &__quantity {
 	width: 100px;
 	display: flex;
+	position: relative;
 	justify-content: space-between;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 }
 &__quantity-btn {
 	border: transparent;
@@ -143,6 +148,13 @@
 	margin-right: 6px;
 
 }
+.remainder-text {
+	@include titleMixin ($fw: 400, $fz: 16px, $lh: 1.2);
+	color: var(--card-second-color);
+}
+.remainder-number {
+	@include titleMixin ($fw: 700, $fz: 16px, $lh: 1.2);
+}
 .add-error {
 	display: none;
 	@include titleMixin ($fw: 400, $fz: 10px, $lh: 1.2);
@@ -150,6 +162,16 @@
 	position: absolute;
 	bottom: -20px;
 	left: 40px;
+}
+&__quantity-error {
+	display: none;
+	position: absolute;
+	@include titleMixin ($fw: 400, $fz: 10px, $lh: 1.2);
+	width: 100%;
+	color: red;
+	bottom: -20px;
+	left: 10px;
+
 }
 .favorite__btn {
 	padding-right: 15px;
