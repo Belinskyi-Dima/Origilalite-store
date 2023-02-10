@@ -1,5 +1,5 @@
 import getQueryVariable from'./location.js';
-import {getCard} from './copyList.js';
+// import {getCard} from './copyList.js';
 import openModal from './card-modal.js';
 
 
@@ -12,7 +12,7 @@ const cardPrice = document.querySelector('.card__info-peice');
 const colorList = document.querySelector('.card__color-list');
 const cardHtmlID = document.querySelector('.card__info-article');
 const remainderNum = document.querySelector('.remainder-number');
-
+//===================== derlete
 
 
 const sizeList = document.querySelector('.card__size-list');

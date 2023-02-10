@@ -25,14 +25,16 @@
 	&__img-wrapper {
 		display: block;
 		margin-bottom: 5px;
+		height: 230px;
+		width: 170px;
+		background: rgb(183, 185, 186);
 	}
 	&__img {
 		width: 100%;
+		height: 100%;
 		display: block;
 	}
-	&__info {
-		
-	}
+	
 	&__name-wrapper {
 		display: flex;
 		justify-content: space-between;
@@ -81,7 +83,11 @@
 		height: 23px;
 		background: red;
 		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
+
 	&__color-link.current::after {
 		bottom: -2px;
 		background: #000;
@@ -100,6 +106,13 @@
 &__size-list {
 	display: flex;
 	@include titleMixin ($fw: 400, $fz: 14px, $lh: 1.2);
+}
+&__size-link  {
+	position: relative;
+}
+&__size-link::after {
+	bottom: 0;
+	background-color: #000;
 }
 &__size-item:not(:last-child) {
 	margin-right: 30px;
@@ -173,6 +186,10 @@
 	left: 10px;
 
 }
+&__quantity-error.is-hiden {
+	display: block;
+	color: red;
+}
 .favorite__btn {
 	padding-right: 15px;
 	padding-left: 15px;
@@ -202,10 +219,40 @@
 .white {
 	background: #FFFFFF;
 }
+.green {
+	background: rgb(159, 162, 161);
+}
 .card-btn {
 	position: absolute;
 	top: 10px;
 	@include titleMixin ($fw: 400, $fz: 10px, $lh: 1.1);
 	background: transparent;
 	border: transparent;
+}
+.outside-circle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	height: 35px;
+	width: 35px;
+
+}
+.select {
+	background: rgba(95, 93, 93, 0.623);
+}
+.none {
+	background: rgba(244, 185, 185, 0.623);
+	opacity: 0.4;
+}
+.error-color {
+	color: red;
+	font-size: 14px;
+	display: none;
+
+}
+.error-size {
+	color: red;
+	font-size: 14px;
+	display: none;
 }

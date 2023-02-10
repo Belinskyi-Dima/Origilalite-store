@@ -1,13 +1,23 @@
 
 // const li = document.createElement("li")
 
-const totalSum = document.querySelector(".bascket-total__sum--")
+const totalSum = document.querySelector(".bascket-total__sum--");
+const totalSumlist = document.querySelectorAll(`.info-total__sum`);
+// const totalOrder = document.querySelector("[data-order]");
+// console.log(totalOrder);
 
 export default function renderBasketCard(list=[]) {
 
 	const shopingList = document.querySelector(".shopping__list");
 	let total = 0;
-	
+		// console.log(list);
+		if (list.length < 1) {
+			const total = document.querySelector('.bascket-total')
+			shopingList.innerHTML = `<div class="empty-bag__wrapper">
+				<p class="empty-bag">you bag is empty</p>
+			</div>`
+			total.classList.add('invisible')
+		}
 	list.forEach(el => {
 		total += Number( el.price * el.quantity);
 		shopingList.insertAdjacentHTML("beforeend", `
@@ -36,7 +46,7 @@ export default function renderBasketCard(list=[]) {
 			<div class="info-wrapper">
 				<span class="info-name">quantity:</span>
 				<button class="basket__quantity-btn minus-btn" data-id="${el.id}" type="button">-</button>
-				<input class="basket__quantity-number" type="number" value="${el.quantity}" />
+				<input class="basket__quantity-number" type="number" data-id="${el.id}" value="${el.quantity}" />
 				<button class="basket__quantity-btn pluss-btn "  data-id="${el.id}" type="button">+</button>
 				
 		</div>
@@ -45,7 +55,7 @@ export default function renderBasketCard(list=[]) {
 
 			<div class="info-wrapper">	
 				<span class="info-total">Total:</span>
-				<span class="info-total info-total__sum">${el.price * el.quantity} $</span>
+				<span class="info-total info-total__sum" data-id="${el.id}">${el.price * el.quantity} </span><span>$</span>
 			</div>
 			</div>
 		</div>
@@ -57,8 +67,17 @@ export default function renderBasketCard(list=[]) {
 	</button>
 	</li>`)
 	});
+
+	totalSumlist.forEach(el => {
+		console.log(el);
+		total += Number(el.textContent);
+		
+
+	});
+	totalSum.textContent= total
 	// console.log(total);
-	totalSum.textContent= `${total} $`;
+	// totalSum.textContent= `${total} $`;
+	// totalOrder.dataset.order = `${total}`;
 	
 }
 

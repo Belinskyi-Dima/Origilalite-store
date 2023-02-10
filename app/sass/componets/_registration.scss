@@ -149,7 +149,7 @@
 }
 
 .register-modal {
-	position: absolute;
+	position: fixed;
 	display: none;
 	z-index: 1;
 	top: -127px;
@@ -169,4 +169,7 @@
 	padding: 50px 10px;
 	color: #000;
 	border-radius: 10px;
+}
+.register-modal__text {
+	text-align: center;
 }

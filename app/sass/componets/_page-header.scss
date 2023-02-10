@@ -85,10 +85,25 @@
 .bascket-link {
 	position: relative;
 }
-.bascket-link::after {
+// .bascket-link::after {
+// 	content: attr(data-content);
+// 	color: white;
+// 	top: 17px;
+// 	font-size: 10px;
+// 	font-weight: 400;
+// 	position: absolute;
+// 	background: blue;
+// 	width: 15px;
+// 	height: 15px;
+// 	border-radius: 50%;
+// 	text-align: center;
+
+// }
+.basket-count:before {
 	content: attr(data-content);
 	color: white;
-	top: 17px;
+	top: 12px;
+	left: 10px;
 	font-size: 10px;
 	font-weight: 400;
 	position: absolute;
@@ -97,5 +112,4 @@
 	height: 15px;
 	border-radius: 50%;
 	text-align: center;
-
 }

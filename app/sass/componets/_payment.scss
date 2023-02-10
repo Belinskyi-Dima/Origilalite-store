@@ -1,0 +1,93 @@
+.payment {
+	// width: 320px;
+	text-align: center;
+	flex-direction: column;
+	background-color: #c4c4c4;
+	color: black;
+	padding: 20px 16px;
+
+	&__wrapper {
+background-color: var(--white-color);
+padding: 18px 20px;
+	}
+	&__title {
+		@include titleMixin ($fw: 700, $fz: 14px, $lh: 1.2);
+		margin-bottom: 28px;
+	}
+	&__text {
+		@include titleMixin ($fw: 400, $fz: 14px, $lh: 1.2);
+		margin-bottom: 40px;
+	}
+	&__img-box {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		margin-bottom: 30px;
+	}
+	&__img {
+		display: block;
+		width: 52px;
+		height: 33px;
+	}
+	.visa-img {
+		height: 22px;
+	}
+}
+
+.form {
+	&__payment-label {
+		display: flex;
+		flex-direction: column;
+
+		position: relative;
+		margin-bottom: 30px;
+		
+	}
+	&__payment-input {
+		@include titleMixin ($fw: 400, $fz: 14px, $lh: 1.2);
+		background-color: transparent;
+		border: transparent;
+		border-bottom: 1px solid #000;
+		width: 100%;
+		padding: 5px 10px;
+	}
+	&__payment-input:focus,
+	 &__payment-input:not(:placeholder-shown){
+		border: none;
+		border-bottom: 4px solid #D9FFA9;
+		outline: 0;
+	}
+	&__payment-name {
+		@include titleMixin ($fw: 400, $fz: 12px, $lh: 1.2);
+		position: absolute;
+		left: 0;
+		top: -10px;
+	}
+
+	&__payment-input-cv {
+		padding: 5px 5px;
+		margin-right: 3px;
+		@include titleMixin ($fw: 400, $fz: 14px, $lh: 1.2);
+		background-color: transparent;
+		border: transparent;
+		border-bottom: 1px solid #000;
+		width: 80px;
+		padding: 5px 10px;
+	}
+	&__payment-input-cv:focus,
+	&__payment-input-cv:not(:placeholder-shown) {
+		border: none;
+		border-bottom: 4px solid #D9FFA9;
+		outline: 0;
+	}
+
+
+
+}
+.payment-btn {
+	background: #000;
+	width: 250px;
+}
+.total-sum {
+	font-weight: 700;
+}

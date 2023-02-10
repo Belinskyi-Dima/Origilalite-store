@@ -1,0 +1,62 @@
+{
+	"products": [
+	  {
+		 "id": "222235",
+		 "img": "blabla/blabla.jpg",
+		 "name": "product name",
+		 "color": "red",
+		 "size": "6",
+		 "delivery": false,
+		 "sale": false,
+		 "quantity": "2",
+		 "master": "222222",
+		 "price": 15.00
+	  },
+	  {
+		 "id": "111122",
+		 "delivery": false,
+		 "sale": false,
+		 "quantity": "1",
+		 "master": "111111"
+	  },
+	  {
+		 "id": "333337",
+		 "delivery": false,
+		 "sale": false,
+		 "quantity": "1",
+		 "master": "333330"
+	  },
+	  {
+		 "id": "111123",
+		 "delivery": false,
+		 "sale": false,
+		 "quantity": "1"
+	  },
+	  {
+		 "id": "444450",
+		 "delivery": false,
+		 "sale": false,
+		 "quantity": "1"
+	  },
+	  {
+		 "id": "111119",
+		 "delivery": false,
+		 "sale": false,
+		 "quantity": "1"
+	  }
+	],
+	"shipping":{
+		"address":{
+			"street":"Stelmakha 47",
+			"city": "Vinnytsia",
+			"country": "ua",
+			"postalCode": "21029"
+		},
+		"shippingMethod": "Nova poschta",
+		"shippingPrice": 15.00
+	},
+	"payment":{},
+	"basketTotal": 150.00,
+	"discount": 20.00,
+	"totla": 130.00
+ }

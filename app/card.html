@@ -40,7 +40,7 @@
 							</a>
 						</li>
 					<li class="authorization__item">
-						<a class="authorization__link" href="">
+						<a class="authorization__link" href="./account-menu.html">
 							<svg class="authorization__icon" width="17" height="17">
 								<use href="./images/symbol.svg#icon-man"></use>
 							</svg>
@@ -405,7 +405,11 @@
 				<!-- </div> -->
 				</div>
 			</div>
-		
+				<div class="register-modal">
+					<div class="register-modal__content">
+						<p class="register-modal__text">registration was successful</p>
+					</div>
+				</div>
 			<!-- <ul class="card__list">
 
 			</ul> -->
@@ -429,38 +433,81 @@
 								<p class="card__color">color</p>
 								<ul class="card__color-list">
 									 <li class="card__color-item"> 
-										<!-- <a class="card__color-link" href="" >
-											<div class="card__color-circle black"></div>
+										<a class="card__color-link" >
+											<div class="outside-circle" data-color="black">
+												<div class="card__color-circle black"></div>
+											</div>
 											<p class="card__color-name">black</p>
-										</a> -->
+										</a>
 									</li>
-									<li class="card__color-item">
-										<!-- <a class="card__color-link current" href="" >
-											<div class="card__color-circle brown"></div>
+									<li class="card__color-item ">
+										<a class="card__color-link  " >
+											<div class="outside-circle  " data-color="brown">
+												<div class="card__color-circle brown"></div>
+											</div>
+										
 											<p class="card__color-name">brown</p>
-										</a> -->
+										</a>
+									</li> 
+									<li class="card__color-item">
+										<a class="card__color-link "  >
+											<div class="outside-circle" data-color="red">
+												<div class="card__color-circle red"></div>
+											</div>
+										
+											<p class="card__color-name">red</p>
+										</a>
+									</li> 
+									<li class="card__color-item">
+										<a class="card__color-link " >
+											<div class="outside-circle" data-color="white">
+												<div class="card__color-circle white"></div>
+											</div>
+										
+											<p class="card__color-name">white</p>
+										</a>
+									</li> 
+									<li class="card__color-item">
+										<a class="card__color-link"  >
+											<div class="outside-circle" data-color="blue">
+												<div class="card__color-circle blue"></div>
+											</div>
+										
+											<p class="card__color-name">blue</p>
+										</a>
 									</li> 
 								</ul>
 							</div>
+							<span class="error-color">this color we dont have</span>
 
 							<div class="card__size-wrapper">
 								<p class="card__size">size</p>
 								<ul class="card__size-list">
-									<!-- <li class="card__size-item">
-										<a class="card__size-link" href="">6</a>
+									<li class="card__size-item">
+										<a class="card__size-link" data-size="6">6</a>
 									</li>
 									<li class="card__size-item">
-										<a class="card__size-link" href="">8</a>
+										<a class="card__size-link" data-size="8">8</a>
 									</li>
 									<li class="card__size-item">
-										<a class="card__size-link" href="">10</a>
-									</li> -->
+										<a class="card__size-link" data-size="10" >10</a>
+									</li>
+									<li class="card__size-item">
+										<a class="card__size-link" data-size="12">12</a>
+									</li>
+									<li class="card__size-item">
+										<a class="card__size-link" data-size="14">14</a>
+									</li>
+									<li class="card__size-item">
+										<a class="card__size-link" data-size="16">16</a>
+									</li>
 								</ul>
+								<span class="error-size"> we don't have this size</span>
 							</div>
 							<div class="card__quantity">
-								<button class="card__quantity-btn btn-pluss" type="button">-</button>
+								<button class="card__quantity-btn  btn-minus" type="button">-</button>
 								<span class="card__quantity-number">1</span>
-								<button class="card__quantity-btn btn-minus" type="button">+</button>
+								<button class="card__quantity-btn  btn-pluss" type="button">+</button>
 								<span class="card__quantity-error">
 								Please choose color and size</span>
 							</div>
@@ -468,13 +515,13 @@
 							<p class="remainder-text">remainder-<span class="remainder-number">1</span></p>
 							<div class="card__detail-wrapper">
 								<div class="card__detail-btn">
-									<button class="bascket-btn card__btn-add disabled" >add to bascket</button>
-									<button class="favorite__btn card__btn-add disabled">
+									<button class="bascket-btn card__btn-add " >add to bascket</button>
+									<button class="favorite__btn card__btn-add ">
 											<svg width="23" height="23">
 												<use href="./images/favorite_icon.svg#icon"></use>
 											</svg>
 									</button>
-								<span class="add-error is-hiden">to add to cart please select color and size</span>
+								<!-- <span class="add-error is-hiden">to add to cart please select color and size</span> -->
 									
 								</div>
 								
@@ -567,8 +614,12 @@
 	</footer>
 <!-- </div> -->
 	<script type="module" src="./js/main.min.js"></script>
-	<script type="module" src="./js/card.js"></script>
+	<!-- <script type="module" src="./js/card.js"></script> -->
+	<script type="module" src="./js/cardNew.js"></script>
+
 	<script type="module" src="./js/addToBascket.js"></script>
+	<script type="module" src="./js/addToWishlist.js"></script>
+
 	<!-- <script type="module" src="./js/createCard.js"></script> -->
 	<!-- <script type="module" src="./js/copyList.js"></script> -->
 	<!-- <script type="module" src="./js/cardsList.js"></script> -->

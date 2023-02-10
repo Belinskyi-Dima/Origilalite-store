@@ -1,5 +1,7 @@
 import getQueryVariable from'./location.js';
 import getCard from './getCardList.js';
+import renderBasketCard from './renderBasketCard.js';
+import { basketCount } from './main.js';
 // import {basket} from './basket.js';
 
 // const quantityBox = document.querySelector('.card__quantity');
@@ -8,50 +10,45 @@ import getCard from './getCardList.js';
 const queryVarible = getQueryVariable();
 const cardList = await getCard();
 
+const errorInventor = document.querySelector('.card__quantity-error')
+const quantityNum = document.querySelector('.card__quantity-number');
 export default function quantitySum(e) {
-	const quantityNum = document.querySelector('.card__quantity-number');
-const quantityError = document.querySelector('.card__quantity-error');
-	// const cardId = e.target.dataset.id
-	// console.log(quantityNum);
-	if(queryVarible.id ) {
-		const goodsRest = cardList.inventory.find(el => queryVarible.id === el.id);
-		console.log(goodsRest);
-		if (!queryVarible.color || !queryVarible.size) {
-			quantityError.style.display = "block";
-		
-		}
-		if (queryVarible.color && queryVarible.size ) {
+
+	const cardId = e.target.dataset.id
+	const goodsRest = cardList.inventory.find(el => cardId === el.id);
+	console.log(cardId);
+		// if (queryVarible.color && queryVarible.size ) {
 			let sum = quantityNum.textContent
 		const operator = e.target.textContent;
 			
-			// console.log(typeof sum, sum);
-		if (operator === "-" && Number(sum) >= "2") {
-				// console.log(typeof sum );
+			if (operator === "-" && Number(sum) >= "2") {
 				quantityNum.innerHTML = sum - 1
-				return
-			} else if(operator === "+" && Number(sum) <goodsRest.quantity)  {
-				// console.log(typeof sum, Number(sum) < goodsRest.quantity);
-				quantityNum.innerHTML = Number(sum) + 1;
+					// return
+			} else if(operator === "+" && Number(sum) < goodsRest.quantity)  {
+					quantityNum.innerHTML = Number(sum) + 1;
 			}
-		}
-	}  else {
-	// 	const goodsRest = cardList.inventory.find(el =>cardId === el.id);
-	// 	console.log(goodsRest);
-	}}
-
+			if (sum >= goodsRest.quantity) {
+				errorInventor.classList.add('is-hiden');
+			} else {
+				errorInventor.classList.remove('is-hiden');
+			}
+			console.log(sum,  quantityNum.textContent);
+		// }
+	}
+// ====================== basket Quantity===================
 	function basketQuantity(e) {
-		// const bascketError = document.querySelector(".basket__quantity-error");
+		// console.log(this.dataset.id);
+	
 		const cardId = e.target.dataset.id
 		const goodsRest = cardList.inventory.find(el => cardId === el.id);
-		console.log(goodsRest);
+		// console.log(goodsRest);
 		
 		let count = 0;
-	
 		
 		if (e.target.textContent === "+" ) {
 			count = +e.currentTarget.previousElementSibling.value;
 			if(count <  goodsRest.quantity){
-				console.log(count);
+				// console.log(count);
 				count += 1;
 				e.currentTarget.previousElementSibling.value = count;
 			
@@ -68,10 +65,6 @@ const quantityError = document.querySelector('.card__quantity-error');
 			}
 
 		}
-
-		const basketListHtML = document.querySelectorAll(".shopping__item");
-		const baskeNumber = document.querySelectorAll(".basket__quantity-number");
-		
 		const products = {
 			products: []
 		}
@@ -82,22 +75,58 @@ const quantityError = document.querySelector('.card__quantity-error');
 		bascketStorage.products.forEach(item => {
 			// console.log(item);
 			if(item.id === cardId) {
-				prod = {...item, quantity: count.toString()}
+				prod = {...item, quantity: count.toString(), totalOrder: count.toString() * item.price}
 				products.products.push(prod)
 			} else {
 				prod = {...item}
 				products.products.push(prod)
 			}
-			
-	
 		} )
-		// console.log(products);
+	
 		localStorage.setItem("basket", JSON.stringify(products) );
-		setTimeout(()=> window.location.assign('http://localhost:3000/basket.html'), 800)
-	}
+		// setTimeout(()=> window.location.assign('http://localhost:3000/basket.html'), 800)
+		const bascketSt = JSON.parse(localStorage.getItem("basket") || "[]");
+		const card = cardList.products.find(el => cardId === el.id);
+		const baskCard = bascketSt.products.find(item => item.id === card.id )
 
+	
+		const totalSumlist = document.querySelectorAll(`.info-total__sum`);
+
+		const totalSumCard = [];
+		totalSumlist.forEach( item => {
+		if(item.dataset.id === cardId) {
+			totalSumCard.push(item)
+		}
+		})
+		totalSumCard[0].textContent = baskCard.quantity * card.price;
+		const totalSum = document.querySelector(".bascket-total__sum--");
+		const totalOrder = document.querySelector("[data-order]");
+		
+		let countTotal = 0;
+
+	
+		bascketSt.products.forEach(item=> {
+			console.log(item);
+			countTotal += item.totalOrder
+			
+		})
+		console.log(countTotal);
+		totalSum.textContent= `${countTotal} $`;
+		totalOrder.dataset.order = `${countTotal}`;
+
+	}
+// ============delete==================
 	function deliteCard(e) {
+		
+		const cardItem = document.querySelectorAll('.shopping__item');
+		console.log(cardItem);
 		const cardId = e.currentTarget.dataset.id;
+		console.log(cardId);
+		cardItem.forEach(item=> {
+			if(item.dataset.id === cardId) {
+				item.style.display = "none"
+			}
+		})
 		const bascketStorage = JSON.parse(localStorage.getItem("basket") || "[]");
 		const products = {
 			products: []
@@ -106,8 +135,38 @@ const quantityError = document.querySelector('.card__quantity-error');
 			if(item.id !== cardId) {
 				products.products.push(item)
 			}})
+			if (products.length < 1) {
+				renderBasketCard()
+			}
+			console.log(products);
+
 			localStorage.setItem("basket", JSON.stringify(products));
-			window.location.assign('http://localhost:3000/basket.html');
+			let count = 0
+			products.products.forEach(item => {
+				count += item.totalOrder;
+			})
+			console.log(count);
+			const totalSum = document.querySelector(`.bascket-total__sum--`);
+		// 	console.log(totalSumlist);
+		totalSum.textContent = count;
+		// 	const totalSumCard = [];
+		// totalSumlist.forEach( item => {
+		// 	console.log(item);
+		// if(item.dataset.id === cardId) {
+		// 	totalSumCard.push(item)
+		// }
+		// })
+		// console.log(totalSumCard[0].textContent);
+		// totalSumCard[0].textContent = baskCard.quantity * card.price;
+		// const totalSum = document.querySelector(".bascket-total__sum--");
+		// const totalOrder = document.querySelector("[data-order]");
+		// let countTotal = 0;
+		// totalSumlist.forEach(item => countTotal += Number(item.textContent))
+		// totalSum.textContent= `${countTotal} $`;
+		// totalOrder.dataset.order = `${countTotal}`;
+			
+			// window.location.assign('http://localhost:3000/basket.html');
+			basketCount()
 	}
 export {basketQuantity, quantitySum, deliteCard};
 

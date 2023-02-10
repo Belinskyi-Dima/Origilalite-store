@@ -1,7 +1,7 @@
 import getCard from './getCardList.js';
-
+import watchAtLocation from './watchLocation.js'
+import {basketCount} from './main.js'
 const btnBascket = document.querySelector(".bascket-btn");
-const addError = document.querySelector('.add-error');
 
 
 const cardList = await getCard();
@@ -9,64 +9,75 @@ const cardList = await getCard();
 btnBascket.addEventListener("click", addToBascket);
 
 function addToBascket(e) {
-	const cardId = document.querySelector(".card__content").dataset.id;
-	const quantitySum = document.querySelector(".card__quantity-number").textContent;
-	console.log(cardId);
-	console.log(quantitySum);
 
-	let queryHref = {};
-	
-	location.search.substring(1).split("&").forEach(item => {
-		let param = item.split("=");
-		queryHref[param[0]]= param[1]
-	});
-	console.log(queryHref);
-	const id = cardList.products.find(item => item.id === queryHref.id);
-	// console.log(id);
-		if (!queryHref.color || !queryHref.size) {
-			addError.style.display = "block";
-		
-		}
-		if (queryHref.color && queryHref.size) {
-			addError.classList.remove('is-hiden');
-			
-			const products = {
-				products: []
-			}
-		
-			const prod = {
-				id: queryHref.id,
-				delivery: false,
-				sale: false,
-				quantity: "",
-				master: id.master,
-				quantity: quantitySum
-			}
-			// console.log(queryHref);
-			// console.log(prod);
-		
+	const cardId = e.currentTarget.dataset.id;
+	const quantitySum = document.querySelector(".card__quantity-number").textContent;
+
+	const modalRegistr = document.querySelector('.register-modal');
+	const modalText = document.querySelector('.register-modal__text');
+	const body = document.querySelector('body');
+
+		const id = cardList.products.find(item => item.id === cardId);
+		console.log(id);
+		const products = {
+						products: []
+					}
+				
+					let prod = {
+						id: cardId,
+						delivery: false,
+						sale: false,
+						master: id.master,
+						quantity: quantitySum,
+						price: id.price,
+						totalOrder: id.price * quantitySum
+					}
+					
 			const bascketStorage = JSON.parse(localStorage.getItem("basket") || "[]");
-		
+			
+				
 			if(bascketStorage.products !== undefined && bascketStorage.products.length > 0) {
 				const  productsArray = [];
-				
 				for (let i = 0; i < bascketStorage.products.length; i++) {
-					if(bascketStorage.products[i].id !== prod.id) {
-						productsArray.push(bascketStorage.products[i])
+					if(bascketStorage.products[i].id == prod.id && bascketStorage.products[i].quantity === prod.quantity) {
+						products.products = [...bascketStorage.products];
+						modalRegistr.style.display= "flex";
+						modalText.innerHTML= "this productis was added to basket";
+						modalText.style.color = "red";
+						body.classList.add('is-open')
 					} else {
-						continue;
+						if (bascketStorage.products[i].id == prod.id && bascketStorage.products[i].quantity !== prod.quantity) {
+							const newBasket = bascketStorage.products.splice(i, 1)
+							products.products = [...bascketStorage.products]
+							products.products.push(prod);
+						} else {
+							products.products = [...bascketStorage.products]
+							products.products.push(prod);
+						}
+						modalRegistr.style.display= "flex";
+						modalText.innerHTML= "you add product to basket";
+						modalText.style.color = "orange";
+						body.classList.add('is-open')
+						// basketCount()
 					}
 				}
-				productsArray.push(prod);
-				products.products.push(...productsArray);
+
 				localStorage.setItem("basket", JSON.stringify(products));
-		
+				basketCount()
 			} else  {
 				products.products.push(prod);
 				localStorage.setItem("basket", JSON.stringify(products));
+				
+				modalRegistr.style.display= "flex";
+				modalText.innerHTML= " add product to basket";
+				modalText.style.color = "green";
+				body.classList.add('is-open')
+				basketCount()
 			}
 
-		}
-
+	modalRegistr.addEventListener("click", (e) => {
+		modalRegistr.style.display = "none";
+		body.classList.remove('is-open')
+	})
 	
 }

@@ -4,7 +4,7 @@ window.onload = function(){
 	const ul = document.querySelector('.cards__list')
 
 	const page = document.querySelector("[data-page]").dataset.page;
-	
+	// ===================delite
 
 	async function cardList (page) {
 

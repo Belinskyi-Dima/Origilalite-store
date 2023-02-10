@@ -22,7 +22,7 @@
 			<div class="page-header__wrapper ">
 			<nav class="menu container">
 				<ul class="menu__list">
-					<li class="menu__item"><a class="menu__link" data-page="man"  href="">Man</a></li>
+					<li class="menu__item"><a class="menu__link" data-page="man"  href="./man.html">Man</a></li>
 					<li class="menu__item"><a class="menu__link" href="./woman.html">woman</a></li>
 					<li class="menu__item"><a class="menu__link" href="">ACCESSORY</a></li>
 				</ul>
@@ -40,7 +40,7 @@
 							</a>
 						</li>
 					<li class="authorization__item">
-						<a class="authorization__link" href="">
+						<a class="authorization__link" href="./account-menu.html">
 							<svg class="authorization__icon" width="17" height="17">
 								<use href="./images/symbol.svg#icon-man"></use>
 							</svg>
@@ -410,14 +410,15 @@
 		<!--registration -->
 		<div class="registration">
 			<div class="registration__titles">
-				<button class="registration__button login-btn current" data-registration="login">Login</button>
-				<button class="registration__button registration-btn" data-registration="registration">Registration</button>
+				<a class="registration__button login-btn " href="./login.html" data-registration="login">Login</a>
+				<a class="registration__button registration-btn current" data-registration="registration">Registration</a>
 			</div>
-			<div class="ddd">
-			<!-- <p class="registration__text">Please enter your account details to log in</p>
-			<form class="registration__form form" >
+		<div class="ddd">
+			<!-- <p class="registration__text">Please enter your account details to log in</p>-->
+			<!-- <form class=" form">    -->
+		
 
-				<label class="form__label">
+				<!-- <label class="form__label">
 					<input class="form__input input-email" type="email" placeholder=" " >
 					<span class="form__input-name">E-mail</span>
 				</label>
@@ -439,26 +440,29 @@
 					<span class="checkbox__icon"></span>
 				
 			</label> 
-			<button class="form__btn">Log in</button>
-		
-			</form> -->
-			<form class="registration__form form">
-				<label  class="form__label">
+			<button type="submit"  class="form__btn ">Log in</button>
+		 -->
+			 <!-- </form>    -->
+
+
+
+			 <form class="form-registration form" data-form="register"> 
+				 <label  class="form__label">
 					First Name
 					<input class="form__input" type="text"  placeholder="Your first name" data-name="firstName" >
-					<!-- <span class="form__input-name">Your first name</span> -->
+				
 				</label>
 				<label class="form__label">
 					SECOND NAME
 					<input class="form__input" type="text"  placeholder="Your second name" data-name="secondName" >
-					<!-- <span class="form__input-name">Your second name</span> -->
+				
 				</label>
 				<label class="form__label">
 					<input class="form__input input-email" type="email" placeholder=" " data-name="email" >
 					<span class="form__input-name">E-mail</span>
 				</label>
 				<label class="form__label">
-					<input class="form__input input-pass"  type="password" placeholder=" " data-name="password1" >
+					<input class="form__input input-pass"  type="password" placeholder=" " data-name="password" >
 					<span class="form__input-name">password</span>
 					<svg class="icon-eye" width="14" height="14">
 						<use class="eye eye-open" href="./images/eye1.svg#icon-eye"></use>
@@ -466,8 +470,8 @@
 					</svg>
 				</label>
 				<label class="form__label">
-					<input class="form__input input-pass" type="password" placeholder="Confirm password" data-name="password" >
-					<!-- <span>Confirm password</span> -->
+					<input class="form__input input-pass" type="password" placeholder="Confirm password" data-name="password1" >
+				
 					<svg class="icon-eye" width="14" height="14">
 						<use class="eye eye-open" href="./images/eye1.svg#icon-eye"></use>
 						<use class="eye eye-blocked  is-hiden" href="./images/eye1.svg#icon-eye-blocked"></use>
@@ -475,9 +479,10 @@
 					<p class="register-error">uncorect password</p>
 				</label>
 				
-				<button type="submit" class="form__btn" required>REGISTER</button>
+				<button type="submit" class="form__btn" required>REGISTER</button>  
 
-			</form>
+				
+		 </form> 
 		</div>
 	</div>
 
@@ -552,7 +557,9 @@
 	</footer> -->
 <!-- </div> -->
 	<script type="module" src="./js/main.min.js"></script>
-	<script type="module" src="./js/login.js" ></script>
+	<script type="module" src="./js/register.js" ></script>
+	<!-- <script type="module" src="./js/login.js" ></script> -->
+	
 	<!-- <script type="module" src="./js/renderRegister.js"></script> -->
 	<!-- <script type="module" src="./js/cardsList.js"></script> -->
 	<!-- <script type="module" src="./js/copyList.js"></script> -->
