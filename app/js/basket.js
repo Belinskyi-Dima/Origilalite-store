@@ -13,18 +13,21 @@ const basketList=	JSON.parse(localStorage.getItem("basket"));
 const basketArr = [];
 let basketObj = {};
 
-const cardList =  basketList.products.filter(item=> {
+if (basketList) {
+	const cardList =  basketList.products.filter(item=> {
 	
-	 cards.products.filter(el=>{
-		if(el.id === item.id) {
-		
-			basketObj = {...el};
-			basketObj.quantity = item.quantity
-			basketArr.push(basketObj)
-			
-		}
-	})
-})
+		cards.products.filter(el=>{
+		  if(el.id === item.id) {
+		  
+			  basketObj = {...el};
+			  basketObj.quantity = item.quantity
+			  basketArr.push(basketObj)
+			  
+		  }
+	  })
+  })
+}
+
 renderBasketCard(basketArr)
 const btnCheckout = document.querySelector('.bascked__checkout-btn');
 btnCheckout.addEventListener('click', (e)=>{

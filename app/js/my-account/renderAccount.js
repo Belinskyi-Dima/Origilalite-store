@@ -134,43 +134,76 @@ const body = document.querySelector('body');
 
 
 function addBasket(e) {
-
+	const wishListDom = document.querySelectorAll('.wishlist__item')
 	const id = e.currentTarget.dataset.id;
-	const basketlist = JSON.parse(localStorage.getItem("basket")).products;
+	const card = cardList.products.find(item => item.id === id)
+	const products = {
+		products: []
+	}
 
+	const prod = {
+		id: card.id,
+		delivery: false,
+		sale: false,
+		master: card.master,
+		quantity: "1",
+		price: card.price,
+		totalOrder: card.price
+	}
 
-	const find = basketlist.find(item=>item.id === id)
-console.log(find);
-	if (find) {
-				modalRegistr.style.display= "flex";
-				modalText.innerHTML= "this product has in basket";
-				modalText.style.color = "red";
-				body.classList.add('is-open')
-	} else {
-		const products = {
-			products: []
+	console.log(id);
+	const basketlist = JSON.parse(localStorage.getItem("basket"))
+	console.log(basketlist);
+		if (basketlist) {
+		const find = basketlist.products.find(item=>item.id === id)
+		console.log(find);
+		if (find) {
+					modalRegistr.style.display= "flex";
+					modalText.innerHTML= "this product has in basket";
+					modalText.style.color = "red";
+					body.classList.add('is-open')
+		} else {
+			const wishLocal = JSON.parse(localStorage.getItem("wishlist"));
+			const newWishList = wishLocal.filter(item=> item !== id);
+			console.log(newWishList);
+			localStorage.setItem("wishlist", JSON.stringify(newWishList))
+			products.products = [...basketlist.products, prod];
+			localStorage.setItem("basket", JSON.stringify(products))
+			wishListDom.forEach(item => {
+				if(item.dataset.id == id) {
+					item.style.display ="none";
+				}
+			})
+			console.log(products);
+			modalRegistr.style.display= "flex";
+			modalText.innerHTML= "add to basket";
+			modalText.style.color = "green";
+			body.classList.add('is-open');
+	
 		}
 	
-		const prod = {
-			id: id,
-			delivery: false,
-			sale: false,
-			// quantity: "",
-			// master: id.master,
-			quantity: "1"
-
-		}
-		products.products = [...basketlist, prod];
-		localStorage.setItem("basket", JSON.stringify(products))
-		console.log(products);
+	
+	} else {
+		
+		products.products.push(prod);
+		localStorage.setItem("basket", JSON.stringify(products));
+		const wishLocal = JSON.parse(localStorage.getItem("wishlist"));
+		const newWishList = wishLocal.filter(item=> item !== id);
+		// console.log(newWishList);
+		localStorage.setItem("wishlist", JSON.stringify(newWishList))
+		wishListDom.forEach(item => {
+			if(item.dataset.id == id) {
+				item.style.display ="none";
+			}
+		})
 		modalRegistr.style.display= "flex";
 		modalText.innerHTML= "add to basket";
 		modalText.style.color = "green";
 		body.classList.add('is-open');
-
 	}
+		
 
-
+	
 	modalRegistr.addEventListener("click", (e) => {
 		modalRegistr.style.display = "none";
 		body.classList.remove('is-open')

@@ -143,7 +143,7 @@ export default function quantitySum(e) {
 			localStorage.setItem("basket", JSON.stringify(products));
 			let count = 0
 			products.products.forEach(item => {
-				count += item.totalOrder;
+				count += Number(item.totalOrder);
 			})
 			console.log(count);
 			const totalSum = document.querySelector(`.bascket-total__sum--`);
