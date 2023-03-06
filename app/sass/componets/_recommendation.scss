@@ -1,0 +1,32 @@
+.recommendation {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: white;
+	&__title {
+		color: black;
+		@include categoriesMixin ($fw: 400, $fz: 20px, $lh: 1, $ff: 'Josefin Sans');
+		margin-bottom: 5px;
+	}
+	&__list{
+		display: grid;
+		justify-content: space-between;
+		grid-template-columns: repeat(4, 240px);
+		grid-column-gap: 10px;
+	}
+	&__item {
+		cursor: pointer;
+	}
+	&__item-name {
+		@include titleMixin ($fw: 400, $fz: 14px, $lh: 1.37);
+		color: #000;
+		
+	}
+	&__img {
+		margin-bottom: 10px;
+	
+	}
+	&__item-price {
+		color: #847A7A;
+		@include titleMixin ($fw: 400, $fz: 18px, $lh: 1.37);
+	}
+}

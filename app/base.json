@@ -61,7 +61,7 @@
 			"value": "black",
 			"src": "../../images/card/woman-desk2.jpg"
 		}],
-      "price": "640",
+      "price": "120",
       "statu": false,
       "colors": [
         {
@@ -94,7 +94,7 @@
       "class": "woman",
       "name": "Black LAZER JAKET",
       "img": "../../images/card/woman-desk1.jpg",
-      "price": "640",
+      "price": "90",
       "statu": false,
       "colors": "black",
       "size": "6"
@@ -106,7 +106,7 @@
       "class": "woman",
       "name": "Black LAZER )))))",
       "img": "../../images/card/woman-desk1.jpg",
-      "price": "2222240",
+      "price": "240",
       "statu": false,
       "colors": "black",
       "size": "8"

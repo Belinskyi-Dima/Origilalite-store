@@ -107,7 +107,7 @@ export default function quantitySum(e) {
 	
 		bascketSt.products.forEach(item=> {
 			console.log(item);
-			countTotal += item.totalOrder
+			countTotal += Number(item.totalOrder)
 			
 		})
 		console.log(countTotal);

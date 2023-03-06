@@ -16,7 +16,7 @@
 </head>
 
 <body>
-	<!-- <div class="wrapper"> -->
+	
 	<header class="page-header">
 		<!-- <div class="container"> -->
 			<div class="page-header__wrapper ">
@@ -69,6 +69,7 @@
 		</div>
 		<!-- </div> -->
 	</header>
+	<div class="wrapper">
 	<main>
 		<div class="filter ">
 			<label class="filter__label">
@@ -401,31 +402,35 @@
 		</div>
 		<section class="container bascket">
 			<h3 class="bascket__name">Shopping bag </h3>
-			<div class="bascket__wrapper">
-				<ul class="shopping__list">
-				</ul>
-			</div>
-			<div class="bascket-total">
-				<h3 class="bascket-total__title">SHOPPING BAG TOTAL</h3>
-				<div class="bascket-total__wrapper">
-					<div class="bascket-total__info">
-						<span class="bascket-total__name">ORDER VALUE:</span>
-						<span class="bascket-total__price total-order">420$</span>
+			<div class="shoping-wrapper">
+				<div class="bascket__wrapper">
+					<ul class="shopping__list">
+					</ul>
+				</div>
+				<div class="bascket-total">
+					<h3 class="bascket-total__title">SHOPPING BAG TOTAL</h3>
+					<div class="bascket-total__wrapper">
+						<div class="bascket-total__info">
+							<span class="bascket-total__name">ORDER VALUE:</span>
+							<span class="bascket-total__price total-order">420$</span>
+						</div>
+						<div class="bascket-total__info">
+							<span class="bascket-total__name">DELIVERY:</span>
+							<span class="bascket-total__price">free</span>
+						</div>
+						<div class="bascket-total__info">
+							<span class="bascket-total__sum">TOTAL:</span>
+							<span class="bascket-total__sum bascket-total__sum--"></span> 
+						</div>
+						<button class="bascked__checkout-btn" data-order="">CHECKOUT</button>
 					</div>
-					<div class="bascket-total__info">
-						<span class="bascket-total__name">DELIVERY:</span>
-						<span class="bascket-total__price">free</span>
-					</div>
-					<div class="bascket-total__info">
-						<span class="bascket-total__sum">TOTAL:</span>
-						<span class="bascket-total__sum bascket-total__sum--"></span> 
-					</div>
-					<button class="bascked__checkout-btn" data-order="">CHECKOUT</button>
 				</div>
 			</div>
+	
 		</section>
 	</main>
-	<!-- <footer class="footer container">
+	<!-- <footer></footer> -->
+	<footer class="footer container">
 		<ul class="footer__dropdawn-list">
 			<li class="footer__dropdawn-item dropdawn__item">
 				<button class="dropdawn__btn">
@@ -491,8 +496,8 @@
 		</ul>
 	
 	
-	</footer> -->
-<!-- </div> -->
+	</footer>
+</div>
 	<script type="module" src="./js/main.min.js"></script>
 	<script type="module" src="./js/basket.js"></script>
 	

@@ -11,7 +11,7 @@
 	flex-direction: column;
 }
 .wishlist-wrapper {
-	height:350px;
+	// height:350px;
 
 }
 .wishlist-empty {
@@ -81,4 +81,46 @@
 	border-radius: 5px;
 	color: var(--white-color);
 	cursor: pointer;
+}
+
+.delite-modal {
+	display: none;
+	position: absolute;
+	// display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(#adadad, 0.8);
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+
+	&__wrapper {
+		background: #ffffff;
+		padding: 30px 20px;
+		border-radius: 5px;
+	}
+	&__text {
+		@include titleMixin ($fw: 400, $fz: 14px, $lh: 1.2);
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	&__btn {
+		background: transparent;
+		border: 1px solid #C4C4C4;
+		border-radius: 5px;
+		@include titleMixin ($fw: 400, $fz: 14px, $lh: 1.2);
+		padding: 5px 10px;
+	}
+	.modal-delite__btn {
+		color: red;
+	}
+	.modal-cancel__btn {
+	}
+
+}
+.delite-modal.is-open {
+	display: flex;
+	position: fixed;
 }

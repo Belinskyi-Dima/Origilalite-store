@@ -22,7 +22,7 @@
 			<div class="page-header__wrapper ">
 			<nav class="menu container">
 				<ul class="menu__list">
-					<li class="menu__item"><a class="menu__link" data-page="man"  href="">Man</a></li>
+					<li class="menu__item"><a class="menu__link" data-page="man"  href="./man.html">Man</a></li>
 					<li class="menu__item"><a class="menu__link" href="./woman.html">woman</a></li>
 					<li class="menu__item"><a class="menu__link" href="">ACCESSORY</a></li>
 				</ul>
@@ -69,6 +69,7 @@
 		</div>
 		<!-- </div> -->
 	</header>
+	<div class="wrapper">
 	<main>
 		<div class="mobile-menu container">
 			<div class="mobile-menu__authorization">
@@ -414,8 +415,15 @@
 					<p class="register-modal__text">registration was successful</p>
 				</div>
 			</div>
+			<div class="delite-modal">
+				<div class="delite-modal__wrapper">
+					<p class="delite-modal__text">are you  sure?</p>
+					<button type="button" class="delite-modal__btn modal-delite__btn" data-atribute="true">delete</button>
+					<button type="button" class="delite-modal__btn modal-cancel__btn" data-atribute="false">cancel</button>
+				</div>
+			</div>
 			<a class="my-account__back" href="./account-menu.html">Back</a>
-			<!-- <h2>wishlist</h2> -->
+
 			<div class="my-account__wrapper">
 				
 			</div>
@@ -425,6 +433,7 @@
 			
 		
 	</main>
+</div>
 	<script type="module" src="./js/main.min.js"></script>
 	<script type="module" src="./js/my-account/renderAccount.js"></script>
 </body>

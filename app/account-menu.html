@@ -69,6 +69,7 @@
 		</div>
 		<!-- </div> -->
 	</header>
+	<div class="wrapper">
 	<main>
 		<div class="mobile-menu container">
 			<div class="mobile-menu__authorization">
@@ -437,8 +438,8 @@
 					</div>
 					</a>
 				</li>
-				<li class="account-menu__item">
-					<a class="account-menu__link" href="">
+				<li class="account-menu__item" data-btn="purchase">
+					<a class="account-menu__link">
 						<div class="icon-box">
 							<svg  class="account-menu__icon" width="24" height="24">
 								<use  href="./images/my-account/my-account.svg#icon-basket"></use>
@@ -450,7 +451,7 @@
 					</div>
 					</a>
 				</li>
-				<li class="account-menu__item">
+				<li class="account-menu__item" data-btn="address-book">
 					<a class="account-menu__link" href="">
 						<div class="icon-box">
 							<svg class="account-menu__icon" width="22" height="22">
@@ -465,11 +466,38 @@
 				</li>
 			</ul>
 		</section>
+
+		<section class="desctop-menu container">
+			<div class="register-modal">
+				<div class="register-modal__content">
+					<p class="register-modal__text">registration was successful</p>
+				</div>
+			</div>
+			<div class="delite-modal">
+				<div class="delite-modal__wrapper">
+					<p class="delite-modal__text">are you  sure?</p>
+					<button type="button" class="delite-modal__btn modal-delite__btn" data-atribute="true">delete</button>
+					<button type="button" class="delite-modal__btn modal-cancel__btn" data-atribute="false">cancel</button>
+				</div>
+			</div>
+			<h2 class="desctop-menu__title">My account</h2>
+			<ul class="desctop-menu__list">
+				<li class="desctop-menu__item" data-btn="profile"><a class="desctop-menu__link current">My profile</a></li>
+				<li class="desctop-menu__item" data-btn="wishlist"><a class="desctop-menu__link ">My wishlist</a></li>
+				<li class="desctop-menu__item" data-btn="purchase"><a class="desctop-menu__link">Purchase history</a></li>
+				<li class="desctop-menu__item" data-btn="address-book"><a class="desctop-menu__link">Address book</a></li>
+			</ul>
+			<div class="my-account__wrapper">
+				
+			</div>
+		</section>
 			
 			
 		
 	</main>
+</div>
 	<script type="module" src="./js/main.min.js"></script>
 	<script type="module" src="./js/my-account/myAccount.js"></script>
+	<script type="module" src="./js/my-account/renderAccount.js"></script>
 </body>
 </html>

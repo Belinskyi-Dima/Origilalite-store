@@ -23,7 +23,7 @@
 			<nav class="menu container">
 				<ul class="menu__list">
 					<li class="menu__item"><a class="menu__link" href="./man.html">Man</a></li>
-					<li class="menu__item current"><a class="menu__link current" href="./woman.html">woman</a></li>
+					<li class="menu__item"><a class="menu__link " href="./woman.html">woman</a></li>
 					<li class="menu__item"><a class="menu__link" href="">ACCESSORY</a></li>
 				</ul>
 			</nav>
@@ -264,7 +264,7 @@
 				
 			</div>
 		</div>
-		<section class="woman-page container" data-page="woman">
+		<section class="woman-page container" id="current-page" data-page="">
 			<div class="filter ">
 				<label class="filter__label">
 					
@@ -416,19 +416,35 @@
 			<div class="card">
 				<div class="card__wrapper">
 					<button class="card__btn-prew card-btn">Back</button>
-					<div class="card__content">
-						<div class="card__box">
-							<div class="card__img-wrapper">
-								<img class="card__img" src="" alt="img">
-							</div>
-							<div class="card__info">
-									<div class="card__name-wrapper">
-										<h3 class="card__info-name"></h3>
-										<span class="card__info-peice"></span>
+					<!-- <div class="card__content"> -->
+						<div class="card__content card__box">
+							<!-- <div class="card__img-wrapper"> -->
+								<picture class="card__picture">
+									
+									<a class="card__img-link" >
+										<div class="zoom-img-cursor"></div>
+										<img class="card__img" src="" srcset="" alt="img">
+									</a>
+									<!-- <img  class="card__img card__img-second"  width="417" src="" alt=""> -->
+									<div class="card__picture-list">
+										<img  class="card__picture-item"  width="150" src="./images/card/man/man2.webp" alt="">
+										<img  class="card__picture-item"  width="150" src="./images/card/man/man3.webp" alt="">
+										<img  class="card__picture-item"  width="150" src="./images/card/man/man4.webp" alt="">
 									</div>
-									<p class="card__info-article">REF: 3294786 - 01</p>
-							</div>
-						</div>
+								</picture>
+							
+								<div class="zoom-img-overlay"></div>
+							<!-- </div> -->
+							<div class="card__info-box">
+								<div class="card__info">
+										<div class="card__name-wrapper">
+											<h3 class="card__info-name"></h3>
+											<span class="card__info-peice"></span>
+										</div>
+										<p class="card__info-article">REF: 3294786 - 01</p>
+								</div>
+							
+						
 							<div class="card__color-wrapper">
 								<p class="card__color">color</p>
 								<ul class="card__color-list">
@@ -536,16 +552,54 @@
 							
 
 							</div>
-						
 						</div>
+					</div>
+						<!-- </div> -->
 					</div>
 					<button class="card__btn-next card-btn">Next</button>
 				</div>
+			
 				
 
 			</div>
 		</section>
-		
+		<section class="recommendation container">
+			<h3 class="recommendation__title">COMPLETE YOUR LOOK</h3>
+			<ul class="recommendation__list">
+				<li class="recommendation__item">
+					<a href="" class="recommendation__link">
+						<img class="recommendation__img" src="./images/card/staf/bag.jpg" alt="bag">
+							<h3 class="recommendation__item-name">LACE-UP FLAT SHOES WITH KNOTS</h3>
+							<sapn  class="recommendation__item-price">180 $</sapn>
+						</img>
+					</a>
+				</li>
+				<li class="recommendation__item">
+					<a href="" class="recommendation__link">
+						<img class="recommendation__img" src="./images/card/staf/shoes.jpg" alt="shoes">
+							<h3 class="recommendation__item-name">LACE-UP FLAT SHOES WITH KNOTS</h3>
+							<sapn  class="recommendation__item-price">250 $</sapn>
+						</img>
+					</a>
+				</li>
+				<li class="recommendation__item">
+					<a href="" class="recommendation__link">
+						<img class="recommendation__img" src="./images/card/staf/belt.jpg" alt="belt" >
+							<h3 class="recommendation__item-name">SPLIT SUEDE BELT</h3>
+							<sapn  class="recommendation__item-price">90 $</sapn>
+						</img>
+					</a>
+				</li>
+				<li class="recommendation__item">
+					<a href="" class="recommendation__link">
+						<img class="recommendation__img" src="./images/card/staf/parfum.jpg" alt="parfums">
+							<h3 class="recommendation__item-name">PACK OF 3 EAU DE PARFUM</h3>
+							<sapn  class="recommendation__item-price">139 $</sapn>
+						</img>
+					</a>
+				</li>
+			</ul>
+		</section>
 	</main>
 	<footer class="footer container">
 		<ul class="footer__dropdawn-list">
@@ -619,6 +673,7 @@
 
 	<script type="module" src="./js/addToBascket.js"></script>
 	<script type="module" src="./js/addToWishlist.js"></script>
+	<script type="module" src="./js/zoomImg.js"></script>
 
 	<!-- <script type="module" src="./js/createCard.js"></script> -->
 	<!-- <script type="module" src="./js/copyList.js"></script> -->

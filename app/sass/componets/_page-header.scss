@@ -7,40 +7,11 @@
 		
 
 	}
-	.menu {
-		
-		&__list {
-			display: flex;
-			justify-content: space-between;
-			// 
-			
-		}
-		&__link {
-			display: block;
-			padding: 21px 0;
-			@include categoriesMixin($fw:400, $fz:12px, $lh: 1);
-			color: var(--white-color);
-			text-transform: uppercase;
-			position: relative;
-		}
-		&__btn {
-			display: flex;
-			padding: 5px;
-			background-color: transparent;
-			border: 0;
-			cursor: pointer;
 
-		}
-		&__btn-cross {
-			fill: var(--white-color);
-			display: none;
-			
-		}
-	}
 	.menu-wrapper {
 		display: flex;
 		align-items: center;
-		width: 100%;
+		// width: 100%;
 		// justify-content: space-between;
 		// border-bottom: 1px solid #585757;
 	}
@@ -57,22 +28,7 @@
 		background: #585757;
 	}
 
-	.authorization {
-		&__list {
-		display: flex;
-		// align-items: center;
-		// justify-content: space-between;
-		margin-left: auto;
-		}
-		&__item {
-			margin-right: 30px;
-		}
-		&__link {
-			position: relative;
-			display: inline-block;
-			padding: 20px 0;
-		}
-	}
+
 
 	.menu__btn.is-open .menu__icon-burger{
 		display: none;
@@ -81,6 +37,57 @@
 		display: block;
 	}
 
+}
+
+.menu {
+		
+	&__list {
+		display: flex;
+		justify-content: space-between;
+
+		
+	}
+	&__link {
+		display: block;
+		padding: 21px 0;
+		@include categoriesMixin($fw:400, $fz:12px, $lh: 1);
+		color: var(--white-color);
+		text-transform: uppercase;
+		position: relative;
+	}
+	&__btn {
+		display: flex;
+		padding: 5px;
+		background-color: transparent;
+		border: 0;
+		cursor: pointer;
+
+	}
+	&__btn-cross {
+		fill: var(--white-color);
+		display: none;
+		
+	}
+}
+.authorization {
+	&__list {
+	display: flex;
+	// align-items: center;
+	// justify-content: space-between;
+	margin-left: auto;
+	}
+	&__item {
+		margin-right: 15px;
+	}
+	&__link {
+		position: relative;
+		display: inline-block;
+		padding: 20px 0;
+	}
+	&__name {
+		@include categoriesMixin ($fw: 400, $fz: 16px, $lh: 1, $ff: 'Josefin Sans');
+		color: var(--white-color);
+	}
 }
 .bascket-link {
 	position: relative;

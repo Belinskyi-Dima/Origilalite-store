@@ -2,9 +2,6 @@ const modalImg = document.querySelector('.modal__img');
 const modal = document.querySelector('.modal');
 const body = document.querySelector('body');
 
-
-
-
 export default function openModal(img) {
 
 	modal.classList.add("modal-open");

@@ -1,7 +1,10 @@
 // import quantitySum from './quantittySum.js';
+import openModal from './card-modal.js';
 const btnPluss = document.querySelector('.btn-pluss');
 const btnMinus = document.querySelector('.btn-minus');
 const btnBascket = document.querySelector(".bascket-btn");
+
+const image = document.querySelector('.card__img');
 
 export default function renderCartNew ({id = "", img, name, price,  colors, size}, goodsRest= "1") {
 
@@ -22,14 +25,10 @@ export default function renderCartNew ({id = "", img, name, price,  colors, size
 
 
 
-
-	// console.log(colors);
-	// if(id.length < 1) {
-		
-	// }
-
 	cardContent.dataset.id = `${id}`;
 	image.src = img;
+	image.srcset= img +  ' 416w';
+	// image[1].src = img;
 	cardName.textContent = name;
 	cardPrice.textContent = `${price} $`;
 	cardHtmlID.textContent = id;
@@ -64,3 +63,6 @@ export default function renderCartNew ({id = "", img, name, price,  colors, size
 }
 // btnMinus.addEventListener('click', quantitySum);
 // btnPluss.addEventListener('click', quantitySum);
+
+	image.addEventListener("click", openModal)
+

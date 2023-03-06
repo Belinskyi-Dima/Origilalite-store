@@ -1,0 +1,30 @@
+.desctop-menu {
+	color: #000;
+	&__title {
+		@include categoriesMixin ($fw: 700, $fz: 36px, $lh: 1, $ff: 'Josefin Sans');
+		margin-bottom: 50px;
+	}
+	&__list {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__item {
+		padding: 0 30px;
+		position: relative;
+	}
+	&__link {
+		color: #828080;
+	}
+	&__link.current {
+		color: #000;
+	}
+	.current::after {
+		background: rgba(#000000, 0.2);
+		bottom: -10px;
+		
+	}
+	.my-account__wrapper {
+		padding-top: 30px;
+	}
+
+}
